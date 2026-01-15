@@ -1,11 +1,23 @@
 import { useState } from "react";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X, Search, User, LogOut } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link, useNavigate } from "react-router-dom";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useAuth } from "@/contexts/AuthContext";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation();
+  const { user, signOut } = useAuth();
+  const navigate = useNavigate();
 
   const navItems = [
     { label: t("header.nav.whyUSA"), href: "#" },
@@ -16,6 +28,11 @@ export const Header = () => {
     { label: t("header.nav.scholarships"), href: "#" },
   ];
 
+  const handleSignOut = async () => {
+    await signOut();
+    navigate("/");
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-background shadow-sm">
       {/* Top Bar */}
@@ -23,12 +40,40 @@ export const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-end gap-4 py-2 text-sm">
             <LanguageSwitcher />
-            <button className="text-muted-foreground hover:text-foreground transition-colors">
-              {t("header.login")}
-            </button>
-            <button className="text-muted-foreground hover:text-foreground transition-colors">
-              {t("header.signup")}
-            </button>
+            {user ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="sm" className="gap-2">
+                    <User className="h-4 w-4" />
+                    {user.email}
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => navigate("/profile")}>
+                    <User className="mr-2 h-4 w-4" />
+                    {t("profile.title")}
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem onClick={handleSignOut}>
+                    <LogOut className="mr-2 h-4 w-4" />
+                    {t("auth.logout")}
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <>
+                <Link to="/login">
+                  <button className="text-muted-foreground hover:text-foreground transition-colors">
+                    {t("header.login")}
+                  </button>
+                </Link>
+                <Link to="/signup">
+                  <button className="text-muted-foreground hover:text-foreground transition-colors">
+                    {t("header.signup")}
+                  </button>
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </div>
