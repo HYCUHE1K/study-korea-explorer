@@ -14,7 +14,66 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      profiles: {
+        Row: {
+          additional_info: string | null
+          budget_range: string | null
+          created_at: string
+          current_education_level: string | null
+          date_of_birth: string | null
+          email: string
+          english_proficiency: string | null
+          field_of_interest: string | null
+          full_name: string | null
+          gpa: number | null
+          id: string
+          nationality: string | null
+          phone: string | null
+          preferred_location: string | null
+          study_timeline: string | null
+          target_degree: string | null
+          updated_at: string
+        }
+        Insert: {
+          additional_info?: string | null
+          budget_range?: string | null
+          created_at?: string
+          current_education_level?: string | null
+          date_of_birth?: string | null
+          email: string
+          english_proficiency?: string | null
+          field_of_interest?: string | null
+          full_name?: string | null
+          gpa?: number | null
+          id: string
+          nationality?: string | null
+          phone?: string | null
+          preferred_location?: string | null
+          study_timeline?: string | null
+          target_degree?: string | null
+          updated_at?: string
+        }
+        Update: {
+          additional_info?: string | null
+          budget_range?: string | null
+          created_at?: string
+          current_education_level?: string | null
+          date_of_birth?: string | null
+          email?: string
+          english_proficiency?: string | null
+          field_of_interest?: string | null
+          full_name?: string | null
+          gpa?: number | null
+          id?: string
+          nationality?: string | null
+          phone?: string | null
+          preferred_location?: string | null
+          study_timeline?: string | null
+          target_degree?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
