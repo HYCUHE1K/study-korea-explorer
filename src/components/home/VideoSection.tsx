@@ -8,13 +8,13 @@ const videoCategories = [
     videos: [
       {
         id: 1,
-        title: "한국 유학을 결심한 이유",
+        title: "미국 유학을 결심한 이유",
         thumbnail: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80",
         duration: "5:32",
       },
       {
         id: 2,
-        title: "한국 대학 입학 준비 가이드",
+        title: "미국 대학 입학 준비 가이드",
         thumbnail: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=400&q=80",
         duration: "8:15",
       },
@@ -32,13 +32,13 @@ const videoCategories = [
     videos: [
       {
         id: 1,
-        title: "한국 대학 생활 브이로그",
+        title: "미국 대학 생활 브이로그",
         thumbnail: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=400&q=80",
         duration: "10:22",
       },
       {
         id: 2,
-        title: "한국어 빠르게 배우는 법",
+        title: "영어 빠르게 배우는 법",
         thumbnail: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=400&q=80",
         duration: "7:18",
       },
@@ -56,13 +56,13 @@ const videoCategories = [
     videos: [
       {
         id: 1,
-        title: "한국에서 취업 성공기",
+        title: "미국에서 취업 성공기",
         thumbnail: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=400&q=80",
         duration: "12:30",
       },
       {
         id: 2,
-        title: "한국 유학이 내 커리어에 미친 영향",
+        title: "미국 유학이 내 커리어에 미친 영향",
         thumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
         duration: "8:45",
       },
@@ -84,7 +84,7 @@ export const VideoSection = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
             유학 영상
           </h2>
-          <p className="text-muted-foreground">Study in Korea Videos</p>
+          <p className="text-muted-foreground">Study in USA Videos</p>
         </div>
 
         <Tabs defaultValue="prospective" className="max-w-5xl mx-auto">

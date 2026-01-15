@@ -9,12 +9,12 @@ export const HeroSection = () => {
       <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            <span className="text-primary">Study in Korea</span>
+            <span className="text-primary">Study in USA</span>
             <br />
             <span className="text-foreground">Discover your full potential</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            한국에서 여러분의 잠재력을 발견하세요. 세계적 수준의 교육과 풍부한 문화 경험이 기다리고 있습니다.
+            미국에서 여러분의 잠재력을 발견하세요. 세계적 수준의 교육과 풍부한 문화 경험이 기다리고 있습니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">

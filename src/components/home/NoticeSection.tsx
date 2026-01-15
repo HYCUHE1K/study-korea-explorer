@@ -5,31 +5,31 @@ import { Button } from "@/components/ui/button";
 const notices = [
   {
     id: 1,
-    title: "2024년도 정부초청 외국인 장학생(GKS) 선발 공고",
+    title: "2024년도 Fulbright 외국인 장학생 선발 공고",
     date: "2024.03.15",
     category: "장학금",
   },
   {
     id: 2,
-    title: "2024 Study in Korea Fair 개최 안내 (베트남, 인도네시아)",
+    title: "2024 Study in USA Fair 개최 안내",
     date: "2024.03.12",
     category: "박람회",
   },
   {
     id: 3,
-    title: "외국인 유학생 체류자격 변경 안내",
+    title: "외국인 유학생 비자(F-1) 변경 안내",
     date: "2024.03.10",
     category: "비자",
   },
   {
     id: 4,
-    title: "한국어능력시험(TOPIK) 시험일정 안내",
+    title: "TOEFL/IELTS 시험일정 안내",
     date: "2024.03.08",
     category: "시험",
   },
   {
     id: 5,
-    title: "유학생 건강보험 가입 의무화 안내",
+    title: "유학생 건강보험 가입 안내",
     date: "2024.03.05",
     category: "생활",
   },

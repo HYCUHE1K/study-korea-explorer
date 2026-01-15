@@ -43,7 +43,7 @@ export const CommunitySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            재한유학생 커뮤니티
+            재미유학생 커뮤니티
           </h2>
           <p className="text-muted-foreground">
             International Student Association Community
@@ -57,7 +57,7 @@ export const CommunitySection = () => {
               <div className="flex items-center justify-between mb-6">
                 <h3 className="font-bold text-lg flex items-center gap-2">
                   <Users className="h-5 w-5 text-primary" />
-                  국가별 유학생회
+                  국가별 재미유학생회
                 </h3>
                 <Button variant="ghost" size="sm" className="text-primary">
                   전체보기 <ArrowRight className="ml-1 h-4 w-4" />

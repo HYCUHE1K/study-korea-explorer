@@ -37,7 +37,7 @@ export const SearchCards = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            한국 유학에 관심이 있으신가요?
+            미국 유학에 관심이 있으신가요?
           </h2>
           <p className="text-muted-foreground">
             Explore the best study options for you.
