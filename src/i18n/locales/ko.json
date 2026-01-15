@@ -18,6 +18,27 @@
     "description": "대학, 커뮤니티 칼리지, 어학연수, K-12 참관까지. 당신에게 맞는 미국 유학 경로를 찾아보세요.",
     "searchPlaceholder": "대학교, 프로그램, 장학금 검색..."
   },
+  "programs": {
+    "title": "나에게 맞는 유학 경로 찾기",
+    "subtitle": "목표에 맞는 프로그램을 선택하세요",
+    "explore": "자세히 보기",
+    "university": {
+      "title": "일반 대학",
+      "description": "미국 명문 대학에서 4년제 학사 학위 취득. 다양한 전공과 풍부한 대학 생활을 경험하세요."
+    },
+    "ccTransfer": {
+      "title": "CC 편입",
+      "description": "커뮤니티 칼리지에서 시작해 4년제 대학으로 편입. 비용 효율적으로 명문대 진학하기."
+    },
+    "language": {
+      "title": "어학연수 & 직업교육",
+      "description": "ESL 프로그램, 자격증 과정, 커리어 발전을 위한 직업 훈련 프로그램."
+    },
+    "k12": {
+      "title": "초중고 참관수업",
+      "description": "미국 초·중·고등학교 교육을 직접 체험하는 참관 프로그램."
+    }
+  },
   "searchCards": {
     "question": "어떤 경로가 맞으신가요?",
     "university": {
