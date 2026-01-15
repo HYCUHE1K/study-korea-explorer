@@ -18,6 +18,27 @@
     "description": "Discover your perfect path to studying in the USA. From universities to community colleges, language programs to K-12 observations.",
     "searchPlaceholder": "Search universities, programs, scholarships..."
   },
+  "programs": {
+    "title": "Find Your Path",
+    "subtitle": "Choose the program that fits your goals",
+    "explore": "Explore",
+    "university": {
+      "title": "General University",
+      "description": "4-year bachelor's degree programs at top US universities. Full academic experience with diverse majors."
+    },
+    "ccTransfer": {
+      "title": "CC Transfer",
+      "description": "Start at a community college and transfer to a 4-year university. Cost-effective path to top schools."
+    },
+    "language": {
+      "title": "Language & Vocational",
+      "description": "ESL programs, certificate courses, and vocational training for career advancement."
+    },
+    "k12": {
+      "title": "K-12 Observation",
+      "description": "Experience American elementary and secondary education through observation programs."
+    }
+  },
   "searchCards": {
     "question": "Which path is right for you?",
     "university": {
