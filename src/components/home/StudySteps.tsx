@@ -1,69 +1,56 @@
 import { ArrowRight, Info, School, FileText, Award, Plane } from "lucide-react";
-
-const steps = [
-  {
-    number: 1,
-    icon: Info,
-    title: "유학정보 수집",
-    titleEn: "Gathering Study Abroad Information",
-    items: [
-      "미국 유학 평균 비용 조사하기",
-      "미국 교육 시스템 및 전반적인 유학 경험 탐색하기",
-    ],
-    color: "bg-primary",
-  },
-  {
-    number: 2,
-    icon: School,
-    title: "학교 및 전공 선택",
-    titleEn: "Choosing a School and Major",
-    items: [
-      "입학 요건, 커리큘럼, 장학금 프로그램 확인하기",
-      "각 대학의 입학 가이드라인 및 일정 검토하기",
-    ],
-    color: "bg-secondary",
-  },
-  {
-    number: 3,
-    icon: FileText,
-    title: "입학 지원",
-    titleEn: "Applying for Admission",
-    items: [
-      "대학의 입학 절차에 따라 지원서류 제출하기 (온라인 또는 우편)",
-    ],
-    color: "bg-teal",
-  },
-  {
-    number: 4,
-    icon: Award,
-    title: "표준입학허가서 획득",
-    titleEn: "Obtaining a Standard Admission Letter",
-    items: ["대학으로부터 표준입학허가서 수령하기"],
-    color: "bg-orange",
-  },
-  {
-    number: 5,
-    icon: Plane,
-    title: "비자 발급 및 출국 준비",
-    titleEn: "Visa Issuance and Departure Preparation",
-    items: [
-      "체류 자격에 따라 비자 신청 및 발급받기",
-      "출국 전 필수 준비사항 확인하기",
-    ],
-    color: "bg-blue",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const StudySteps = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      number: 1,
+      icon: Info,
+      title: t("studySteps.step1.title"),
+      items: t("studySteps.step1.items", { returnObjects: true }) as string[],
+      color: "bg-primary",
+    },
+    {
+      number: 2,
+      icon: School,
+      title: t("studySteps.step2.title"),
+      items: t("studySteps.step2.items", { returnObjects: true }) as string[],
+      color: "bg-secondary",
+    },
+    {
+      number: 3,
+      icon: FileText,
+      title: t("studySteps.step3.title"),
+      items: t("studySteps.step3.items", { returnObjects: true }) as string[],
+      color: "bg-teal",
+    },
+    {
+      number: 4,
+      icon: Award,
+      title: t("studySteps.step4.title"),
+      items: t("studySteps.step4.items", { returnObjects: true }) as string[],
+      color: "bg-orange",
+    },
+    {
+      number: 5,
+      icon: Plane,
+      title: t("studySteps.step5.title"),
+      items: t("studySteps.step5.items", { returnObjects: true }) as string[],
+      color: "bg-blue",
+    },
+  ];
+
   return (
     <section className="py-16 bg-muted">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            미국 유학 5단계
+            {t("studySteps.title")}
           </h2>
           <p className="text-muted-foreground">
-            Plan your studies with USA in 5 steps
+            {t("studySteps.subtitle")}
           </p>
         </div>
 
@@ -78,14 +65,11 @@ export const StudySteps = () => {
                     >
                       {step.number}
                     </div>
-                    <step.icon className={`h-5 w-5`} style={{ color: `hsl(var(--${step.color.replace('bg-', '')}))` }} />
+                    <step.icon className="h-5 w-5 text-muted-foreground" />
                   </div>
-                  <h3 className="font-bold text-foreground mb-1 text-sm">
+                  <h3 className="font-bold text-foreground mb-3 text-sm">
                     {step.title}
                   </h3>
-                  <p className="text-xs text-muted-foreground mb-3">
-                    {step.titleEn}
-                  </p>
                   <ul className="space-y-2">
                     {step.items.map((item, i) => (
                       <li

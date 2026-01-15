@@ -1,0 +1,106 @@
+{
+  "header": {
+    "logo": "Study in USA",
+    "nav": {
+      "whyUSA": "なぜアメリカ",
+      "lifeInUSA": "アメリカでの生活",
+      "workInUSA": "アメリカで働く",
+      "universities": "大学",
+      "courses": "コース",
+      "scholarships": "奨学金"
+    },
+    "login": "ログイン",
+    "signup": "新規登録"
+  },
+  "hero": {
+    "title": "アメリカ留学",
+    "subtitle": "アメリカ留学に興味がありますか？留学生向けの大学、コース、奨学金情報をご覧ください！",
+    "searchPlaceholder": "大学、コース、奨学金を検索..."
+  },
+  "searchCards": {
+    "question": "アメリカ留学に興味がありますか？",
+    "university": {
+      "title": "大学を検索",
+      "description": "目標に合った大学を見つけましょう"
+    },
+    "course": {
+      "title": "コースを検索",
+      "description": "興味に合った完璧なプログラムを見つけましょう"
+    },
+    "scholarship": {
+      "title": "奨学金を検索",
+      "description": "経済的支援の機会を見つけましょう"
+    }
+  },
+  "studySteps": {
+    "title": "アメリカ留学5ステップ",
+    "subtitle": "5つのステップでアメリカ留学を計画しましょう",
+    "step1": {
+      "title": "調査",
+      "items": ["アメリカ留学の平均費用を調査", "アメリカの教育システムと全体的な留学体験を探る"]
+    },
+    "step2": {
+      "title": "選択",
+      "items": ["大学と専攻を選択", "入学要件を調査"]
+    },
+    "step3": {
+      "title": "申請",
+      "items": ["申請書類を準備", "奨学金に申請"]
+    },
+    "step4": {
+      "title": "準備",
+      "items": ["F-1ビザを申請", "出発準備"]
+    },
+    "step5": {
+      "title": "到着",
+      "items": ["アメリカで生活を始める", "勉強を開始"]
+    }
+  },
+  "video": {
+    "title": "アメリカ留学動画",
+    "subtitle": "アメリカ留学に関する役立つ動画を見る",
+    "videos": [
+      "私がアメリカ留学を決めた理由",
+      "アメリカ大学入学準備ガイド",
+      "アメリカ大学生活Vlog",
+      "英語を早く学ぶ方法",
+      "アメリカで就職成功の話",
+      "アメリカ留学が私のキャリアに与えた影響"
+    ]
+  },
+  "notice": {
+    "title": "お知らせ",
+    "viewAll": "すべて見る",
+    "notices": [
+      { "title": "2024年フルブライト外国人学生奨学金申請ガイド", "date": "2024.03.15" },
+      { "title": "Study in USAフェア2024 - ニューヨーク", "date": "2024.03.10" },
+      { "title": "留学生向けF-1ビザ申請ガイド", "date": "2024.03.05" },
+      { "title": "2024年TOEFL/IELTS試験日程と会場", "date": "2024.03.01" }
+    ]
+  },
+  "resources": {
+    "title": "役立つリソース",
+    "items": [
+      { "title": "Study in USAフェア", "description": "各地域の留学フェア情報を入手" },
+      { "title": "留学生協会", "description": "アメリカの学生コミュニティとつながる" },
+      { "title": "ビザ情報", "description": "F-1ビザと入国要件について学ぶ" },
+      { "title": "生活費", "description": "アメリカ各都市の生活費を探る" }
+    ]
+  },
+  "community": {
+    "title": "留学生コミュニティ",
+    "subtitle": "アメリカの国別学生会",
+    "countries": ["中国", "インド", "韓国", "ベトナム", "台湾", "日本", "サウジアラビア", "カナダ", "メキシコ", "ブラジル"]
+  },
+  "footer": {
+    "logo": "Study in USA",
+    "description": "アメリカ留学総合情報システム",
+    "quickLinks": "クイックリンク",
+    "contact": "お問い合わせ",
+    "email": "メール",
+    "address": "住所",
+    "addressValue": "アメリカ ワシントンD.C.",
+    "copyright": "© 2024 Study in USA. All rights reserved.",
+    "organization": "米国教育省"
+  }
+}

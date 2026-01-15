@@ -1,0 +1,106 @@
+{
+  "header": {
+    "logo": "Du học Mỹ",
+    "nav": {
+      "whyUSA": "Tại sao chọn Mỹ",
+      "lifeInUSA": "Cuộc sống tại Mỹ",
+      "workInUSA": "Làm việc tại Mỹ",
+      "universities": "Trường đại học",
+      "courses": "Khóa học",
+      "scholarships": "Học bổng"
+    },
+    "login": "Đăng nhập",
+    "signup": "Đăng ký"
+  },
+  "hero": {
+    "title": "Du học Mỹ",
+    "subtitle": "Bạn quan tâm đến việc du học tại Mỹ? Khám phá thông tin về trường đại học, khóa học và học bổng dành cho sinh viên quốc tế!",
+    "searchPlaceholder": "Tìm kiếm trường đại học, khóa học, học bổng..."
+  },
+  "searchCards": {
+    "question": "Bạn quan tâm đến việc du học tại Mỹ?",
+    "university": {
+      "title": "Tìm trường đại học",
+      "description": "Tìm trường đại học phù hợp với mục tiêu của bạn"
+    },
+    "course": {
+      "title": "Tìm khóa học",
+      "description": "Tìm chương trình hoàn hảo cho sở thích của bạn"
+    },
+    "scholarship": {
+      "title": "Tìm học bổng",
+      "description": "Tìm cơ hội hỗ trợ tài chính"
+    }
+  },
+  "studySteps": {
+    "title": "5 bước du học Mỹ",
+    "subtitle": "Lên kế hoạch du học Mỹ trong 5 bước",
+    "step1": {
+      "title": "Nghiên cứu",
+      "items": ["Nghiên cứu chi phí du học trung bình tại Mỹ", "Tìm hiểu hệ thống giáo dục Mỹ và trải nghiệm du học tổng thể"]
+    },
+    "step2": {
+      "title": "Lựa chọn",
+      "items": ["Chọn trường đại học và chuyên ngành", "Tìm hiểu yêu cầu tuyển sinh"]
+    },
+    "step3": {
+      "title": "Nộp đơn",
+      "items": ["Chuẩn bị hồ sơ ứng tuyển", "Nộp đơn xin học bổng"]
+    },
+    "step4": {
+      "title": "Chuẩn bị",
+      "items": ["Xin visa F-1", "Chuẩn bị khởi hành"]
+    },
+    "step5": {
+      "title": "Đến nơi",
+      "items": ["Ổn định cuộc sống tại Mỹ", "Bắt đầu học tập"]
+    }
+  },
+  "video": {
+    "title": "Video du học Mỹ",
+    "subtitle": "Xem video hữu ích về du học tại Mỹ",
+    "videos": [
+      "Tại sao tôi quyết định du học Mỹ",
+      "Hướng dẫn chuẩn bị nhập học đại học Mỹ",
+      "Vlog cuộc sống đại học Mỹ",
+      "Cách học tiếng Anh nhanh",
+      "Câu chuyện thành công tìm việc ở Mỹ",
+      "Du học Mỹ ảnh hưởng đến sự nghiệp của tôi như thế nào"
+    ]
+  },
+  "notice": {
+    "title": "Thông báo",
+    "viewAll": "Xem tất cả",
+    "notices": [
+      { "title": "Hướng dẫn đăng ký học bổng Fulbright 2024", "date": "2024.03.15" },
+      { "title": "Hội chợ Du học Mỹ 2024 - New York", "date": "2024.03.10" },
+      { "title": "Hướng dẫn xin visa F-1 cho sinh viên quốc tế", "date": "2024.03.05" },
+      { "title": "Lịch thi và địa điểm TOEFL/IELTS 2024", "date": "2024.03.01" }
+    ]
+  },
+  "resources": {
+    "title": "Tài nguyên hữu ích",
+    "items": [
+      { "title": "Hội chợ Du học Mỹ", "description": "Nhận thông tin về hội chợ du học các vùng" },
+      { "title": "Hội sinh viên quốc tế", "description": "Kết nối với cộng đồng sinh viên tại Mỹ" },
+      { "title": "Thông tin visa", "description": "Tìm hiểu về visa F-1 và yêu cầu nhập cư" },
+      { "title": "Chi phí sinh hoạt", "description": "Khám phá chi phí sống ở các thành phố Mỹ" }
+    ]
+  },
+  "community": {
+    "title": "Cộng đồng sinh viên quốc tế",
+    "subtitle": "Hội sinh viên theo quốc gia tại Mỹ",
+    "countries": ["Trung Quốc", "Ấn Độ", "Hàn Quốc", "Việt Nam", "Đài Loan", "Nhật Bản", "Ả Rập Saudi", "Canada", "Mexico", "Brazil"]
+  },
+  "footer": {
+    "logo": "Du học Mỹ",
+    "description": "Hệ thống thông tin tổng hợp du học Mỹ",
+    "quickLinks": "Liên kết nhanh",
+    "contact": "Liên hệ",
+    "email": "Email",
+    "address": "Địa chỉ",
+    "addressValue": "Washington, D.C., Hoa Kỳ",
+    "copyright": "© 2024 Du học Mỹ. Đã đăng ký bản quyền.",
+    "organization": "Bộ Giáo dục Hoa Kỳ"
+  }
+}

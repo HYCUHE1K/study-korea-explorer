@@ -1,0 +1,106 @@
+{
+  "header": {
+    "logo": "留学美国",
+    "nav": {
+      "whyUSA": "为什么选择美国",
+      "lifeInUSA": "美国生活",
+      "workInUSA": "在美国工作",
+      "universities": "大学",
+      "courses": "课程",
+      "scholarships": "奖学金"
+    },
+    "login": "登录",
+    "signup": "注册"
+  },
+  "hero": {
+    "title": "留学美国",
+    "subtitle": "对美国留学感兴趣吗？探索适合国际学生的大学、课程和奖学金信息！",
+    "searchPlaceholder": "搜索大学、课程、奖学金..."
+  },
+  "searchCards": {
+    "question": "对美国留学感兴趣吗？",
+    "university": {
+      "title": "搜索大学",
+      "description": "找到符合您目标的大学"
+    },
+    "course": {
+      "title": "搜索课程",
+      "description": "找到适合您兴趣的完美项目"
+    },
+    "scholarship": {
+      "title": "搜索奖学金",
+      "description": "找到经济资助机会"
+    }
+  },
+  "studySteps": {
+    "title": "美国留学5步骤",
+    "subtitle": "规划您的美国留学之旅",
+    "step1": {
+      "title": "研究",
+      "items": ["研究美国留学平均费用", "探索美国教育体系和整体留学体验"]
+    },
+    "step2": {
+      "title": "选择",
+      "items": ["选择大学和专业", "研究入学要求"]
+    },
+    "step3": {
+      "title": "申请",
+      "items": ["准备申请材料", "申请奖学金"]
+    },
+    "step4": {
+      "title": "准备",
+      "items": ["申请F-1签证", "准备出发"]
+    },
+    "step5": {
+      "title": "抵达",
+      "items": ["在美国安顿", "开始学习"]
+    }
+  },
+  "video": {
+    "title": "美国留学视频",
+    "subtitle": "观看关于美国留学的有用视频",
+    "videos": [
+      "我为什么决定留学美国",
+      "美国大学入学准备指南",
+      "美国大学生活Vlog",
+      "如何快速学习英语",
+      "在美国找工作的成功故事",
+      "留学美国如何影响了我的职业"
+    ]
+  },
+  "notice": {
+    "title": "公告",
+    "viewAll": "查看全部",
+    "notices": [
+      { "title": "2024年富布赖特外国学生奖学金申请指南", "date": "2024.03.15" },
+      { "title": "2024年留学美国展 - 纽约", "date": "2024.03.10" },
+      { "title": "国际学生F-1签证申请指南", "date": "2024.03.05" },
+      { "title": "2024年托福/雅思考试日期和地点", "date": "2024.03.01" }
+    ]
+  },
+  "resources": {
+    "title": "有用资源",
+    "items": [
+      { "title": "留学美国展", "description": "获取各地区留学展览信息" },
+      { "title": "国际学生协会", "description": "与在美学生社区建立联系" },
+      { "title": "签证信息", "description": "了解F-1签证和移民要求" },
+      { "title": "生活成本", "description": "探索美国不同城市的生活成本" }
+    ]
+  },
+  "community": {
+    "title": "国际学生社区",
+    "subtitle": "在美国的各国学生会",
+    "countries": ["中国", "印度", "韩国", "越南", "台湾", "日本", "沙特阿拉伯", "加拿大", "墨西哥", "巴西"]
+  },
+  "footer": {
+    "logo": "留学美国",
+    "description": "美国留学综合信息系统",
+    "quickLinks": "快速链接",
+    "contact": "联系方式",
+    "email": "电子邮箱",
+    "address": "地址",
+    "addressValue": "美国华盛顿特区",
+    "copyright": "© 2024 留学美国. 保留所有权利.",
+    "organization": "美国教育部"
+  }
+}

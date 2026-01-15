@@ -1,0 +1,106 @@
+{
+  "header": {
+    "logo": "Study in USA",
+    "nav": {
+      "whyUSA": "Why USA",
+      "lifeInUSA": "Life in USA",
+      "workInUSA": "Work in USA",
+      "universities": "Universities",
+      "courses": "Courses",
+      "scholarships": "Scholarships"
+    },
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "title": "Study in USA",
+    "subtitle": "Interested in studying in the USA? Explore universities, courses, and scholarship information for international students!",
+    "searchPlaceholder": "Search universities, courses, scholarships..."
+  },
+  "searchCards": {
+    "question": "Interested in studying in the USA?",
+    "university": {
+      "title": "Search Universities",
+      "description": "Find universities that match your goals"
+    },
+    "course": {
+      "title": "Search Courses",
+      "description": "Find the perfect program for your interests"
+    },
+    "scholarship": {
+      "title": "Search Scholarships",
+      "description": "Find financial support opportunities"
+    }
+  },
+  "studySteps": {
+    "title": "5 Steps to Study in USA",
+    "subtitle": "Plan your studies with USA in 5 steps",
+    "step1": {
+      "title": "Research",
+      "items": ["Research average cost of studying in the USA", "Explore the US education system and overall study experience"]
+    },
+    "step2": {
+      "title": "Choose",
+      "items": ["Select your university and major", "Research admission requirements"]
+    },
+    "step3": {
+      "title": "Apply",
+      "items": ["Prepare application documents", "Apply for scholarships"]
+    },
+    "step4": {
+      "title": "Prepare",
+      "items": ["Apply for F-1 visa", "Prepare for departure"]
+    },
+    "step5": {
+      "title": "Arrive",
+      "items": ["Settle in the USA", "Start your studies"]
+    }
+  },
+  "video": {
+    "title": "Study in USA Videos",
+    "subtitle": "Watch helpful videos about studying in the USA",
+    "videos": [
+      "Why I decided to study in the USA",
+      "Guide to preparing for US university admission",
+      "US university life vlog",
+      "How to learn English quickly",
+      "Success story of getting a job in the USA",
+      "How studying in the USA impacted my career"
+    ]
+  },
+  "notice": {
+    "title": "Notices",
+    "viewAll": "View All",
+    "notices": [
+      { "title": "2024 Fulbright Foreign Student Scholarship Application Guide", "date": "2024.03.15" },
+      { "title": "Study in USA Fair 2024 - New York", "date": "2024.03.10" },
+      { "title": "F-1 Visa Application Guide for International Students", "date": "2024.03.05" },
+      { "title": "TOEFL/IELTS Test Dates and Locations for 2024", "date": "2024.03.01" }
+    ]
+  },
+  "resources": {
+    "title": "Helpful Resources",
+    "items": [
+      { "title": "Study in USA Fair", "description": "Get information about study abroad fairs across regions" },
+      { "title": "International Student Association", "description": "Connect with student communities in the USA" },
+      { "title": "Visa Information", "description": "Learn about F-1 visa and immigration requirements" },
+      { "title": "Cost of Living", "description": "Explore living costs in different US cities" }
+    ]
+  },
+  "community": {
+    "title": "International Student Community",
+    "subtitle": "Country-based Student Associations in USA",
+    "countries": ["China", "India", "South Korea", "Vietnam", "Taiwan", "Japan", "Saudi Arabia", "Canada", "Mexico", "Brazil"]
+  },
+  "footer": {
+    "logo": "Study in USA",
+    "description": "Comprehensive information system for studying in the USA",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "Washington, D.C., USA",
+    "copyright": "© 2024 Study in USA. All rights reserved.",
+    "organization": "U.S. Department of Education"
+  }
+}
