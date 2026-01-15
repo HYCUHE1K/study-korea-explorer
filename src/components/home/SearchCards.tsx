@@ -1,43 +1,40 @@
 import { GraduationCap, BookOpen, Award, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-
-const searchOptions = [
-  {
-    icon: GraduationCap,
-    title: "대학교",
-    titleEn: "Universities",
-    description: "학위 수준, 캠퍼스 위치, 기관 유형 등으로 대학을 검색하세요.",
-    buttonText: "대학 검색",
-    color: "bg-primary",
-    hoverColor: "hover:bg-primary/90",
-  },
-  {
-    icon: BookOpen,
-    title: "학과",
-    titleEn: "Courses",
-    description: "전공, 학문 분야, 수업 언어 등으로 학과를 검색하세요.",
-    buttonText: "학과 검색",
-    color: "bg-secondary",
-    hoverColor: "hover:bg-secondary/90",
-  },
-  {
-    icon: Award,
-    title: "장학금",
-    titleEn: "Scholarships",
-    description: "정부(GKS), 대학, 기업, 재단에서 제공하는 장학금을 찾아보세요.",
-    buttonText: "장학금 검색",
-    color: "bg-orange",
-    hoverColor: "hover:bg-orange/90",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const SearchCards = () => {
+  const { t } = useTranslation();
+
+  const searchOptions = [
+    {
+      icon: GraduationCap,
+      title: t("searchCards.university.title"),
+      description: t("searchCards.university.description"),
+      color: "bg-primary",
+      hoverColor: "hover:bg-primary/90",
+    },
+    {
+      icon: BookOpen,
+      title: t("searchCards.course.title"),
+      description: t("searchCards.course.description"),
+      color: "bg-secondary",
+      hoverColor: "hover:bg-secondary/90",
+    },
+    {
+      icon: Award,
+      title: t("searchCards.scholarship.title"),
+      description: t("searchCards.scholarship.description"),
+      color: "bg-orange",
+      hoverColor: "hover:bg-orange/90",
+    },
+  ];
+
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            미국 유학에 관심이 있으신가요?
+            {t("searchCards.question")}
           </h2>
           <p className="text-muted-foreground">
             Explore the best study options for you.
@@ -56,19 +53,16 @@ export const SearchCards = () => {
                 >
                   <option.icon className="h-8 w-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-1">
+                <h3 className="text-xl font-bold text-foreground mb-3">
                   {option.title}
                 </h3>
-                <p className="text-sm text-muted-foreground mb-3">
-                  {option.titleEn}
-                </p>
                 <p className="text-sm text-muted-foreground mb-6 min-h-[60px]">
                   {option.description}
                 </p>
                 <button
                   className={`inline-flex items-center justify-center px-6 py-2 ${option.color} ${option.hoverColor} text-primary-foreground rounded-full text-sm font-medium transition-colors`}
                 >
-                  {option.buttonText}
+                  {option.title}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
               </CardContent>

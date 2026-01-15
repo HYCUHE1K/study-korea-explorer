@@ -1,19 +1,20 @@
 import { useState } from "react";
-import { Menu, X, Search, Globe, User } from "lucide-react";
-import { Button } from "@/components/ui/button";
-
-const navItems = [
-  { label: "Why USA", href: "#" },
-  { label: "Plan your studies", href: "#" },
-  { label: "Life in USA", href: "#" },
-  { label: "Work in USA", href: "#" },
-  { label: "Education Fair", href: "#" },
-  { label: "Community", href: "#" },
-  { label: "Notice", href: "#" },
-];
+import { Menu, X, Search } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useTranslation();
+
+  const navItems = [
+    { label: t("header.nav.whyUSA"), href: "#" },
+    { label: t("header.nav.lifeInUSA"), href: "#" },
+    { label: t("header.nav.workInUSA"), href: "#" },
+    { label: t("header.nav.universities"), href: "#" },
+    { label: t("header.nav.courses"), href: "#" },
+    { label: t("header.nav.scholarships"), href: "#" },
+  ];
 
   return (
     <header className="sticky top-0 z-50 bg-background shadow-sm">
@@ -21,15 +22,12 @@ export const Header = () => {
       <div className="border-b border-border">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-end gap-4 py-2 text-sm">
-            <button className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors">
-              <Globe className="h-4 w-4" />
-              <span>한국어</span>
+            <LanguageSwitcher />
+            <button className="text-muted-foreground hover:text-foreground transition-colors">
+              {t("header.login")}
             </button>
             <button className="text-muted-foreground hover:text-foreground transition-colors">
-              로그인
-            </button>
-            <button className="text-muted-foreground hover:text-foreground transition-colors">
-              회원가입
+              {t("header.signup")}
             </button>
           </div>
         </div>

@@ -1,90 +1,95 @@
 import { Play } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
-const videoCategories = [
-  {
-    id: "prospective",
-    label: "유학준비생",
-    videos: [
-      {
-        id: 1,
-        title: "미국 유학을 결심한 이유",
-        thumbnail: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80",
-        duration: "5:32",
-      },
-      {
-        id: 2,
-        title: "미국 대학 입학 준비 가이드",
-        thumbnail: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=400&q=80",
-        duration: "8:15",
-      },
-      {
-        id: 3,
-        title: "장학금 지원 팁",
-        thumbnail: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=400&q=80",
-        duration: "6:45",
-      },
-    ],
-  },
-  {
-    id: "current",
-    label: "재학생",
-    videos: [
-      {
-        id: 1,
-        title: "미국 대학 생활 브이로그",
-        thumbnail: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=400&q=80",
-        duration: "10:22",
-      },
-      {
-        id: 2,
-        title: "영어 빠르게 배우는 법",
-        thumbnail: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=400&q=80",
-        duration: "7:18",
-      },
-      {
-        id: 3,
-        title: "알바와 학업 병행하기",
-        thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80",
-        duration: "9:05",
-      },
-    ],
-  },
-  {
-    id: "graduated",
-    label: "졸업생",
-    videos: [
-      {
-        id: 1,
-        title: "미국에서 취업 성공기",
-        thumbnail: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=400&q=80",
-        duration: "12:30",
-      },
-      {
-        id: 2,
-        title: "미국 유학이 내 커리어에 미친 영향",
-        thumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-        duration: "8:45",
-      },
-      {
-        id: 3,
-        title: "졸업 후 비자 전환 경험담",
-        thumbnail: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
-        duration: "6:20",
-      },
-    ],
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const VideoSection = () => {
+  const { t } = useTranslation();
+
+  const videoTitles = t("video.videos", { returnObjects: true }) as string[];
+
+  const videoCategories = [
+    {
+      id: "prospective",
+      label: "Prospective",
+      videos: [
+        {
+          id: 1,
+          title: videoTitles[0],
+          thumbnail: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80",
+          duration: "5:32",
+        },
+        {
+          id: 2,
+          title: videoTitles[1],
+          thumbnail: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=400&q=80",
+          duration: "8:15",
+        },
+        {
+          id: 3,
+          title: videoTitles[2] || "Scholarship Tips",
+          thumbnail: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=400&q=80",
+          duration: "6:45",
+        },
+      ],
+    },
+    {
+      id: "current",
+      label: "Current Students",
+      videos: [
+        {
+          id: 1,
+          title: videoTitles[2],
+          thumbnail: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=400&q=80",
+          duration: "10:22",
+        },
+        {
+          id: 2,
+          title: videoTitles[3],
+          thumbnail: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=400&q=80",
+          duration: "7:18",
+        },
+        {
+          id: 3,
+          title: "Student Life",
+          thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80",
+          duration: "9:05",
+        },
+      ],
+    },
+    {
+      id: "graduated",
+      label: "Graduates",
+      videos: [
+        {
+          id: 1,
+          title: videoTitles[4],
+          thumbnail: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=400&q=80",
+          duration: "12:30",
+        },
+        {
+          id: 2,
+          title: videoTitles[5],
+          thumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+          duration: "8:45",
+        },
+        {
+          id: 3,
+          title: "Post-Graduation Visa",
+          thumbnail: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+          duration: "6:20",
+        },
+      ],
+    },
+  ];
+
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            유학 영상
+            {t("video.title")}
           </h2>
-          <p className="text-muted-foreground">Study in USA Videos</p>
+          <p className="text-muted-foreground">{t("video.subtitle")}</p>
         </div>
 
         <Tabs defaultValue="prospective" className="max-w-5xl mx-auto">
