@@ -1,30 +1,31 @@
 {
   "header": {
-    "logo": "Study in USA",
+    "logo": "Go Almond",
     "nav": {
       "whyUSA": "Why USA",
       "lifeInUSA": "Life in USA",
       "workInUSA": "Work in USA",
       "universities": "Universities",
-      "courses": "Courses",
+      "courses": "Programs",
       "scholarships": "Scholarships"
     },
     "login": "Login",
     "signup": "Sign Up"
   },
   "hero": {
-    "title": "Study in USA",
-    "subtitle": "Interested in studying in the USA? Explore universities, courses, and scholarship information for international students!",
-    "searchPlaceholder": "Search universities, courses, scholarships..."
+    "title": "Go Almond",
+    "subtitle": "Your Gateway to American Education",
+    "description": "Discover your perfect path to studying in the USA. From universities to community colleges, language programs to K-12 observations.",
+    "searchPlaceholder": "Search universities, programs, scholarships..."
   },
   "searchCards": {
-    "question": "Interested in studying in the USA?",
+    "question": "Which path is right for you?",
     "university": {
       "title": "Search Universities",
       "description": "Find universities that match your goals"
     },
     "course": {
-      "title": "Search Courses",
+      "title": "Search Programs",
       "description": "Find the perfect program for your interests"
     },
     "scholarship": {
@@ -34,7 +35,7 @@
   },
   "studySteps": {
     "title": "5 Steps to Study in USA",
-    "subtitle": "Plan your studies with USA in 5 steps",
+    "subtitle": "Your complete roadmap to American education",
     "step1": {
       "title": "Research",
       "items": ["Research average cost of studying in the USA", "Explore the US education system and overall study experience"]
@@ -73,7 +74,7 @@
     "viewAll": "View All",
     "notices": [
       { "title": "2024 Fulbright Foreign Student Scholarship Application Guide", "date": "2024.03.15" },
-      { "title": "Study in USA Fair 2024 - New York", "date": "2024.03.10" },
+      { "title": "Go Almond Education Fair 2024 - New York", "date": "2024.03.10" },
       { "title": "F-1 Visa Application Guide for International Students", "date": "2024.03.05" },
       { "title": "TOEFL/IELTS Test Dates and Locations for 2024", "date": "2024.03.01" }
     ]
@@ -81,26 +82,26 @@
   "resources": {
     "title": "Helpful Resources",
     "items": [
-      { "title": "Study in USA Fair", "description": "Get information about study abroad fairs across regions" },
-      { "title": "International Student Association", "description": "Connect with student communities in the USA" },
+      { "title": "Education Fair", "description": "Get information about Go Almond fairs across regions" },
+      { "title": "Student Community", "description": "Connect with student communities in the USA" },
       { "title": "Visa Information", "description": "Learn about F-1 visa and immigration requirements" },
       { "title": "Cost of Living", "description": "Explore living costs in different US cities" }
     ]
   },
   "community": {
     "title": "International Student Community",
-    "subtitle": "Country-based Student Associations in USA",
+    "subtitle": "Connect with students from your country",
     "countries": ["China", "India", "South Korea", "Vietnam", "Taiwan", "Japan", "Saudi Arabia", "Canada", "Mexico", "Brazil"]
   },
   "footer": {
-    "logo": "Study in USA",
-    "description": "Comprehensive information system for studying in the USA",
+    "logo": "Go Almond",
+    "description": "Your trusted partner for studying in the USA",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "email": "Email",
     "address": "Address",
-    "addressValue": "Washington, D.C., USA",
-    "copyright": "© 2024 Study in USA. All rights reserved.",
-    "organization": "U.S. Department of Education"
+    "addressValue": "Seoul, South Korea",
+    "copyright": "© 2024 Go Almond. All rights reserved.",
+    "organization": "Go Almond Education Services"
   }
 }
