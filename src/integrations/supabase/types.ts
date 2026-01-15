@@ -14,71 +14,7 @@ export type Database = {
   }
   public: {
     Tables: {
-      profiles: {
-        Row: {
-          id: string
-          email: string
-          full_name: string | null
-          avatar_url: string | null
-          phone: string | null
-          date_of_birth: string | null
-          nationality: string | null
-          current_education_level: string | null
-          target_degree: string | null
-          field_of_interest: string | null
-          preferred_location: string | null
-          budget_range: string | null
-          english_proficiency: string | null
-          gpa: number | null
-          test_scores: Json | null
-          study_timeline: string | null
-          additional_info: string | null
-          created_at: string
-          updated_at: string
-        }
-        Insert: {
-          id: string
-          email: string
-          full_name?: string | null
-          avatar_url?: string | null
-          phone?: string | null
-          date_of_birth?: string | null
-          nationality?: string | null
-          current_education_level?: string | null
-          target_degree?: string | null
-          field_of_interest?: string | null
-          preferred_location?: string | null
-          budget_range?: string | null
-          english_proficiency?: string | null
-          gpa?: number | null
-          test_scores?: Json | null
-          study_timeline?: string | null
-          additional_info?: string | null
-          created_at?: string
-          updated_at?: string
-        }
-        Update: {
-          id?: string
-          email?: string
-          full_name?: string | null
-          avatar_url?: string | null
-          phone?: string | null
-          date_of_birth?: string | null
-          nationality?: string | null
-          current_education_level?: string | null
-          target_degree?: string | null
-          field_of_interest?: string | null
-          preferred_location?: string | null
-          budget_range?: string | null
-          english_proficiency?: string | null
-          gpa?: number | null
-          test_scores?: Json | null
-          study_timeline?: string | null
-          additional_info?: string | null
-          created_at?: string
-          updated_at?: string
-        }
-      }
+      [_ in never]: never
     }
     Views: {
       [_ in never]: never
