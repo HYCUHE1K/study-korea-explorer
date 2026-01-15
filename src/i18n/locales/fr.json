@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whyUSA": "Pourquoi les États-Unis",
+    "lifeInUSA": "Vie aux États-Unis",
+    "workInUSA": "Travailler aux États-Unis",
+    "studyInUSA": "Étudier aux États-Unis"
+  },
+  "hero": {
+    "title": "Étudier aux États-Unis",
+    "subtitle": "Commencez votre voyage vers l'éducation mondiale",
+    "description": "Êtes-vous intéressé par les études aux États-Unis ? Découvrez tout ce que vous devez savoir sur les études en Amérique.",
+    "cta": "Explorer Maintenant"
+  },
+  "search": {
+    "title": "Êtes-vous intéressé par les études aux États-Unis ?",
+    "subtitle": "Trouvez les universités, programmes et bourses parfaits pour vous",
+    "university": "Rechercher une Université",
+    "universityDesc": "Découvrez les meilleures universités des États-Unis",
+    "course": "Rechercher un Programme",
+    "courseDesc": "Trouvez le programme académique qui vous convient",
+    "scholarship": "Rechercher une Bourse",
+    "scholarshipDesc": "Découvrez les opportunités de bourses disponibles",
+    "explore": "Explorer"
+  },
+  "steps": {
+    "title": "5 Étapes pour Étudier aux États-Unis",
+    "subtitle": "Planifiez vos études aux États-Unis en 5 étapes",
+    "step1": {
+      "title": "Rechercher",
+      "item1": "Recherchez le coût moyen des études aux États-Unis",
+      "item2": "Explorez le système éducatif et l'expérience d'études"
+    },
+    "step2": {
+      "title": "Préparer",
+      "item1": "Choisissez votre spécialité",
+      "item2": "Préparez-vous aux examens TOEFL/IELTS"
+    },
+    "step3": {
+      "title": "Postuler",
+      "item1": "Préparez les documents de candidature",
+      "item2": "Postulez aux universités"
+    },
+    "step4": {
+      "title": "Visa",
+      "item1": "Demandez le visa F-1",
+      "item2": "Assistez à l'entretien à l'ambassade"
+    },
+    "step5": {
+      "title": "Arriver",
+      "item1": "Trouvez un logement",
+      "item2": "Commencez vos études"
+    }
+  },
+  "video": {
+    "title": "Vidéos Étudier aux États-Unis",
+    "subtitle": "Vidéos Étudier aux États-Unis",
+    "video1": "Pourquoi j'ai décidé d'étudier aux États-Unis",
+    "video2": "Guide de préparation aux universités américaines",
+    "video3": "Vlog de la vie universitaire en Amérique",
+    "video4": "Comment apprendre l'anglais rapidement",
+    "video5": "Histoire de réussite professionnelle aux États-Unis",
+    "video6": "Comment étudier aux États-Unis a impacté ma carrière"
+  },
+  "notice": {
+    "title": "Annonces",
+    "more": "Voir plus",
+    "notice1": "Bourse internationale Fulbright",
+    "notice2": "Salon Étudier aux États-Unis 2024",
+    "notice3": "Mise à jour de la politique de visa F-1",
+    "notice4": "Dates des examens TOEFL/IELTS"
+  },
+  "resources": {
+    "title": "Ressources Utiles",
+    "courses": "Programmes",
+    "scholarships": "Bourses",
+    "universities": "Universités",
+    "visaInfo": "Informations sur les Visas",
+    "studyFair": "Salon Étudier aux États-Unis",
+    "studentAssoc": "Association des Étudiants Internationaux"
+  },
+  "community": {
+    "title": "Communauté des Étudiants Internationaux",
+    "subtitle": "Associations d'étudiants par pays"
+  },
+  "footer": {
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "siteName": "Étudier aux États-Unis",
+    "siteDesc": "Système d'information complet pour étudier aux États-Unis",
+    "organization": "Département de l'Éducation des États-Unis",
+    "address": "Washington, D.C., États-Unis",
+    "copyright": "© 2024 Étudier aux États-Unis. Tous droits réservés."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whyUSA": "Warum USA",
+    "lifeInUSA": "Leben in den USA",
+    "workInUSA": "Arbeiten in den USA",
+    "studyInUSA": "Studieren in den USA"
+  },
+  "hero": {
+    "title": "Studieren in den USA",
+    "subtitle": "Beginnen Sie Ihre Reise zur globalen Bildung",
+    "description": "Interessieren Sie sich für ein Studium in den USA? Erfahren Sie alles, was Sie über das Studium in Amerika wissen müssen.",
+    "cta": "Jetzt Entdecken"
+  },
+  "search": {
+    "title": "Interessieren Sie sich für ein Studium in den USA?",
+    "subtitle": "Finden Sie die perfekten Universitäten, Programme und Stipendien für Sie",
+    "university": "Universität Suchen",
+    "universityDesc": "Entdecken Sie die besten Universitäten in den USA",
+    "course": "Programm Suchen",
+    "courseDesc": "Finden Sie das richtige akademische Programm für Sie",
+    "scholarship": "Stipendium Suchen",
+    "scholarshipDesc": "Entdecken Sie verfügbare Stipendienmöglichkeiten",
+    "explore": "Entdecken"
+  },
+  "steps": {
+    "title": "5 Schritte zum Studium in den USA",
+    "subtitle": "Planen Sie Ihr Studium in den USA in 5 Schritten",
+    "step1": {
+      "title": "Recherchieren",
+      "item1": "Recherchieren Sie die durchschnittlichen Studienkosten in den USA",
+      "item2": "Erkunden Sie das Bildungssystem und die Studienerfahrung"
+    },
+    "step2": {
+      "title": "Vorbereiten",
+      "item1": "Wählen Sie Ihr Hauptfach",
+      "item2": "Bereiten Sie sich auf TOEFL/IELTS vor"
+    },
+    "step3": {
+      "title": "Bewerben",
+      "item1": "Bereiten Sie die Bewerbungsunterlagen vor",
+      "item2": "Bewerben Sie sich an Universitäten"
+    },
+    "step4": {
+      "title": "Visum",
+      "item1": "Beantragen Sie das F-1 Visum",
+      "item2": "Nehmen Sie am Botschaftsinterview teil"
+    },
+    "step5": {
+      "title": "Ankommen",
+      "item1": "Finden Sie eine Unterkunft",
+      "item2": "Beginnen Sie Ihr Studium"
+    }
+  },
+  "video": {
+    "title": "Videos zum Studium in den USA",
+    "subtitle": "Videos zum Studium in den USA",
+    "video1": "Warum ich mich für ein Studium in den USA entschieden habe",
+    "video2": "Vorbereitungsleitfaden für amerikanische Universitäten",
+    "video3": "Vlog zum Campusleben in Amerika",
+    "video4": "Wie man schnell Englisch lernt",
+    "video5": "Erfolgsgeschichte bei der Jobsuche in den USA",
+    "video6": "Wie das Studium in den USA meine Karriere beeinflusst hat"
+  },
+  "notice": {
+    "title": "Ankündigungen",
+    "more": "Mehr sehen",
+    "notice1": "Fulbright Internationales Stipendium",
+    "notice2": "Studieren in den USA Messe 2024",
+    "notice3": "F-1 Visum Richtlinien-Update",
+    "notice4": "TOEFL/IELTS Prüfungstermine"
+  },
+  "resources": {
+    "title": "Nützliche Ressourcen",
+    "courses": "Programme",
+    "scholarships": "Stipendien",
+    "universities": "Universitäten",
+    "visaInfo": "Visum-Informationen",
+    "studyFair": "Studieren in den USA Messe",
+    "studentAssoc": "Internationaler Studentenverband"
+  },
+  "community": {
+    "title": "Internationale Studentengemeinschaft",
+    "subtitle": "Studentenverbände nach Land"
+  },
+  "footer": {
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "siteName": "Studieren in den USA",
+    "siteDesc": "Umfassendes Informationssystem zum Studium in den USA",
+    "organization": "US-Bildungsministerium",
+    "address": "Washington, D.C., USA",
+    "copyright": "© 2024 Studieren in den USA. Alle Rechte vorbehalten."
+  }
+}

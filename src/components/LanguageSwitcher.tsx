@@ -14,6 +14,13 @@ const languages = [
   { code: 'ja', name: '日本語', flag: '🇯🇵' },
   { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
   { code: 'mn', name: 'Монгол', flag: '🇲🇳' },
+  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'th', name: 'ไทย', flag: '🇹🇭' },
 ];
 
 export const LanguageSwitcher = () => {
