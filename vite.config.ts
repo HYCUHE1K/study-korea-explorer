@@ -18,4 +18,28 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (!id.includes("node_modules")) {
+            return;
+          }
+          if (id.includes("react")) {
+            return "react-vendor";
+          }
+          if (id.includes("@radix-ui")) {
+            return "radix-ui";
+          }
+          if (id.includes("supabase")) {
+            return "supabase";
+          }
+          if (id.includes("i18next")) {
+            return "i18n";
+          }
+          return "vendor";
+        },
+      },
+    },
+  },
 }));
