@@ -107,8 +107,63 @@ This project uses shadcn/ui. When adding new UI components, they should be insta
 **Supabase Integration**
 - Client is pre-configured in `src/integrations/supabase/client.ts`
 - Import: `import { supabase } from "@/integrations/supabase/client"`
-- Types auto-generated in `types.ts` (currently empty schema - no tables defined)
+- Types in `types.ts` - includes `profiles` table schema
 - Uses environment variables: `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`
+
+## Authentication System (NEW)
+
+**Architecture**
+- `AuthContext` (`src/contexts/AuthContext.tsx`): Global auth state management
+- Supabase Auth integration: OAuth (Google, Github) + Email/Password
+- MFA/2FA support via Supabase Auth
+- Auto session management with token refresh
+- `ProtectedRoute` component for auth-required pages
+
+**Key Components**
+- `Login` page (`/login`): Email/password + OAuth buttons
+- `Signup` page (`/signup`): Registration form with validation
+- `Profile` page (`/profile`): Protected - user study abroad profile
+- `OAuthButtons`: Reusable Google/Github login buttons
+- `Header`: Shows login/logout state, user menu when authenticated
+
+**Auth Patterns**
+```tsx
+import { useAuth } from '@/contexts/AuthContext';
+
+const MyComponent = () => {
+  const { user, signIn, signOut } = useAuth();
+  
+  if (!user) return <LoginPrompt />;
+  
+  return <div>Welcome {user.email}</div>;
+};
+```
+
+**Protected Routes**
+```tsx
+<Route
+  path="/profile"
+  element={
+    <ProtectedRoute>
+      <Profile />
+    </ProtectedRoute>
+  }
+/>
+```
+
+**Database Schema**
+- `profiles` table: Study abroad user information
+  - Personal: full_name, phone, date_of_birth, nationality
+  - Academic: current_education_level, target_degree, gpa, test_scores
+  - Preferences: field_of_interest, preferred_location, budget_range
+- RLS policies: Users can only view/edit their own profile
+- Auto-created on signup via trigger
+
+**Security Notes**
+- Passwords hashed by Supabase (never stored in plain text)
+- Sessions use HttpOnly cookies
+- RLS enforces data access control
+- OAuth redirect URLs configured in Supabase dashboard
 
 ## Component Guidelines
 
@@ -145,7 +200,8 @@ export const MyComponent = () => {
 **Page Structure**
 - Home page (`Index.tsx`) is composed of distinct section components:
   - HeroSection → SearchCards → StudySteps → HelpfulResources → VideoSection → NoticeSection → CommunitySection
-- Header is sticky with language switcher and auth buttons (not yet functional)
+- Header is sticky with language switcher and user authentication menu
+- Auth pages: Login (`/login`), Signup (`/signup`), Profile (`/profile` protected via `ProtectedRoute`)
 - Footer at bottom of all pages
 
 **Development Environment**
