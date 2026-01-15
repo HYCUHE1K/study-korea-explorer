@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Search, User, LogOut } from "lucide-react";
+import { Menu, X, Search, User, LogOut, MessageCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -26,6 +26,7 @@ export const Header = () => {
     { label: t("header.nav.universities"), href: "#" },
     { label: t("header.nav.courses"), href: "#" },
     { label: t("header.nav.scholarships"), href: "#" },
+    { label: t("header.nav.aiChat"), href: "/chat", isHighlight: true },
   ];
 
   const handleSignOut = async () => {
@@ -95,13 +96,28 @@ export const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-foreground font-medium hover:text-primary transition-colors"
-              >
-                {item.label}
-              </a>
+              item.href.startsWith('/') ? (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className={`font-medium transition-colors flex items-center gap-1 ${
+                    item.isHighlight 
+                      ? 'text-primary hover:text-primary/80 bg-primary/10 px-3 py-1.5 rounded-full' 
+                      : 'text-foreground hover:text-primary'
+                  }`}
+                >
+                  {item.isHighlight && <MessageCircle className="h-4 w-4" />}
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="text-foreground font-medium hover:text-primary transition-colors"
+                >
+                  {item.label}
+                </a>
+              )
             ))}
           </nav>
 
@@ -129,13 +145,27 @@ export const Header = () => {
         <div className="lg:hidden border-t border-border bg-background">
           <nav className="container mx-auto px-4 py-4">
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="block py-3 text-foreground font-medium hover:text-primary transition-colors border-b border-border last:border-0"
-              >
-                {item.label}
-              </a>
+              item.href.startsWith('/') ? (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className={`block py-3 font-medium transition-colors border-b border-border last:border-0 flex items-center gap-2 ${
+                    item.isHighlight ? 'text-primary' : 'text-foreground hover:text-primary'
+                  }`}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.isHighlight && <MessageCircle className="h-4 w-4" />}
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="block py-3 text-foreground font-medium hover:text-primary transition-colors border-b border-border last:border-0"
+                >
+                  {item.label}
+                </a>
+              )
             ))}
           </nav>
         </div>
