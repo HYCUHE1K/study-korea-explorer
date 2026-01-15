@@ -37,11 +37,13 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+              <span className="text-primary-foreground text-xl">🌰</span>
+            </div>
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-primary">Study</span>
-              <span className="text-2xl font-bold text-foreground">in</span>
-              <span className="text-2xl font-bold text-secondary">USA</span>
+              <span className="text-2xl font-bold text-primary">Go</span>
+              <span className="text-2xl font-bold text-foreground ml-1">Almond</span>
             </div>
           </a>
 

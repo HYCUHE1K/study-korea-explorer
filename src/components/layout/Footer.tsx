@@ -10,7 +10,10 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Info */}
           <div>
-            <div className="mb-4">
+            <div className="mb-4 flex items-center gap-2">
+              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                <span className="text-lg">🌰</span>
+              </div>
               <span className="text-xl font-bold">{t("footer.logo")}</span>
             </div>
             <p className="text-sm text-primary-foreground/70 mb-4">
@@ -54,7 +57,7 @@ export const Footer = () => {
             <ul className="space-y-3 text-sm text-primary-foreground/70">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>studyinusa@usa.gov</span>
+                <span>hello@goalmond.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5" />
