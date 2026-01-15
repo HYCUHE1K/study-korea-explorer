@@ -7,7 +7,8 @@
       "workInUSA": "Work in USA",
       "universities": "Universities",
       "courses": "Programs",
-      "scholarships": "Scholarships"
+      "scholarships": "Scholarships",
+      "aiChat": "AI Advisor"
     },
     "login": "Login",
     "signup": "Sign Up"
@@ -196,5 +197,19 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "chat": {
+    "title": "AI Study Advisor",
+    "subtitle": "Get answers to all your questions about studying in the USA",
+    "aiPowered": "AI-Powered Advice",
+    "welcome": "Hello! Ask me anything about studying in the USA.",
+    "placeholder": "Type your question...",
+    "error": "An error occurred. Please try again.",
+    "suggestions": {
+      "university": "What are the admission requirements for US universities?",
+      "cc": "How does community college transfer work?",
+      "visa": "What's the F-1 visa application process?",
+      "cost": "How much does studying in the USA cost?"
+    }
   }
 }
