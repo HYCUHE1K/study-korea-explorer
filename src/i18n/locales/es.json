@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whyUSA": "¿Por qué EE.UU.?",
+    "lifeInUSA": "Vida en EE.UU.",
+    "workInUSA": "Trabajar en EE.UU.",
+    "studyInUSA": "Estudiar en EE.UU."
+  },
+  "hero": {
+    "title": "Estudiar en EE.UU.",
+    "subtitle": "Comienza tu viaje hacia la educación global",
+    "description": "¿Te interesa estudiar en Estados Unidos? Descubre todo lo que necesitas saber sobre estudiar en América.",
+    "cta": "Explorar Ahora"
+  },
+  "search": {
+    "title": "¿Te interesa estudiar en Estados Unidos?",
+    "subtitle": "Encuentra las universidades, programas y becas perfectas para ti",
+    "university": "Buscar Universidad",
+    "universityDesc": "Descubre las mejores universidades de EE.UU.",
+    "course": "Buscar Programa",
+    "courseDesc": "Encuentra el programa académico adecuado para ti",
+    "scholarship": "Buscar Beca",
+    "scholarshipDesc": "Descubre oportunidades de becas disponibles",
+    "explore": "Explorar"
+  },
+  "steps": {
+    "title": "5 Pasos para Estudiar en EE.UU.",
+    "subtitle": "Planifica tus estudios en EE.UU. en 5 pasos",
+    "step1": {
+      "title": "Investigar",
+      "item1": "Investiga el costo promedio de estudiar en EE.UU.",
+      "item2": "Explora el sistema educativo y la experiencia de estudio"
+    },
+    "step2": {
+      "title": "Preparar",
+      "item1": "Elige tu carrera",
+      "item2": "Prepárate para el examen TOEFL/IELTS"
+    },
+    "step3": {
+      "title": "Aplicar",
+      "item1": "Prepara los documentos de solicitud",
+      "item2": "Aplica a las universidades"
+    },
+    "step4": {
+      "title": "Visa",
+      "item1": "Solicita la visa F-1",
+      "item2": "Asiste a la entrevista en la embajada"
+    },
+    "step5": {
+      "title": "Llegar",
+      "item1": "Encuentra alojamiento",
+      "item2": "Comienza tus estudios"
+    }
+  },
+  "video": {
+    "title": "Videos de Estudiar en EE.UU.",
+    "subtitle": "Videos de Estudiar en EE.UU.",
+    "video1": "Por qué decidí estudiar en EE.UU.",
+    "video2": "Guía de preparación para universidades americanas",
+    "video3": "Vlog de vida universitaria en América",
+    "video4": "Cómo aprender inglés rápidamente",
+    "video5": "Historia de éxito laboral en EE.UU.",
+    "video6": "Cómo estudiar en EE.UU. impactó mi carrera"
+  },
+  "notice": {
+    "title": "Anuncios",
+    "more": "Ver más",
+    "notice1": "Becario internacional Fulbright",
+    "notice2": "Feria Estudiar en EE.UU. 2024",
+    "notice3": "Actualización de política de visa F-1",
+    "notice4": "Fechas de exámenes TOEFL/IELTS"
+  },
+  "resources": {
+    "title": "Recursos Útiles",
+    "courses": "Programas",
+    "scholarships": "Becas",
+    "universities": "Universidades",
+    "visaInfo": "Información de Visa",
+    "studyFair": "Feria Estudiar en EE.UU.",
+    "studentAssoc": "Asociación de Estudiantes Internacionales"
+  },
+  "community": {
+    "title": "Comunidad de Estudiantes Internacionales",
+    "subtitle": "Asociaciones de estudiantes por país"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "siteName": "Estudiar en EE.UU.",
+    "siteDesc": "Sistema integral de información para estudiar en EE.UU.",
+    "organization": "Departamento de Educación de EE.UU.",
+    "address": "Washington, D.C., EE.UU.",
+    "copyright": "© 2024 Estudiar en EE.UU. Todos los derechos reservados."
+  }
+}
