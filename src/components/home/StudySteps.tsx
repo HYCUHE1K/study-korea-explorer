@@ -7,8 +7,8 @@ const steps = [
     title: "유학정보 수집",
     titleEn: "Gathering Study Abroad Information",
     items: [
-      "한국 유학 평균 비용 조사하기",
-      "한국 교육 시스템 및 전반적인 유학 경험 탐색하기",
+      "미국 유학 평균 비용 조사하기",
+      "미국 교육 시스템 및 전반적인 유학 경험 탐색하기",
     ],
     color: "bg-primary",
   },
@@ -60,10 +60,10 @@ export const StudySteps = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            한국 유학 5단계
+            미국 유학 5단계
           </h2>
           <p className="text-muted-foreground">
-            Plan your studies with Korea in 5 steps
+            Plan your studies with USA in 5 steps
           </p>
         </div>
 

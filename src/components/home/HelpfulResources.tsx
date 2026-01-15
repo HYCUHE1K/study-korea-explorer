@@ -50,7 +50,7 @@ const resources = [
   {
     icon: Calendar,
     title: "유학박람회",
-    titleEn: "Study in Korea Fair",
+    titleEn: "Study in USA Fair",
     color: "text-primary",
     bgColor: "bg-primary/10",
   },
@@ -70,7 +70,7 @@ const resources = [
   },
   {
     icon: Globe,
-    title: "재한유학생회",
+    title: "재미유학생회",
     titleEn: "Student Association",
     color: "text-orange",
     bgColor: "bg-orange/10",

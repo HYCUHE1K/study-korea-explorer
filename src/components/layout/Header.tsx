@@ -3,10 +3,10 @@ import { Menu, X, Search, Globe, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { label: "Why Korea", href: "#" },
+  { label: "Why USA", href: "#" },
   { label: "Plan your studies", href: "#" },
-  { label: "Life in Korea", href: "#" },
-  { label: "Work in Korea", href: "#" },
+  { label: "Life in USA", href: "#" },
+  { label: "Work in USA", href: "#" },
   { label: "Education Fair", href: "#" },
   { label: "Community", href: "#" },
   { label: "Notice", href: "#" },
@@ -43,7 +43,7 @@ export const Header = () => {
             <div className="flex items-center">
               <span className="text-2xl font-bold text-primary">Study</span>
               <span className="text-2xl font-bold text-foreground">in</span>
-              <span className="text-2xl font-bold text-secondary">Korea</span>
+              <span className="text-2xl font-bold text-secondary">USA</span>
             </div>
           </a>
 
