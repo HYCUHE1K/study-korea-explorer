@@ -56,26 +56,26 @@
   },
   "studySteps": {
     "title": "5 Steps to Study in USA",
-    "subtitle": "Your complete roadmap to American education",
+    "subtitle": "Your complete roadmap from research to arrival",
     "step1": {
       "title": "Research",
-      "items": ["Research average cost of studying in the USA", "Explore the US education system and overall study experience"]
+      "items": ["Explore US education system & programs", "Compare costs and living expenses", "Identify schools matching your goals"]
     },
     "step2": {
-      "title": "Choose",
-      "items": ["Select your university and major", "Research admission requirements"]
+      "title": "Preparation",
+      "items": ["Prepare TOEFL/IELTS scores", "Gather academic transcripts", "Write personal statement & essays"]
     },
     "step3": {
-      "title": "Apply",
-      "items": ["Prepare application documents", "Apply for scholarships"]
+      "title": "Application",
+      "items": ["Submit applications to schools", "Apply for scholarships & financial aid", "Track application status"]
     },
     "step4": {
-      "title": "Prepare",
-      "items": ["Apply for F-1 visa", "Prepare for departure"]
+      "title": "Visa",
+      "items": ["Receive I-20 from school", "Pay SEVIS fee & schedule interview", "Prepare for visa interview"]
     },
     "step5": {
-      "title": "Arrive",
-      "items": ["Settle in the USA", "Start your studies"]
+      "title": "Arrival",
+      "items": ["Book flights & arrange housing", "Complete orientation program", "Start your American journey!"]
     }
   },
   "video": {
