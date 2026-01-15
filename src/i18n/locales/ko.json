@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whyUSA": "Why USA",
+    "lifeInUSA": "Life in USA",
+    "workInUSA": "Work in USA",
+    "studyInUSA": "Study in USA"
+  },
+  "hero": {
+    "title": "Study in USA",
+    "subtitle": "글로벌 교육을 향한 여정을 시작하세요",
+    "description": "미국 유학에 관심이 있으신가요? 미국에서의 학업에 대해 알아야 할 모든 것을 발견하세요.",
+    "cta": "지금 탐색하기"
+  },
+  "search": {
+    "title": "미국 유학에 관심이 있으신가요?",
+    "subtitle": "당신에게 맞는 대학교, 과정 및 장학금을 찾아보세요",
+    "university": "대학교 검색",
+    "universityDesc": "미국 최고의 대학들을 살펴보세요",
+    "course": "과정 검색",
+    "courseDesc": "당신에게 맞는 학업 프로그램을 찾아보세요",
+    "scholarship": "장학금 검색",
+    "scholarshipDesc": "이용 가능한 장학금 기회를 알아보세요",
+    "explore": "탐색하기"
+  },
+  "steps": {
+    "title": "미국 유학 5단계",
+    "subtitle": "5단계로 미국 유학을 계획하세요",
+    "step1": {
+      "title": "조사하기",
+      "item1": "미국 유학 평균 비용 조사하기",
+      "item2": "미국 교육 시스템 및 전반적인 유학 경험 탐색하기"
+    },
+    "step2": {
+      "title": "준비하기",
+      "item1": "전공 선택하기",
+      "item2": "TOEFL/IELTS 시험 준비하기"
+    },
+    "step3": {
+      "title": "지원하기",
+      "item1": "지원 서류 준비하기",
+      "item2": "대학교에 지원하기"
+    },
+    "step4": {
+      "title": "비자",
+      "item1": "F-1 비자 신청하기",
+      "item2": "대사관 인터뷰 참석하기"
+    },
+    "step5": {
+      "title": "도착",
+      "item1": "숙소 찾기",
+      "item2": "학업 시작하기"
+    }
+  },
+  "video": {
+    "title": "미국 유학 영상",
+    "subtitle": "Study in USA Videos",
+    "video1": "미국 유학을 결심한 이유",
+    "video2": "미국 대학 입학 준비 가이드",
+    "video3": "미국 대학 생활 브이로그",
+    "video4": "영어 빠르게 배우는 법",
+    "video5": "미국에서 취업 성공기",
+    "video6": "미국 유학이 내 커리어에 미친 영향"
+  },
+  "notice": {
+    "title": "공지사항",
+    "more": "더보기",
+    "notice1": "Fulbright 외국인 장학생 모집",
+    "notice2": "Study in USA Fair 2024 개최 안내",
+    "notice3": "미국 유학생 비자(F-1) 정책 변경 안내",
+    "notice4": "TOEFL/IELTS 시험 일정 안내"
+  },
+  "resources": {
+    "title": "유용한 자료",
+    "courses": "과정",
+    "scholarships": "장학금",
+    "universities": "대학교",
+    "visaInfo": "비자 정보",
+    "studyFair": "Study in USA Fair",
+    "studentAssoc": "재미유학생회"
+  },
+  "community": {
+    "title": "재미유학생 커뮤니티",
+    "subtitle": "국가별 재미유학생회"
+  },
+  "footer": {
+    "about": "소개",
+    "contact": "문의하기",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "siteName": "Study in USA",
+    "siteDesc": "미국유학 종합정보시스템",
+    "organization": "U.S. Department of Education",
+    "address": "Washington, D.C., USA",
+    "copyright": "© 2024 Study in USA. All rights reserved."
+  }
+}
