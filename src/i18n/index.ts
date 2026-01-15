@@ -14,6 +14,7 @@ import fr from './locales/fr.json';
 import de from './locales/de.json';
 import ru from './locales/ru.json';
 import th from './locales/th.json';
+import ko from './locales/ko.json';
 
 const resources = {
   en: { translation: en },
@@ -28,6 +29,7 @@ const resources = {
   de: { translation: de },
   ru: { translation: ru },
   th: { translation: th },
+  ko: { translation: ko },
 };
 
 i18n
