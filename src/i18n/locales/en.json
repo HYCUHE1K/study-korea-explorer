@@ -7,6 +7,7 @@
       "lifeInUSA": "Life in USA",
       "workInUSA": "Work in USA",
       "community": "Community",
+      "notice": "Notice",
       "universities": "Universities",
       "aiChat": "AI Advisor"
     },
@@ -144,6 +145,26 @@
           "faq": {
             "title": "Inquiries & FAQ",
             "description": "Frequently asked questions and contact"
+          }
+        }
+      },
+      "notice": {
+        "items": {
+          "news": {
+            "title": "Notice & News",
+            "description": "Latest announcements and news"
+          },
+          "scholarships": {
+            "title": "Scholarships Notice",
+            "description": "Scholarship announcements"
+          },
+          "useful": {
+            "title": "Useful Information",
+            "description": "Helpful resources for study abroad"
+          },
+          "archives": {
+            "title": "Archives",
+            "description": "Document and resource archive"
           }
         }
       }
