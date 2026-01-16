@@ -154,6 +154,29 @@ export const Header = () => {
     },
   ];
 
+  const workInUSAItems: MegaMenuItem[] = [
+    { 
+      title: t("header.megaMenu.workInUSA.items.employment.title"), 
+      description: t("header.megaMenu.workInUSA.items.employment.description"),
+      href: "/work-in-usa/employment"
+    },
+    { 
+      title: t("header.megaMenu.workInUSA.items.system.title"), 
+      description: t("header.megaMenu.workInUSA.items.system.description"),
+      href: "/work-in-usa/system"
+    },
+    { 
+      title: t("header.megaMenu.workInUSA.items.internship.title"), 
+      description: t("header.megaMenu.workInUSA.items.internship.description"),
+      href: "/work-in-usa/internship"
+    },
+    { 
+      title: t("header.megaMenu.workInUSA.items.opportunities.title"), 
+      description: t("header.megaMenu.workInUSA.items.opportunities.description"),
+      href: "/work-in-usa/opportunities"
+    },
+  ];
+
   const getMegaMenuItems = (menuKey: string) => {
     switch (menuKey) {
       case "whyUSA":
@@ -162,6 +185,8 @@ export const Header = () => {
         return { items: planStudiesItems, quickLinks: planStudiesQuickLinks };
       case "lifeInUSA":
         return { items: lifeInUSAItems, quickLinks: null };
+      case "workInUSA":
+        return { items: workInUSAItems, quickLinks: null };
       default:
         return { items: [], quickLinks: null };
     }
@@ -171,7 +196,7 @@ export const Header = () => {
     { label: t("header.nav.whyUSA"), href: "#", hasMegaMenu: true, menuKey: "whyUSA" },
     { label: t("header.nav.planStudies"), href: "#", hasMegaMenu: true, menuKey: "planStudies" },
     { label: t("header.nav.lifeInUSA"), href: "#", hasMegaMenu: true, menuKey: "lifeInUSA" },
-    { label: t("header.nav.workInUSA"), href: "#" },
+    { label: t("header.nav.workInUSA"), href: "#", hasMegaMenu: true, menuKey: "workInUSA" },
     { label: t("header.nav.universities"), href: "#" },
     { label: t("header.nav.aiChat"), href: "/chat", isHighlight: true },
   ];
