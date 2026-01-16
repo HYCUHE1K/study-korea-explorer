@@ -14,6 +14,7 @@ import AuthCallback from "./pages/AuthCallback";
 import WhyUSA from "./pages/WhyUSA";
 import PlanStudies from "./pages/PlanStudies";
 import LifeInUSA from "./pages/LifeInUSA";
+import WorkInUSA from "./pages/WorkInUSA";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/why-usa/:section" element={<WhyUSA />} />
             <Route path="/plan-studies" element={<PlanStudies />} />
             <Route path="/life-in-usa" element={<LifeInUSA />} />
+            <Route path="/work-in-usa" element={<WorkInUSA />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/auth/callback" element={<AuthCallback />} />

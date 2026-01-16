@@ -349,5 +349,128 @@
       "planStudies": "Planifica tus Estudios",
       "askQuestions": "Hacer Preguntas"
     }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Oportunidades Profesionales",
+      "title": "Trabajar en EE.UU.",
+      "subtitle": "De la academia a la carrera - Tu camino hacia el éxito",
+      "description": "Proporcionamos información de empleo y servicios de búsqueda de trabajo para ayudar a los estudiantes internacionales a prepararse y encontrar carreras en EE.UU.",
+      "cta": "Comenzar",
+      "viewJobs": "Ver Ofertas de Trabajo"
+    },
+    "sections": {
+      "employment": "Empleo en EE.UU.",
+      "system": "Sistema de Visa de Trabajo",
+      "internship": "Pasantía y Experiencia",
+      "recruitment": "Ofertas de Trabajo",
+      "platforms": "Plataformas de Empleo",
+      "tips": "Consejos Profesionales"
+    },
+    "mainTitle": "Apoyo Profesional para Estudiantes Internacionales",
+    "mainSubtitle": "Información completa de empleo y servicios profesionales para tu éxito",
+    "categories": {
+      "employment": {
+        "title": "Empleo en EE.UU.",
+        "desc": "Información esencial para estudiantes internacionales que buscan empleo en EE.UU., incluyendo procesos de preparación laboral y orientación profesional."
+      },
+      "foreignerSystem": {
+        "title": "Sistema de Visa de Trabajo",
+        "desc": "Verifica información de elegibilidad para empleo de tiempo completo y parcial, incluyendo requisitos de visas OPT, CPT y H-1B."
+      },
+      "internship": {
+        "title": "Voluntariado y Experiencia Industrial",
+        "desc": "Crea oportunidades de logro a través del intercambio cultural y experiencia práctica mediante voluntariado y pasantías."
+      },
+      "recruitment": {
+        "title": "Ofertas de Trabajo",
+        "desc": "Te ayudamos a encontrar trabajos a través de las principales plataformas de empleo incluyendo LinkedIn, Indeed y centros de carreras universitarios."
+      }
+    },
+    "additionalTitle": "Más Información sobre Estudios en el Extranjero",
+    "additional": {
+      "scholarships": {
+        "title": "Varios Apoyos de Becas",
+        "desc": "Verifica becas del gobierno de EE.UU., corporaciones y escuelas individuales para estudiantes internacionales."
+      },
+      "consultation": {
+        "title": "Consulta en Línea AI Kori",
+        "desc": "Respondemos rápidamente a tus consultas."
+      },
+      "schoolSearch": {
+        "title": "Encuentra tu Universidad y Carrera",
+        "desc": "Busca por nombre de universidad o carrera para encontrar información sobre escuelas de interés de un vistazo."
+      }
+    },
+    "stories": {
+      "title": "Historias de Éxito",
+      "subtitle": "Aprende de seniors que encontraron empleo exitosamente en EE.UU.",
+      "video1": {
+        "title": "Feria de Empleo 2024 para Estudiantes Internacionales",
+        "description": "Consulta profesional 1:1 apoyando actividades de empleo en EE.UU.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Mentoría Profesional de Seniors",
+        "description": "Escucha historias vívidas de empleo de mentores de varios países.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "FERIA GLOBAL DE TALENTOS 2024",
+        "description": "Consultas de reclutamiento 1:1, conferencias profesionales de seniors, presentaciones de reclutamiento de empresas y más.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Plataformas de Búsqueda de Empleo",
+    "platformsSubtitle": "Encuentra oportunidades laborales a través de las principales plataformas de empleo de EE.UU.",
+    "platforms": {
+      "linkedin": "Networking profesional y búsqueda de empleo",
+      "indeed": "Listados completos de trabajos",
+      "glassdoor": "Reseñas de empresas y salarios",
+      "handshake": "Servicios de carreras universitarias",
+      "usajobs": "Posiciones del gobierno de EE.UU.",
+      "angellist": "Trabajos en startups y tecnología",
+      "ziprecruiter": "Coincidencia de trabajos con IA",
+      "monster": "Recursos profesionales y trabajos"
+    },
+    "tipsTitle": "Consejos para el Éxito Profesional",
+    "tipsSubtitle": "Estrategias esenciales para estudiantes internacionales que buscan empleo en EE.UU.",
+    "tips": {
+      "networking": {
+        "title": "Construye tu Red",
+        "desc": "Asiste a ferias de carreras, únete a asociaciones profesionales y conéctate con ex alumnos para expandir tu red profesional."
+      },
+      "resume": {
+        "title": "Perfecciona tu Currículum",
+        "desc": "Crea un currículum de estilo americano destacando logros, habilidades y resultados cuantificables relevantes para puestos objetivo."
+      },
+      "skills": {
+        "title": "Desarrolla Habilidades en Demanda",
+        "desc": "Enfócate en habilidades técnicas, capacidades de comunicación y conocimiento específico de la industria valorados por empleadores de EE.UU."
+      },
+      "interview": {
+        "title": "Domina las Entrevistas",
+        "desc": "Practica preguntas comunes de entrevista, entrevistas conductuales y estudios de caso. Prepara preguntas reflexivas para los entrevistadores."
+      },
+      "linkedin": {
+        "title": "Optimiza tu Perfil de LinkedIn",
+        "desc": "Crea un perfil profesional con palabras clave, recomendaciones y participación activa para atraer reclutadores."
+      },
+      "timing": {
+        "title": "Comienza Temprano",
+        "desc": "Inicia la búsqueda de empleo 6-9 meses antes de graduarte. Muchas empresas tienen cronogramas específicos de contratación internacional."
+      }
+    },
+    "notice": {
+      "title": "Feria de Empleo 2024 para Estudiantes Internacionales",
+      "description": "¡Conoce talento global que busca trabajar en EE.UU.! Consultas de reclutamiento 1:1, conferencias de empleo de seniors, presentaciones de empresas y varios programas te esperan.",
+      "cta": "Saber Más"
+    },
+    "cta": {
+      "title": "¿Listo para Lanzar tu Carrera?",
+      "description": "Comienza tu viaje profesional en EE.UU. con apoyo completo",
+      "signup": "Regístrate Ahora",
+      "chat": "Chatea con un Asesor de IA"
+    }
   }
 }

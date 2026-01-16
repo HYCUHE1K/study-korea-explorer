@@ -613,5 +613,128 @@
       "planStudies": "Plan Your Studies",
       "askQuestions": "Ask Questions"
     }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Career Opportunities",
+      "title": "Work in USA",
+      "subtitle": "From academics to career - Your journey to success",
+      "description": "We provide employment information and job search services to help international students prepare for and find careers in the USA.",
+      "cta": "Get Started",
+      "viewJobs": "View Job Openings"
+    },
+    "sections": {
+      "employment": "Employment in USA",
+      "system": "Work Visa System",
+      "internship": "Internship & Experience",
+      "recruitment": "Job Openings",
+      "platforms": "Job Platforms",
+      "tips": "Career Tips"
+    },
+    "mainTitle": "International Student Career Support",
+    "mainSubtitle": "Comprehensive employment information and career services for your success",
+    "categories": {
+      "employment": {
+        "title": "Employment in USA",
+        "desc": "Essential information for international students seeking employment in the USA, including job preparation processes and career guidance."
+      },
+      "foreignerSystem": {
+        "title": "Work Visa System",
+        "desc": "Check eligibility information for full-time and part-time employment, including OPT, CPT, and H-1B visa requirements."
+      },
+      "internship": {
+        "title": "Volunteer & Industry Experience",
+        "desc": "Create opportunities for achievement through cultural exchange and practical experience via volunteering and internships."
+      },
+      "recruitment": {
+        "title": "Job Openings",
+        "desc": "We help you find jobs through major employment platforms including LinkedIn, Indeed, and university career centers."
+      }
+    },
+    "additionalTitle": "More Study Abroad Information",
+    "additional": {
+      "scholarships": {
+        "title": "Various Scholarship Support",
+        "desc": "Check scholarships from the US government, corporations, and individual schools for international students."
+      },
+      "consultation": {
+        "title": "AI Kori Online Consultation",
+        "desc": "We respond quickly to your inquiries."
+      },
+      "schoolSearch": {
+        "title": "Find Your University & Major",
+        "desc": "Search by university or major name to find information about schools of interest at a glance."
+      }
+    },
+    "stories": {
+      "title": "Success Stories",
+      "subtitle": "Learn from seniors who successfully found employment in the USA",
+      "video1": {
+        "title": "2024 Job Fair for International Students",
+        "description": "1:1 career consultation supporting employment activities in the USA.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Career Mentoring by Seniors",
+        "description": "Listen to vivid employment stories from mentors from various countries.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "1:1 recruitment consultations, senior career lectures, company recruitment briefings and more.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Job Search Platforms",
+    "platformsSubtitle": "Find job opportunities through leading US employment platforms",
+    "platforms": {
+      "linkedin": "Professional networking and job search",
+      "indeed": "Comprehensive job listings",
+      "glassdoor": "Company reviews and salaries",
+      "handshake": "University career services",
+      "usajobs": "US government positions",
+      "angellist": "Startup and tech jobs",
+      "ziprecruiter": "AI-powered job matching",
+      "monster": "Career resources and jobs"
+    },
+    "tipsTitle": "Career Success Tips",
+    "tipsSubtitle": "Essential strategies for international students seeking employment in the USA",
+    "tips": {
+      "networking": {
+        "title": "Build Your Network",
+        "desc": "Attend career fairs, join professional associations, and connect with alumni to expand your professional network."
+      },
+      "resume": {
+        "title": "Perfect Your Resume",
+        "desc": "Create an American-style resume highlighting achievements, skills, and quantifiable results relevant to target positions."
+      },
+      "skills": {
+        "title": "Develop In-Demand Skills",
+        "desc": "Focus on technical skills, communication abilities, and industry-specific knowledge valued by US employers."
+      },
+      "interview": {
+        "title": "Master Interviews",
+        "desc": "Practice common interview questions, behavioral interviews, and case studies. Prepare thoughtful questions for interviewers."
+      },
+      "linkedin": {
+        "title": "Optimize LinkedIn Profile",
+        "desc": "Create a professional profile with keywords, recommendations, and active engagement to attract recruiters."
+      },
+      "timing": {
+        "title": "Start Early",
+        "desc": "Begin job search 6-9 months before graduation. Many companies have specific international hiring timelines."
+      }
+    },
+    "notice": {
+      "title": "2024 International Student Job Fair",
+      "description": "Meet global talent seeking to work in the USA! 1:1 recruitment consultations, senior employment lectures, company briefings, and various programs await you.",
+      "cta": "Learn More"
+    },
+    "cta": {
+      "title": "Ready to Launch Your Career?",
+      "description": "Start your professional journey in the USA with complete support",
+      "signup": "Sign Up Now",
+      "chat": "Chat with AI Advisor"
+    }
   }
 }

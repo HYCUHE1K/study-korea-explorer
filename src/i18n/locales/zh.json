@@ -359,5 +359,128 @@
       "planStudies": "规划您的学习",
       "askQuestions": "提问"
     }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "职业机会",
+      "title": "在美国工作",
+      "subtitle": "从学术到职业 - 您的成功之路",
+      "description": "我们提供就业信息和求职服务，帮助国际学生在美国准备和寻找职业机会。",
+      "cta": "开始",
+      "viewJobs": "查看职位空缺"
+    },
+    "sections": {
+      "employment": "美国就业",
+      "system": "工作签证制度",
+      "internship": "实习与经验",
+      "recruitment": "职位空缺",
+      "platforms": "求职平台",
+      "tips": "职业技巧"
+    },
+    "mainTitle": "国际学生职业支持",
+    "mainSubtitle": "全面的就业信息和职业服务助您成功",
+    "categories": {
+      "employment": {
+        "title": "美国就业",
+        "desc": "为在美国寻求就业的国际学生提供必要信息，包括求职准备流程和职业指导。"
+      },
+      "foreignerSystem": {
+        "title": "工作签证制度",
+        "desc": "查看全职和兼职就业的资格信息，包括OPT、CPT和H-1B签证要求。"
+      },
+      "internship": {
+        "title": "志愿者与行业经验",
+        "desc": "通过志愿服务和实习进行文化交流和实践经验，创造成就机会。"
+      },
+      "recruitment": {
+        "title": "职位空缺",
+        "desc": "我们帮助您通过LinkedIn、Indeed和大学职业中心等主要就业平台找到工作。"
+      }
+    },
+    "additionalTitle": "更多留学信息",
+    "additional": {
+      "scholarships": {
+        "title": "各种奖学金支持",
+        "desc": "查看美国政府、企业和各个学校为国际学生提供的奖学金。"
+      },
+      "consultation": {
+        "title": "AI在线咨询",
+        "desc": "我们快速回答您的咨询。"
+      },
+      "schoolSearch": {
+        "title": "查找您的大学和专业",
+        "desc": "按大学或专业名称搜索，一目了然地找到感兴趣的学校信息。"
+      }
+    },
+    "stories": {
+      "title": "成功故事",
+      "subtitle": "学习成功在美国找到工作的学长学姐的经验",
+      "video1": {
+        "title": "2024年国际学生招聘会",
+        "description": "支持在美国就业活动的1对1职业咨询。",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "学长学姐职业指导",
+        "description": "聆听来自不同国家的导师生动的就业故事。",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024全球人才招聘会",
+        "description": "1对1招聘咨询、学长学姐职业讲座、企业招聘简报等。",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "求职平台",
+    "platformsSubtitle": "通过美国领先的就业平台寻找工作机会",
+    "platforms": {
+      "linkedin": "专业网络和求职",
+      "indeed": "综合职位列表",
+      "glassdoor": "公司评论和薪资",
+      "handshake": "大学职业服务",
+      "usajobs": "美国政府职位",
+      "angellist": "初创企业和科技工作",
+      "ziprecruiter": "AI驱动的职位匹配",
+      "monster": "职业资源和工作"
+    },
+    "tipsTitle": "职业成功技巧",
+    "tipsSubtitle": "国际学生在美国求职的必备策略",
+    "tips": {
+      "networking": {
+        "title": "建立您的人际网络",
+        "desc": "参加职业招聘会，加入专业协会，与校友联系以扩展您的专业网络。"
+      },
+      "resume": {
+        "title": "完善您的简历",
+        "desc": "创建美式简历，突出成就、技能和与目标职位相关的可量化结果。"
+      },
+      "skills": {
+        "title": "发展需求技能",
+        "desc": "专注于美国雇主重视的技术技能、沟通能力和行业特定知识。"
+      },
+      "interview": {
+        "title": "掌握面试技巧",
+        "desc": "练习常见面试问题、行为面试和案例研究。为面试官准备有见地的问题。"
+      },
+      "linkedin": {
+        "title": "优化LinkedIn个人资料",
+        "desc": "创建包含关键词、推荐和积极参与的专业资料以吸引招聘人员。"
+      },
+      "timing": {
+        "title": "尽早开始",
+        "desc": "在毕业前6-9个月开始求职。许多公司有特定的国际招聘时间表。"
+      }
+    },
+    "notice": {
+      "title": "2024年国际学生招聘会",
+      "description": "与寻求在美国工作的全球人才见面！1对1招聘咨询、学长学姐就业讲座、企业简报会和各种项目等待着您。",
+      "cta": "了解更多"
+    },
+    "cta": {
+      "title": "准备开启您的职业生涯了吗？",
+      "description": "在全面支持下开始您在美国的职业之旅",
+      "signup": "立即注册",
+      "chat": "与AI顾问聊天"
+    }
   }
 }

@@ -359,5 +359,128 @@
       "planStudies": "Lên kế hoạch Học tập",
       "askQuestions": "Đặt câu hỏi"
     }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Cơ hội Nghề nghiệp",
+      "title": "Làm việc tại Mỹ",
+      "subtitle": "Từ học tập đến sự nghiệp - Con đường thành công của bạn",
+      "description": "Chúng tôi cung cấp thông tin việc làm và dịch vụ tìm kiếm việc làm để giúp sinh viên quốc tế chuẩn bị và tìm kiếm sự nghiệp tại Mỹ.",
+      "cta": "Bắt đầu",
+      "viewJobs": "Xem việc làm"
+    },
+    "sections": {
+      "employment": "Việc làm tại Mỹ",
+      "system": "Hệ thống Visa Lao động",
+      "internship": "Thực tập & Kinh nghiệm",
+      "recruitment": "Việc làm",
+      "platforms": "Nền tảng Tìm việc",
+      "tips": "Mẹo Nghề nghiệp"
+    },
+    "mainTitle": "Hỗ trợ Nghề nghiệp Sinh viên Quốc tế",
+    "mainSubtitle": "Thông tin việc làm toàn diện và dịch vụ nghề nghiệp cho sự thành công của bạn",
+    "categories": {
+      "employment": {
+        "title": "Việc làm tại Mỹ",
+        "desc": "Thông tin cần thiết cho sinh viên quốc tế tìm kiếm việc làm tại Mỹ, bao gồm quy trình chuẩn bị công việc và hướng dẫn nghề nghiệp."
+      },
+      "foreignerSystem": {
+        "title": "Hệ thống Visa Lao động",
+        "desc": "Kiểm tra thông tin về điều kiện việc làm toàn thời gian và bán thời gian, bao gồm yêu cầu visa OPT, CPT và H-1B."
+      },
+      "internship": {
+        "title": "Tình nguyện & Kinh nghiệm Ngành",
+        "desc": "Tạo cơ hội thành tựu thông qua trao đổi văn hóa và kinh nghiệm thực tế qua hoạt động tình nguyện và thực tập."
+      },
+      "recruitment": {
+        "title": "Việc làm",
+        "desc": "Chúng tôi giúp bạn tìm việc thông qua các nền tảng việc làm chính bao gồm LinkedIn, Indeed và trung tâm nghề nghiệp đại học."
+      }
+    },
+    "additionalTitle": "Thêm Thông tin Du học",
+    "additional": {
+      "scholarships": {
+        "title": "Hỗ trợ Học bổng Đa dạng",
+        "desc": "Kiểm tra học bổng từ chính phủ Mỹ, các công ty và từng trường học dành cho sinh viên quốc tế."
+      },
+      "consultation": {
+        "title": "Tư vấn Trực tuyến AI",
+        "desc": "Chúng tôi phản hồi nhanh chóng các câu hỏi của bạn."
+      },
+      "schoolSearch": {
+        "title": "Tìm Trường & Chuyên ngành",
+        "desc": "Tìm kiếm theo tên trường đại học hoặc chuyên ngành để tìm thông tin về các trường quan tâm ngay lập tức."
+      }
+    },
+    "stories": {
+      "title": "Câu chuyện Thành công",
+      "subtitle": "Học hỏi từ những tiền bối đã tìm được việc làm thành công tại Mỹ",
+      "video1": {
+        "title": "Hội chợ Việc làm 2024 cho Sinh viên Quốc tế",
+        "description": "Tư vấn nghề nghiệp 1:1 hỗ trợ hoạt động việc làm tại Mỹ.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Hướng dẫn Nghề nghiệp từ Tiền bối",
+        "description": "Lắng nghe những câu chuyện việc làm sống động từ những người hướng dẫn đến từ nhiều quốc gia khác nhau.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "Tư vấn tuyển dụng 1:1, bài giảng nghề nghiệp từ tiền bối, thông tin tuyển dụng công ty và nhiều hơn nữa.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Nền tảng Tìm việc",
+    "platformsSubtitle": "Tìm cơ hội việc làm thông qua các nền tảng việc làm hàng đầu của Mỹ",
+    "platforms": {
+      "linkedin": "Mạng lưới chuyên nghiệp và tìm việc",
+      "indeed": "Danh sách việc làm toàn diện",
+      "glassdoor": "Đánh giá công ty và mức lương",
+      "handshake": "Dịch vụ nghề nghiệp đại học",
+      "usajobs": "Vị trí chính phủ Mỹ",
+      "angellist": "Việc làm khởi nghiệp và công nghệ",
+      "ziprecruiter": "Ghép việc làm bằng AI",
+      "monster": "Tài nguyên nghề nghiệp và việc làm"
+    },
+    "tipsTitle": "Mẹo Thành công Nghề nghiệp",
+    "tipsSubtitle": "Các chiến lược thiết yếu cho sinh viên quốc tế tìm kiếm việc làm tại Mỹ",
+    "tips": {
+      "networking": {
+        "title": "Xây dựng Mạng lưới",
+        "desc": "Tham dự hội chợ việc làm, tham gia các hiệp hội chuyên nghiệp và kết nối với cựu sinh viên để mở rộng mạng lưới chuyên nghiệp."
+      },
+      "resume": {
+        "title": "Hoàn thiện Sơ yếu lý lịch",
+        "desc": "Tạo sơ yếu lý lịch theo phong cách Mỹ nổi bật thành tích, kỹ năng và kết quả có thể định lượng liên quan đến vị trí mục tiêu."
+      },
+      "skills": {
+        "title": "Phát triển Kỹ năng Cần thiết",
+        "desc": "Tập trung vào kỹ năng kỹ thuật, khả năng giao tiếp và kiến thức chuyên ngành được các nhà tuyển dụng Mỹ đánh giá cao."
+      },
+      "interview": {
+        "title": "Thành thạo Phỏng vấn",
+        "desc": "Luyện tập các câu hỏi phỏng vấn thông thường, phỏng vấn hành vi và nghiên cứu tình huống. Chuẩn bị các câu hỏi sâu sắc cho người phỏng vấn."
+      },
+      "linkedin": {
+        "title": "Tối ưu Hồ sơ LinkedIn",
+        "desc": "Tạo hồ sơ chuyên nghiệp với từ khóa, đề xuất và tương tác tích cực để thu hút nhà tuyển dụng."
+      },
+      "timing": {
+        "title": "Bắt đầu Sớm",
+        "desc": "Bắt đầu tìm việc 6-9 tháng trước khi tốt nghiệp. Nhiều công ty có lịch trình tuyển dụng quốc tế cụ thể."
+      }
+    },
+    "notice": {
+      "title": "Hội chợ Việc làm Sinh viên Quốc tế 2024",
+      "description": "Gặp gỡ những tài năng toàn cầu đang tìm kiếm làm việc tại Mỹ! Tư vấn tuyển dụng 1:1, bài giảng việc làm từ tiền bối, thông tin công ty và nhiều chương trình khác đang chờ bạn.",
+      "cta": "Tìm hiểu thêm"
+    },
+    "cta": {
+      "title": "Sẵn sàng Khởi động Sự nghiệp?",
+      "description": "Bắt đầu hành trình nghề nghiệp của bạn tại Mỹ với sự hỗ trợ hoàn toàn",
+      "signup": "Đăng ký Ngay",
+      "chat": "Trò chuyện với Cố vấn AI"
+    }
   }
 }

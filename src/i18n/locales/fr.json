@@ -349,5 +349,128 @@
       "planStudies": "Planifiez vos Études",
       "askQuestions": "Poser des Questions"
     }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Opportunités de Carrière",
+      "title": "Travailler aux États-Unis",
+      "subtitle": "Des études à la carrière - Votre voyage vers le succès",
+      "description": "Nous fournissons des informations sur l'emploi et des services de recherche d'emploi pour aider les étudiants internationaux à se préparer et à trouver des carrières aux États-Unis.",
+      "cta": "Commencer",
+      "viewJobs": "Voir les Offres d'Emploi"
+    },
+    "sections": {
+      "employment": "Emploi aux États-Unis",
+      "system": "Système de Visa de Travail",
+      "internship": "Stage et Expérience",
+      "recruitment": "Offres d'Emploi",
+      "platforms": "Plateformes d'Emploi",
+      "tips": "Conseils de Carrière"
+    },
+    "mainTitle": "Soutien Professionnel pour Étudiants Internationaux",
+    "mainSubtitle": "Informations complètes sur l'emploi et services de carrière pour votre succès",
+    "categories": {
+      "employment": {
+        "title": "Emploi aux États-Unis",
+        "desc": "Informations essentielles pour les étudiants internationaux recherchant un emploi aux États-Unis, y compris les processus de préparation à l'emploi et l'orientation professionnelle."
+      },
+      "foreignerSystem": {
+        "title": "Système de Visa de Travail",
+        "desc": "Vérifiez les informations d'éligibilité pour l'emploi à temps plein et à temps partiel, y compris les exigences des visas OPT, CPT et H-1B."
+      },
+      "internship": {
+        "title": "Bénévolat et Expérience Industrielle",
+        "desc": "Créez des opportunités de réussite grâce à l'échange culturel et à l'expérience pratique via le bénévolat et les stages."
+      },
+      "recruitment": {
+        "title": "Offres d'Emploi",
+        "desc": "Nous vous aidons à trouver des emplois via les principales plateformes d'emploi, notamment LinkedIn, Indeed et les centres de carrière universitaires."
+      }
+    },
+    "additionalTitle": "Plus d'Informations sur les Études à l'Étranger",
+    "additional": {
+      "scholarships": {
+        "title": "Divers Soutiens de Bourses",
+        "desc": "Vérifiez les bourses du gouvernement américain, des entreprises et des écoles individuelles pour les étudiants internationaux."
+      },
+      "consultation": {
+        "title": "Consultation en Ligne AI Kori",
+        "desc": "Nous répondons rapidement à vos demandes."
+      },
+      "schoolSearch": {
+        "title": "Trouvez votre Université et Spécialité",
+        "desc": "Recherchez par nom d'université ou de spécialité pour trouver des informations sur les écoles d'intérêt en un coup d'œil."
+      }
+    },
+    "stories": {
+      "title": "Histoires de Réussite",
+      "subtitle": "Apprenez des anciens qui ont réussi à trouver un emploi aux États-Unis",
+      "video1": {
+        "title": "Salon de l'Emploi 2024 pour Étudiants Internationaux",
+        "description": "Consultation professionnelle 1:1 soutenant les activités d'emploi aux États-Unis.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Mentorat Professionnel par les Anciens",
+        "description": "Écoutez des histoires d'emploi vivantes de mentors de différents pays.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "SALON MONDIAL DES TALENTS 2024",
+        "description": "Consultations de recrutement 1:1, conférences professionnelles des anciens, présentations de recrutement d'entreprises et plus encore.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Plateformes de Recherche d'Emploi",
+    "platformsSubtitle": "Trouvez des opportunités d'emploi via les principales plateformes d'emploi américaines",
+    "platforms": {
+      "linkedin": "Réseautage professionnel et recherche d'emploi",
+      "indeed": "Listes d'emplois complètes",
+      "glassdoor": "Avis d'entreprises et salaires",
+      "handshake": "Services de carrière universitaires",
+      "usajobs": "Postes du gouvernement américain",
+      "angellist": "Emplois dans les startups et la technologie",
+      "ziprecruiter": "Correspondance d'emplois par IA",
+      "monster": "Ressources de carrière et emplois"
+    },
+    "tipsTitle": "Conseils pour Réussir sa Carrière",
+    "tipsSubtitle": "Stratégies essentielles pour les étudiants internationaux recherchant un emploi aux États-Unis",
+    "tips": {
+      "networking": {
+        "title": "Construisez votre Réseau",
+        "desc": "Assistez à des salons de l'emploi, rejoignez des associations professionnelles et connectez-vous avec des anciens pour élargir votre réseau professionnel."
+      },
+      "resume": {
+        "title": "Perfectionnez votre CV",
+        "desc": "Créez un CV de style américain mettant en évidence les réalisations, les compétences et les résultats quantifiables pertinents pour les postes ciblés."
+      },
+      "skills": {
+        "title": "Développez des Compétences Demandées",
+        "desc": "Concentrez-vous sur les compétences techniques, les capacités de communication et les connaissances spécifiques à l'industrie valorisées par les employeurs américains."
+      },
+      "interview": {
+        "title": "Maîtrisez les Entretiens",
+        "desc": "Pratiquez les questions d'entretien courantes, les entretiens comportementaux et les études de cas. Préparez des questions réfléchies pour les interviewers."
+      },
+      "linkedin": {
+        "title": "Optimisez votre Profil LinkedIn",
+        "desc": "Créez un profil professionnel avec des mots-clés, des recommandations et un engagement actif pour attirer les recruteurs."
+      },
+      "timing": {
+        "title": "Commencez Tôt",
+        "desc": "Commencez la recherche d'emploi 6 à 9 mois avant l'obtention du diplôme. De nombreuses entreprises ont des calendriers spécifiques pour l'embauche internationale."
+      }
+    },
+    "notice": {
+      "title": "Salon de l'Emploi 2024 pour Étudiants Internationaux",
+      "description": "Rencontrez des talents mondiaux cherchant à travailler aux États-Unis ! Consultations de recrutement 1:1, conférences d'emploi des anciens, présentations d'entreprises et divers programmes vous attendent.",
+      "cta": "En Savoir Plus"
+    },
+    "cta": {
+      "title": "Prêt à Lancer votre Carrière ?",
+      "description": "Commencez votre parcours professionnel aux États-Unis avec un soutien complet",
+      "signup": "S'inscrire Maintenant",
+      "chat": "Discuter avec un Conseiller IA"
+    }
   }
 }

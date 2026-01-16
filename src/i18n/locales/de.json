@@ -349,5 +349,128 @@
       "planStudies": "Planen Sie Ihr Studium",
       "askQuestions": "Fragen stellen"
     }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Karrieremöglichkeiten",
+      "title": "Arbeiten in den USA",
+      "subtitle": "Vom Studium zur Karriere - Ihr Weg zum Erfolg",
+      "description": "Wir bieten Beschäftigungsinformationen und Jobsuchdienste, um internationale Studenten auf ihre Karriere in den USA vorzubereiten und zu helfen.",
+      "cta": "Jetzt Starten",
+      "viewJobs": "Stellenangebote Ansehen"
+    },
+    "sections": {
+      "employment": "Beschäftigung in den USA",
+      "system": "Arbeitsvisasystem",
+      "internship": "Praktikum & Erfahrung",
+      "recruitment": "Stellenangebote",
+      "platforms": "Job-Plattformen",
+      "tips": "Karrieretipps"
+    },
+    "mainTitle": "Karriereunterstützung für Internationale Studenten",
+    "mainSubtitle": "Umfassende Beschäftigungsinformationen und Karrieredienste für Ihren Erfolg",
+    "categories": {
+      "employment": {
+        "title": "Beschäftigung in den USA",
+        "desc": "Wichtige Informationen für internationale Studenten, die eine Beschäftigung in den USA suchen, einschließlich Jobvorbereitungsprozessen und Karriereberatung."
+      },
+      "foreignerSystem": {
+        "title": "Arbeitsvisasystem",
+        "desc": "Überprüfen Sie Berechtigungsinformationen für Vollzeit- und Teilzeitbeschäftigung, einschließlich OPT-, CPT- und H-1B-Visa-Anforderungen."
+      },
+      "internship": {
+        "title": "Freiwilligenarbeit & Branchenerfahrung",
+        "desc": "Schaffen Sie Erfolgschancen durch kulturellen Austausch und praktische Erfahrung über Freiwilligenarbeit und Praktika."
+      },
+      "recruitment": {
+        "title": "Stellenangebote",
+        "desc": "Wir helfen Ihnen, Jobs über wichtige Beschäftigungsplattformen wie LinkedIn, Indeed und universitäre Karrierezentren zu finden."
+      }
+    },
+    "additionalTitle": "Weitere Informationen zum Auslandsstudium",
+    "additional": {
+      "scholarships": {
+        "title": "Verschiedene Stipendienunterstützung",
+        "desc": "Überprüfen Sie Stipendien von der US-Regierung, Unternehmen und einzelnen Schulen für internationale Studenten."
+      },
+      "consultation": {
+        "title": "KI Kori Online-Beratung",
+        "desc": "Wir beantworten Ihre Anfragen schnell."
+      },
+      "schoolSearch": {
+        "title": "Finden Sie Ihre Universität & Ihr Hauptfach",
+        "desc": "Suchen Sie nach Universitäts- oder Studiengangnamen, um Informationen über interessante Schulen auf einen Blick zu finden."
+      }
+    },
+    "stories": {
+      "title": "Erfolgsgeschichten",
+      "subtitle": "Lernen Sie von Absolventen, die erfolgreich eine Beschäftigung in den USA gefunden haben",
+      "video1": {
+        "title": "2024 Jobmesse für Internationale Studenten",
+        "description": "1:1 Karriereberatung zur Unterstützung von Beschäftigungsaktivitäten in den USA.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Karriere-Mentoring durch Absolventen",
+        "description": "Hören Sie lebendige Beschäftigungsgeschichten von Mentoren aus verschiedenen Ländern.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "1:1 Rekrutierungsberatungen, Karrierevorträge von Absolventen, Unternehmenspräsentationen und mehr.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Jobsuch-Plattformen",
+    "platformsSubtitle": "Finden Sie Jobmöglichkeiten über führende US-Beschäftigungsplattformen",
+    "platforms": {
+      "linkedin": "Professionelles Networking und Jobsuche",
+      "indeed": "Umfassende Stellenangebote",
+      "glassdoor": "Unternehmensbewertungen und Gehälter",
+      "handshake": "Universitäre Karrieredienste",
+      "usajobs": "US-Regierungspositionen",
+      "angellist": "Startup- und Tech-Jobs",
+      "ziprecruiter": "KI-gestütztes Job-Matching",
+      "monster": "Karriereressourcen und Jobs"
+    },
+    "tipsTitle": "Karriere-Erfolgstipps",
+    "tipsSubtitle": "Wesentliche Strategien für internationale Studenten, die eine Beschäftigung in den USA suchen",
+    "tips": {
+      "networking": {
+        "title": "Bauen Sie Ihr Netzwerk auf",
+        "desc": "Besuchen Sie Karrieremessen, treten Sie Berufsverbänden bei und vernetzen Sie sich mit Alumni, um Ihr berufliches Netzwerk zu erweitern."
+      },
+      "resume": {
+        "title": "Perfektionieren Sie Ihren Lebenslauf",
+        "desc": "Erstellen Sie einen amerikanischen Lebenslauf, der Erfolge, Fähigkeiten und quantifizierbare Ergebnisse hervorhebt, die für Zielpositionen relevant sind."
+      },
+      "skills": {
+        "title": "Entwickeln Sie gefragte Fähigkeiten",
+        "desc": "Konzentrieren Sie sich auf technische Fähigkeiten, Kommunikationsfähigkeiten und branchenspezifisches Wissen, das von US-Arbeitgebern geschätzt wird."
+      },
+      "interview": {
+        "title": "Meistern Sie Interviews",
+        "desc": "Üben Sie häufige Interviewfragen, Verhaltensinterviews und Fallstudien. Bereiten Sie durchdachte Fragen für Interviewer vor."
+      },
+      "linkedin": {
+        "title": "Optimieren Sie Ihr LinkedIn-Profil",
+        "desc": "Erstellen Sie ein professionelles Profil mit Keywords, Empfehlungen und aktivem Engagement, um Recruiter anzuziehen."
+      },
+      "timing": {
+        "title": "Früh Beginnen",
+        "desc": "Beginnen Sie die Jobsuche 6-9 Monate vor dem Abschluss. Viele Unternehmen haben spezifische Zeitpläne für die internationale Einstellung."
+      }
+    },
+    "notice": {
+      "title": "2024 Jobmesse für Internationale Studenten",
+      "description": "Treffen Sie globale Talente, die in den USA arbeiten möchten! 1:1 Rekrutierungsberatungen, Beschäftigungsvorträge von Absolventen, Unternehmenspräsentationen und verschiedene Programme erwarten Sie.",
+      "cta": "Mehr Erfahren"
+    },
+    "cta": {
+      "title": "Bereit, Ihre Karriere zu starten?",
+      "description": "Starten Sie Ihre berufliche Reise in den USA mit vollständiger Unterstützung",
+      "signup": "Jetzt Registrieren",
+      "chat": "Mit KI-Berater Chatten"
+    }
   }
 }
