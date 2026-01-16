@@ -77,6 +77,34 @@
           "application": "Online Application",
           "guidebook": "Study Guidebook"
         }
+      },
+      "lifeInUSA": {
+        "items": {
+          "immigration": {
+            "title": "Immigration Procedures",
+            "description": "Entry documents and procedures"
+          },
+          "housing": {
+            "title": "Living and Housing",
+            "description": "Accommodation types and living environment"
+          },
+          "regions": {
+            "title": "Introduction to US Regions",
+            "description": "Major cities and regional characteristics"
+          },
+          "livingCosts": {
+            "title": "Living Costs and Expenses",
+            "description": "Cost of living by city"
+          },
+          "stayDuration": {
+            "title": "Residence Eligibility & Stay Duration",
+            "description": "Visa status and stay period management"
+          },
+          "legalInfo": {
+            "title": "Legal Information for Living",
+            "description": "Legal guidance for international students"
+          }
+        }
       }
     }
   },

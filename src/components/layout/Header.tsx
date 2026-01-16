@@ -121,12 +121,47 @@ export const Header = () => {
     },
   ];
 
+  const lifeInUSAItems: MegaMenuItem[] = [
+    { 
+      title: t("header.megaMenu.lifeInUSA.items.immigration.title"), 
+      description: t("header.megaMenu.lifeInUSA.items.immigration.description"),
+      href: "/life-in-usa/immigration"
+    },
+    { 
+      title: t("header.megaMenu.lifeInUSA.items.housing.title"), 
+      description: t("header.megaMenu.lifeInUSA.items.housing.description"),
+      href: "/life-in-usa/housing"
+    },
+    { 
+      title: t("header.megaMenu.lifeInUSA.items.regions.title"), 
+      description: t("header.megaMenu.lifeInUSA.items.regions.description"),
+      href: "/life-in-usa/regions"
+    },
+    { 
+      title: t("header.megaMenu.lifeInUSA.items.livingCosts.title"), 
+      description: t("header.megaMenu.lifeInUSA.items.livingCosts.description"),
+      href: "/life-in-usa/living-costs"
+    },
+    { 
+      title: t("header.megaMenu.lifeInUSA.items.stayDuration.title"), 
+      description: t("header.megaMenu.lifeInUSA.items.stayDuration.description"),
+      href: "/life-in-usa/stay-duration"
+    },
+    { 
+      title: t("header.megaMenu.lifeInUSA.items.legalInfo.title"), 
+      description: t("header.megaMenu.lifeInUSA.items.legalInfo.description"),
+      href: "/life-in-usa/legal-info"
+    },
+  ];
+
   const getMegaMenuItems = (menuKey: string) => {
     switch (menuKey) {
       case "whyUSA":
         return { items: whyUSAItems, quickLinks: null };
       case "planStudies":
         return { items: planStudiesItems, quickLinks: planStudiesQuickLinks };
+      case "lifeInUSA":
+        return { items: lifeInUSAItems, quickLinks: null };
       default:
         return { items: [], quickLinks: null };
     }
@@ -135,7 +170,7 @@ export const Header = () => {
   const navItems = [
     { label: t("header.nav.whyUSA"), href: "#", hasMegaMenu: true, menuKey: "whyUSA" },
     { label: t("header.nav.planStudies"), href: "#", hasMegaMenu: true, menuKey: "planStudies" },
-    { label: t("header.nav.lifeInUSA"), href: "#" },
+    { label: t("header.nav.lifeInUSA"), href: "#", hasMegaMenu: true, menuKey: "lifeInUSA" },
     { label: t("header.nav.workInUSA"), href: "#" },
     { label: t("header.nav.universities"), href: "#" },
     { label: t("header.nav.aiChat"), href: "/chat", isHighlight: true },
