@@ -5,16 +5,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { 
-  Plane, 
-  Home, 
-  MapPin, 
-  Wallet, 
-  FileText, 
-  Scale,
-  Heart,
-  Users,
-  Camera,
-  Tag,
   ArrowRight,
   ShoppingBag,
   Briefcase,
@@ -24,38 +14,37 @@ import {
 import { Link } from 'react-router-dom';
 
 interface LifeCardProps {
-  icon: React.ReactNode;
+  imageUrl: string;
   title: string;
   description: string;
   link?: string;
-  gradient?: string;
 }
 
-const LifeCard = ({ icon, title, description, link, gradient = 'from-primary/10 via-green-light/20 to-primary/5' }: LifeCardProps) => {
+const LifeCard = ({ imageUrl, title, description, link }: LifeCardProps) => {
   const CardWrapper = link ? 'a' : 'div';
   const cardProps = link ? { href: link } : {};
 
   return (
-    <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer overflow-hidden border-2 hover:border-primary/50">
+    <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer overflow-hidden">
       <CardContent className="p-0">
         <CardWrapper {...cardProps} className="block">
-          <div className={`aspect-video bg-gradient-to-br ${gradient} flex items-center justify-center relative overflow-hidden`}>
-            <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-            <div className="text-primary z-10 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
-              {icon}
-            </div>
+          <div className="aspect-video relative overflow-hidden bg-gray-100">
+            <img 
+              src={imageUrl} 
+              alt={title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
           </div>
-          <div className="p-6">
-            <h3 className="font-bold text-lg mb-3 text-foreground group-hover:text-primary transition-colors">
+          <div className="p-5">
+            <h3 className="font-bold text-base mb-2 text-foreground group-hover:text-primary transition-colors line-clamp-2">
               {title}
             </h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
               {description}
             </p>
             {link && (
-              <div className="flex items-center text-primary mt-4 text-sm font-medium">
-                <span>Learn More</span>
-                <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-2 transition-transform" />
+              <div className="flex items-center text-primary mt-3 text-sm font-medium">
+                <span>→</span>
               </div>
             )}
           </div>
@@ -70,60 +59,61 @@ const LifeInUSA = () => {
 
   const mainCategories = [
     {
-      icon: <Plane className="w-16 h-16" />,
+      imageUrl: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80',
       titleKey: 'lifeInUSA.categories.immigration.title',
       descKey: 'lifeInUSA.categories.immigration.desc',
-      gradient: 'from-blue-50 via-blue-100/50 to-blue-50',
+      link: '#immigration',
     },
     {
-      icon: <Home className="w-16 h-16" />,
+      imageUrl: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80',
       titleKey: 'lifeInUSA.categories.housing.title',
       descKey: 'lifeInUSA.categories.housing.desc',
-      gradient: 'from-green-50 via-green-100/50 to-green-50',
+      link: '#housing',
     },
     {
-      icon: <MapPin className="w-16 h-16" />,
+      imageUrl: 'https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=80',
       titleKey: 'lifeInUSA.categories.regions.title',
       descKey: 'lifeInUSA.categories.regions.desc',
-      gradient: 'from-purple-50 via-purple-100/50 to-purple-50',
+      link: '#regions',
     },
     {
-      icon: <Wallet className="w-16 h-16" />,
+      imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80',
       titleKey: 'lifeInUSA.categories.livingCosts.title',
       descKey: 'lifeInUSA.categories.livingCosts.desc',
-      gradient: 'from-amber-50 via-amber-100/50 to-amber-50',
+      link: '#costs',
     },
     {
-      icon: <FileText className="w-16 h-16" />,
+      imageUrl: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80',
       titleKey: 'lifeInUSA.categories.stayDuration.title',
       descKey: 'lifeInUSA.categories.stayDuration.desc',
-      gradient: 'from-teal-50 via-teal-100/50 to-teal-50',
+      link: '#duration',
     },
     {
-      icon: <Scale className="w-16 h-16" />,
+      imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80',
       titleKey: 'lifeInUSA.categories.legalInfo.title',
       descKey: 'lifeInUSA.categories.legalInfo.desc',
-      gradient: 'from-indigo-50 via-indigo-100/50 to-indigo-50',
+      link: '#legal',
     },
   ];
 
   const additionalInfo = [
     {
-      icon: <GraduationCap className="w-12 h-12" />,
+      imageUrl: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80',
       titleKey: 'lifeInUSA.additional.scholarships.title',
       descKey: 'lifeInUSA.additional.scholarships.desc',
       link: '/plan-studies#scholarships',
     },
     {
-      icon: <Users className="w-12 h-12" />,
+      imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80',
       titleKey: 'lifeInUSA.additional.consultation.title',
       descKey: 'lifeInUSA.additional.consultation.desc',
       link: '/chat',
     },
     {
-      icon: <Heart className="w-12 h-12" />,
+      imageUrl: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&q=80',
       titleKey: 'lifeInUSA.additional.findSchool.title',
       descKey: 'lifeInUSA.additional.findSchool.desc',
+      link: '#',
     },
   ];
 
@@ -160,54 +150,50 @@ const LifeInUSA = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-background via-primary/5 to-green-light/10">
+    <div className="min-h-screen flex flex-col bg-white">
       <Header />
       
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative py-20 px-4 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-blue-500/10"></div>
-          <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        {/* Hero Section with Background Image */}
+        <section className="relative h-[400px] overflow-hidden">
+          <div className="absolute inset-0">
+            <img 
+              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80" 
+              alt="Life in USA"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40"></div>
+          </div>
           
-          <div className="container mx-auto relative z-10">
-            <div className="max-w-3xl mx-auto text-center">
-              <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6">
-                <Shield className="w-4 h-4" />
-                <span className="text-sm font-medium">{t('lifeInUSA.hero.badge')}</span>
-              </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <div className="container mx-auto px-4 h-full relative z-10 flex items-center">
+            <div className="max-w-2xl text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 {t('lifeInUSA.hero.title')}
               </h1>
-              <p className="text-xl text-muted-foreground mb-6">
+              <p className="text-xl md:text-2xl text-white/90">
                 {t('lifeInUSA.hero.subtitle')}
-              </p>
-              <p className="text-lg text-muted-foreground">
-                {t('lifeInUSA.hero.description')}
               </p>
             </div>
           </div>
         </section>
 
         {/* Main Categories Section */}
-        <section className="py-16 px-4">
+        <section className="py-16 px-4 bg-gray-50">
           <div className="container mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">
+            <div className="mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 {t('lifeInUSA.sections.lifeInUSA')}
               </h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                {t('lifeInUSA.sections.subtitle')}
-              </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
               {mainCategories.map((category, index) => (
                 <LifeCard
                   key={index}
-                  icon={category.icon}
+                  imageUrl={category.imageUrl}
                   title={t(category.titleKey)}
                   description={t(category.descKey)}
-                  gradient={category.gradient}
+                  link={category.link}
                 />
               ))}
             </div>
@@ -215,10 +201,10 @@ const LifeInUSA = () => {
         </section>
 
         {/* Additional Information Section */}
-        <section className="py-16 px-4 bg-muted/30">
+        <section className="py-16 px-4 bg-white">
           <div className="container mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">
+            <div className="mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 {t('lifeInUSA.sections.additionalInfo')}
               </h2>
             </div>
@@ -227,7 +213,7 @@ const LifeInUSA = () => {
               {additionalInfo.map((info, index) => (
                 <LifeCard
                   key={index}
-                  icon={info.icon}
+                  imageUrl={info.imageUrl}
                   title={t(info.titleKey)}
                   description={t(info.descKey)}
                   link={info.link}
@@ -238,41 +224,39 @@ const LifeInUSA = () => {
         </section>
 
         {/* Stories Section */}
-        <section className="py-16 px-4">
+        <section className="py-16 px-4 bg-gray-50">
           <div className="container mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">
+            <div className="mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
                 {t('lifeInUSA.sections.stories')}
               </h2>
-              <p className="text-muted-foreground">
-                {t('lifeInUSA.sections.storiesSubtitle')}
-              </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {stories.map((story, index) => (
-                <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow group">
+                <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer">
                   <CardContent className="p-0">
                     <div className="aspect-video bg-black relative overflow-hidden">
-                      <div className="absolute inset-0 flex items-center justify-center bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                        <Camera className="w-16 h-16 text-white opacity-50" />
+                      <img 
+                        src={`https://img.youtube.com/vi/${story.videoId}/maxresdefault.jpg`}
+                        alt={t(story.titleKey)}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.src = `https://img.youtube.com/vi/${story.videoId}/hqdefault.jpg`;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                        <div className="w-16 h-16 rounded-full bg-white/90 flex items-center justify-center">
+                          <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-primary border-b-8 border-b-transparent ml-1"></div>
+                        </div>
                       </div>
-                      <iframe
-                        width="100%"
-                        height="100%"
-                        src={`https://www.youtube.com/embed/${story.videoId}`}
-                        title={t(story.titleKey)}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="absolute inset-0 z-10"
-                      ></iframe>
                     </div>
-                    <div className="p-4 bg-card">
-                      <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition-colors">
+                    <div className="p-5 bg-white">
+                      <h3 className="font-bold text-base mb-2 group-hover:text-primary transition-colors line-clamp-2">
                         {t(story.titleKey)}
                       </h3>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-gray-600 line-clamp-2">
                         {t(story.descKey)}
                       </p>
                     </div>
@@ -284,23 +268,18 @@ const LifeInUSA = () => {
         </section>
 
         {/* Tags Section */}
-        <section className="py-16 px-4 bg-muted/20">
+        <section className="py-12 px-4 bg-white border-t border-gray-200">
           <div className="container mx-auto">
-            <div className="text-center mb-8">
-              <div className="flex items-center justify-center gap-2 mb-6">
-                <Tag className="w-6 h-6 text-primary" />
-                <h2 className="text-2xl font-bold text-foreground">
-                  {t('lifeInUSA.sections.tags')}
-                </h2>
-              </div>
+            <div className="mb-6">
+              <h3 className="text-lg font-bold text-gray-900">Tag</h3>
             </div>
             
-            <div className="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
+            <div className="flex flex-wrap gap-2 max-w-4xl">
               {tags.map((tag, index) => (
                 <Badge 
                   key={index} 
                   variant="outline" 
-                  className="px-4 py-2 text-sm hover:bg-primary hover:text-primary-foreground transition-colors cursor-pointer"
+                  className="px-4 py-2 text-sm bg-white hover:bg-gray-50 border-gray-300 text-gray-700 cursor-pointer rounded-full"
                 >
                   #{t(tag.label)}
                 </Badge>
@@ -310,59 +289,29 @@ const LifeInUSA = () => {
         </section>
 
         {/* Quick Links Section */}
-        <section className="py-16 px-4">
+        <section className="py-12 px-4 bg-gray-100">
           <div className="container mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4">
-                {t('lifeInUSA.sections.quickMore')}
-              </h2>
+            <div className="mb-6">
+              <h3 className="text-lg font-bold text-gray-900">Quick more</h3>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
               {quickLinks.map((link, index) => (
-                <Button 
+                <button 
                   key={index}
-                  variant="outline" 
-                  className="h-auto py-6 flex flex-col items-center gap-3 hover:bg-primary hover:text-primary-foreground transition-all group"
-                  asChild
+                  className="bg-white border border-gray-300 rounded-lg p-4 hover:border-primary hover:shadow-md transition-all text-left group"
                 >
-                  <a href="#">
-                    <div className="text-primary group-hover:text-primary-foreground">
+                  <div className="flex items-start gap-3">
+                    <div className="text-primary mt-1">
                       {link.icon}
                     </div>
-                    <span className="text-center text-sm">{t(link.label)}</span>
-                  </a>
-                </Button>
+                    <span className="text-sm text-gray-700 group-hover:text-primary transition-colors">
+                      {t(link.label)}
+                    </span>
+                  </div>
+                  <div className="text-primary text-sm mt-2">→</div>
+                </button>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-20 px-4 bg-gradient-to-r from-primary to-blue-600 text-white">
-          <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              {t('lifeInUSA.cta.title')}
-            </h2>
-            <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              {t('lifeInUSA.cta.description')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" asChild>
-                <Link to="/plan-studies">
-                  {t('lifeInUSA.cta.planStudies')}
-                </Link>
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="bg-transparent text-white border-white hover:bg-white/10" 
-                asChild
-              >
-                <Link to="/chat">
-                  {t('lifeInUSA.cta.askQuestions')}
-                </Link>
-              </Button>
             </div>
           </div>
         </section>
