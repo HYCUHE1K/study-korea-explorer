@@ -163,5 +163,102 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "planStudies": {
+    "hero": {
+      "title": "Planen Sie Ihr Studium",
+      "subtitle": "Überhaupt nicht schwierig.",
+      "description": "Bereiten Sie alles vor, von der Schulauswahl bis zu Visumsantragsinfos in Korea."
+    },
+    "sections": {
+      "planYourStudy": "Planen Sie Ihr Studium",
+      "additionalInfo": "Mehr über das Auslandsstudium erfahren",
+      "stories": "Geschichten",
+      "quickMore": "Schnelle Links"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "Koreas Bildungssystem",
+        "desc": "Koreas Hochschulsystem ist in Bachelor-, Master- und Promotionsstudiengänge an Universitäten und Hochschulen unterteilt. Sprachausbildungsprogramme sind auch an universitätsnahen Einrichtungen verfügbar."
+      },
+      "schoolType": {
+        "title": "Schultypen",
+        "desc": "Wenn Sie ein Studium in Korea in Betracht ziehen, informieren Sie sich über verschiedene Schulinformationen und Programme."
+      },
+      "certifiedUniversity": {
+        "title": "Zertifizierte Spitzenuniversitäten",
+        "desc": "Informieren Sie sich über zertifizierte Universitäten in Korea mit hoher Internationalisierungsfähigkeit."
+      },
+      "examAndKorean": {
+        "title": "TOPIK & Koreanisch-Studium",
+        "desc": "Erfahren Sie mehr über die koreanische Sprachkompetenzprüfung und Möglichkeiten, Koreanisch zu lernen."
+      },
+      "expenses": {
+        "title": "Studienkosten",
+        "desc": "Für ein erfolgreiches Auslandsstudienleben müssen Sie neben den Universitätsgebühren auch andere Ausgaben berücksichtigen."
+      },
+      "scholarship": {
+        "title": "Stipendien",
+        "desc": "Es werden verschiedene Stipendien bereitgestellt, um die Studienmöglichkeiten internationaler Studenten zu unterstützen."
+      },
+      "visa": {
+        "title": "Studentenvisum & Aufenthaltsstatus",
+        "desc": "Überprüfen Sie die Berechtigung für jedes Programm und die erforderlichen Dokumente für den Visumsantrag."
+      },
+      "flowChart": {
+        "title": "Bewerbungsflussdiagramm",
+        "desc": "Informieren Sie sich im Voraus über den Bewerbungsprozess der Universität, bei der Sie sich bewerben möchten."
+      },
+      "onlineApplication": {
+        "title": "Online-Bewerbung",
+        "desc": "Sobald Sie sich für ein Auslandsstudium entschieden haben, können Sie sich über Study in Korea einfach online bewerben."
+      },
+      "guidebook": {
+        "title": "Leitfaden",
+        "desc": "Erhalten Sie Hilfe durch Leitfäden von der Studienvorbereitung bis zum Auslandsstudienleben."
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "Fachbereich & Universität finden",
+        "desc": "Suchen Sie nach Universitäts- oder Studiengangnamen, um interessante Schulinformationen auf einen Blick zu finden."
+      },
+      "onlineKorean": {
+        "title": "Online Koreanisch lernen",
+        "desc": "Sehen Sie sich verschiedene Online-Lernressourcen an, einschließlich Koreanisch durch koreanische Kultur und praktisches Koreanisch am King Sejong Institut."
+      },
+      "consultation": {
+        "title": "Online-Beratung",
+        "desc": "Wir beantworten Ihre Anfragen schnell."
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "GKS-Alumni-Einladungstraining",
+        "desc": "Eine wertvolle Gelegenheit, die neue Möglichkeiten für die Zukunft eröffnen wird. Die koreanische Regierung unterstützt Stipendien."
+      },
+      "interview": {
+        "title": "Interview mit internationalem Studenten",
+        "desc": "Ich kam mit einem Regierungsstipendium zum Studium nach Korea. Ich verbrachte eine sehr nützliche Zeit in Korea."
+      },
+      "opportunity": {
+        "title": "Möglichkeit zum Studium in Korea",
+        "desc": "Internationalen Studenten werden jedes Jahr Möglichkeiten für Bachelor- und Graduiertenstudiengänge geboten."
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "Fachbereichs- und Universitätsinformationen finden",
+      "guidebook": "Leitfaden herunterladen",
+      "certifiedUniversity": "Zertifizierte Spitzenuniversitäten prüfen",
+      "onlineApplication": "Einfach online bewerben",
+      "topik": "TOPIK-Prüfungsanmeldung & Zeitplan prüfen",
+      "scholarship": "Verfügbare Stipendien finden"
+    },
+    "cta": {
+      "title": "Bereit, Ihre Reise zu beginnen?",
+      "description": "Beginnen Sie noch heute Ihre Auslandsstudienplanung mit uns",
+      "getStarted": "Loslegen",
+      "askQuestions": "Fragen stellen"
+    }
   }
 }

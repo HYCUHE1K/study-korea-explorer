@@ -173,5 +173,102 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "planStudies": {
+    "hero": {
+      "title": "留学計画",
+      "subtitle": "全く難しくありません。",
+      "description": "学校選択からビザ申請情報まで、韓国ですべてを準備しましょう。"
+    },
+    "sections": {
+      "planYourStudy": "留学計画",
+      "additionalInfo": "留学についてもっと知る",
+      "stories": "ストーリー",
+      "quickMore": "クイックリンク"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "韓国の教育システム",
+        "desc": "韓国の高等教育システムは、大学と専門学校で学士、修士、博士課程に分かれています。大学付属機関では語学研修プログラムも利用できます。"
+      },
+      "schoolType": {
+        "title": "学校の種類",
+        "desc": "韓国留学を検討している場合は、さまざまな学校情報とプログラムをご確認ください。"
+      },
+      "certifiedUniversity": {
+        "title": "認定優秀大学",
+        "desc": "国際化能力の高い韓国の認定大学をご確認ください。"
+      },
+      "examAndKorean": {
+        "title": "TOPIK及び韓国語学習",
+        "desc": "韓国語能力試験と韓国語学習方法について学びましょう。"
+      },
+      "expenses": {
+        "title": "留学費用",
+        "desc": "成功した留学生活のために、大学の学費以外の費用も考慮する必要があります。"
+      },
+      "scholarship": {
+        "title": "奨学金",
+        "desc": "留学生の学習機会を支援するためのさまざまな奨学金が提供されています。"
+      },
+      "visa": {
+        "title": "学生ビザと滞在資格",
+        "desc": "各プログラムの資格とビザ申請に必要な書類を確認してください。"
+      },
+      "flowChart": {
+        "title": "申請フローチャート",
+        "desc": "志望大学の出願プロセスを事前に学びましょう。"
+      },
+      "onlineApplication": {
+        "title": "オンライン申請",
+        "desc": "留学を決めたら、Study in Koreaを通じて簡単にオンライン申請できます。"
+      },
+      "guidebook": {
+        "title": "ガイドブック",
+        "desc": "留学準備から留学生活まで、ガイドブックを通じてサポートを受けられます。"
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "学科・大学検索",
+        "desc": "大学名や専攻名で検索し、関心のある学校情報を一目で確認できます。"
+      },
+      "onlineKorean": {
+        "title": "オンライン韓国語学習",
+        "desc": "世宗学堂の韓国文化を通じた韓国語や実用韓国語など、さまざまなオンライン学習リソースをご参照ください。"
+      },
+      "consultation": {
+        "title": "オンライン相談",
+        "desc": "お問い合わせに迅速に回答いたします。"
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "GKS同窓生招待研修",
+        "desc": "未来の新しい可能性を開く貴重な機会です。韓国政府が奨学金を支援します。"
+      },
+      "interview": {
+        "title": "留学生インタビュー",
+        "desc": "政府奨学金で韓国に留学しました。韓国で非常に有益な時間を過ごしました。"
+      },
+      "opportunity": {
+        "title": "韓国留学の機会",
+        "desc": "毎年、留学生向けに学部・大学院課程の機会が提供されています。"
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "学科・大学情報の検索",
+      "guidebook": "ガイドブックのダウンロード",
+      "certifiedUniversity": "認定優秀大学の確認",
+      "onlineApplication": "簡単オンライン申請",
+      "topik": "TOPIK試験申請・日程確認",
+      "scholarship": "利用可能な奨学金の検索"
+    },
+    "cta": {
+      "title": "旅を始める準備はできましたか？",
+      "description": "今日から私たちと一緒に留学計画を始めましょう",
+      "getStarted": "始める",
+      "askQuestions": "質問する"
+    }
   }
 }

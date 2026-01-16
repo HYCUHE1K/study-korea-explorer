@@ -163,5 +163,102 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "planStudies": {
+    "hero": {
+      "title": "Planifiez vos études",
+      "subtitle": "Pas difficile du tout.",
+      "description": "Préparez tout, de la sélection de l'école aux informations sur la demande de visa en Corée."
+    },
+    "sections": {
+      "planYourStudy": "Planifiez vos études",
+      "additionalInfo": "En savoir plus sur les études à l'étranger",
+      "stories": "Histoires",
+      "quickMore": "Liens rapides"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "Système éducatif coréen",
+        "desc": "Le système d'enseignement supérieur coréen est divisé en programmes de licence, master et doctorat dans les universités et collèges. Des programmes de formation linguistique sont également disponibles dans les institutions affiliées aux universités."
+      },
+      "schoolType": {
+        "title": "Types d'établissements",
+        "desc": "Si vous envisagez d'étudier en Corée, consultez les informations et programmes de diverses écoles."
+      },
+      "certifiedUniversity": {
+        "title": "Universités d'excellence certifiées",
+        "desc": "Consultez les universités certifiées en Corée avec une forte capacité d'internationalisation."
+      },
+      "examAndKorean": {
+        "title": "TOPIK et étude du coréen",
+        "desc": "Renseignez-vous sur le test de compétence en langue coréenne et les façons d'étudier le coréen."
+      },
+      "expenses": {
+        "title": "Frais d'études",
+        "desc": "Pour une vie d'études réussie à l'étranger, vous devez considérer d'autres dépenses en plus des frais de scolarité universitaires."
+      },
+      "scholarship": {
+        "title": "Bourses",
+        "desc": "Diverses bourses sont fournies pour soutenir les opportunités d'études des étudiants internationaux."
+      },
+      "visa": {
+        "title": "Visa étudiant et statut de résidence",
+        "desc": "Vérifiez l'éligibilité pour chaque programme et les documents requis pour la demande de visa."
+      },
+      "flowChart": {
+        "title": "Organigramme de candidature",
+        "desc": "Renseignez-vous à l'avance sur le processus de candidature de l'université à laquelle vous souhaitez postuler."
+      },
+      "onlineApplication": {
+        "title": "Candidature en ligne",
+        "desc": "Une fois que vous avez décidé d'étudier à l'étranger, vous pouvez facilement postuler en ligne via Study in Korea."
+      },
+      "guidebook": {
+        "title": "Guide",
+        "desc": "Obtenez de l'aide grâce aux guides, de la préparation des études à la vie étudiante à l'étranger."
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "Trouver département et université",
+        "desc": "Recherchez par nom d'université ou de spécialité pour trouver les informations scolaires d'intérêt en un coup d'œil."
+      },
+      "onlineKorean": {
+        "title": "Apprentissage du coréen en ligne",
+        "desc": "Consultez diverses ressources d'apprentissage en ligne, y compris le coréen à travers la culture coréenne et le coréen pratique à l'Institut Roi Sejong."
+      },
+      "consultation": {
+        "title": "Consultation en ligne",
+        "desc": "Nous répondons rapidement à vos questions."
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "Formation d'invitation des anciens élèves GKS",
+        "desc": "Une opportunité précieuse qui ouvrira de nouvelles possibilités pour l'avenir. Le gouvernement coréen soutient les bourses."
+      },
+      "interview": {
+        "title": "Interview d'étudiant international",
+        "desc": "Je suis venu étudier en Corée avec une bourse gouvernementale. J'ai passé un temps très bénéfique en Corée."
+      },
+      "opportunity": {
+        "title": "Opportunité d'étudier en Corée",
+        "desc": "Des opportunités sont offertes aux étudiants internationaux pour des programmes de licence et de cycles supérieurs chaque année."
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "Trouver les informations sur le département et l'université",
+      "guidebook": "Télécharger le guide",
+      "certifiedUniversity": "Consulter les universités d'excellence certifiées",
+      "onlineApplication": "Postuler facilement en ligne",
+      "topik": "Vérifier la demande et le calendrier de l'examen TOPIK",
+      "scholarship": "Trouver les bourses disponibles"
+    },
+    "cta": {
+      "title": "Prêt à commencer votre voyage ?",
+      "description": "Commencez votre planification d'études à l'étranger avec nous aujourd'hui",
+      "getStarted": "Commencer",
+      "askQuestions": "Poser des questions"
+    }
   }
 }
