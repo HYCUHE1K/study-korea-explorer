@@ -3,11 +3,10 @@
     "logo": "Go Almond",
     "nav": {
       "whyUSA": "Why USA",
+      "planStudies": "유학 계획",
       "lifeInUSA": "미국 생활",
       "workInUSA": "미국 취업",
       "universities": "대학교",
-      "courses": "프로그램",
-      "scholarships": "장학금",
       "aiChat": "AI 상담"
     },
     "login": "로그인",
@@ -40,6 +39,43 @@
             "title": "연구 & 혁신",
             "description": "세계 최고의 연구 환경"
           }
+        }
+      },
+      "planStudies": {
+        "items": {
+          "educationSystem": {
+            "title": "미국 교육 시스템",
+            "description": "학제 및 학위 과정 안내"
+          },
+          "typesOfSchools": {
+            "title": "학교 유형",
+            "description": "커뮤니티 칼리지, 주립/사립대학 비교"
+          },
+          "accreditedUniversities": {
+            "title": "인증된 우수 대학",
+            "description": "공인된 미국 대학 목록"
+          },
+          "englishTests": {
+            "title": "영어 시험 및 어학연수",
+            "description": "TOEFL, IELTS 및 ESL 프로그램"
+          },
+          "studyExpenses": {
+            "title": "유학 비용",
+            "description": "학비 및 생활비 안내"
+          },
+          "scholarships": {
+            "title": "장학금",
+            "description": "유학생을 위한 장학금 정보"
+          },
+          "visaStatus": {
+            "title": "학생 비자 및 체류",
+            "description": "F-1, J-1 비자 안내"
+          }
+        },
+        "quickLinks": {
+          "flowchart": "유학 절차 플로우차트",
+          "application": "온라인 지원",
+          "guidebook": "유학 가이드북"
         }
       }
     }

@@ -3,11 +3,10 @@
     "logo": "Go Almond",
     "nav": {
       "whyUSA": "Why USA",
+      "planStudies": "Plan your studies",
       "lifeInUSA": "Life in USA",
       "workInUSA": "Work in USA",
       "universities": "Universities",
-      "courses": "Programs",
-      "scholarships": "Scholarships",
       "aiChat": "AI Advisor"
     },
     "login": "Login",
@@ -40,6 +39,43 @@
             "title": "Research & Innovation",
             "description": "World-leading research environment"
           }
+        }
+      },
+      "planStudies": {
+        "items": {
+          "educationSystem": {
+            "title": "U.S. Education System",
+            "description": "Academic structure and degree programs"
+          },
+          "typesOfSchools": {
+            "title": "Types of Schools",
+            "description": "Community colleges, public & private universities"
+          },
+          "accreditedUniversities": {
+            "title": "Accredited Universities",
+            "description": "List of recognized U.S. institutions"
+          },
+          "englishTests": {
+            "title": "English Tests & Language Programs",
+            "description": "TOEFL, IELTS, and ESL programs"
+          },
+          "studyExpenses": {
+            "title": "Study Expenses",
+            "description": "Tuition and living cost guide"
+          },
+          "scholarships": {
+            "title": "Scholarships",
+            "description": "Financial aid for international students"
+          },
+          "visaStatus": {
+            "title": "Student Visa & Status",
+            "description": "F-1 and J-1 visa information"
+          }
+        },
+        "quickLinks": {
+          "flowchart": "Study Abroad Flowchart",
+          "application": "Online Application",
+          "guidebook": "Study Guidebook"
         }
       }
     }

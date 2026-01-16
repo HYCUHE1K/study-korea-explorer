@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Search, User, LogOut, MessageCircle, ChevronDown } from "lucide-react";
+import { Menu, X, Search, User, LogOut, MessageCircle, ChevronDown, FileText, ClipboardList, BookOpen } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -17,6 +17,12 @@ interface MegaMenuItem {
   title: string;
   description: string;
   href: string;
+}
+
+interface QuickLink {
+  title: string;
+  href: string;
+  icon: React.ReactNode;
 }
 
 export const Header = () => {
@@ -59,13 +65,79 @@ export const Header = () => {
     },
   ];
 
+  const planStudiesItems: MegaMenuItem[] = [
+    { 
+      title: t("header.megaMenu.planStudies.items.educationSystem.title"), 
+      description: t("header.megaMenu.planStudies.items.educationSystem.description"),
+      href: "/plan-studies/education-system"
+    },
+    { 
+      title: t("header.megaMenu.planStudies.items.typesOfSchools.title"), 
+      description: t("header.megaMenu.planStudies.items.typesOfSchools.description"),
+      href: "/plan-studies/types-of-schools"
+    },
+    { 
+      title: t("header.megaMenu.planStudies.items.accreditedUniversities.title"), 
+      description: t("header.megaMenu.planStudies.items.accreditedUniversities.description"),
+      href: "/plan-studies/accredited-universities"
+    },
+    { 
+      title: t("header.megaMenu.planStudies.items.englishTests.title"), 
+      description: t("header.megaMenu.planStudies.items.englishTests.description"),
+      href: "/plan-studies/english-tests"
+    },
+    { 
+      title: t("header.megaMenu.planStudies.items.studyExpenses.title"), 
+      description: t("header.megaMenu.planStudies.items.studyExpenses.description"),
+      href: "/plan-studies/study-expenses"
+    },
+    { 
+      title: t("header.megaMenu.planStudies.items.scholarships.title"), 
+      description: t("header.megaMenu.planStudies.items.scholarships.description"),
+      href: "/plan-studies/scholarships"
+    },
+    { 
+      title: t("header.megaMenu.planStudies.items.visaStatus.title"), 
+      description: t("header.megaMenu.planStudies.items.visaStatus.description"),
+      href: "/plan-studies/visa-status"
+    },
+  ];
+
+  const planStudiesQuickLinks: QuickLink[] = [
+    {
+      title: t("header.megaMenu.planStudies.quickLinks.flowchart"),
+      href: "/plan-studies/flowchart",
+      icon: <ClipboardList className="h-5 w-5" />
+    },
+    {
+      title: t("header.megaMenu.planStudies.quickLinks.application"),
+      href: "/plan-studies/application",
+      icon: <FileText className="h-5 w-5" />
+    },
+    {
+      title: t("header.megaMenu.planStudies.quickLinks.guidebook"),
+      href: "/plan-studies/guidebook",
+      icon: <BookOpen className="h-5 w-5" />
+    },
+  ];
+
+  const getMegaMenuItems = (menuKey: string) => {
+    switch (menuKey) {
+      case "whyUSA":
+        return { items: whyUSAItems, quickLinks: null };
+      case "planStudies":
+        return { items: planStudiesItems, quickLinks: planStudiesQuickLinks };
+      default:
+        return { items: [], quickLinks: null };
+    }
+  };
+
   const navItems = [
     { label: t("header.nav.whyUSA"), href: "#", hasMegaMenu: true, menuKey: "whyUSA" },
+    { label: t("header.nav.planStudies"), href: "#", hasMegaMenu: true, menuKey: "planStudies" },
     { label: t("header.nav.lifeInUSA"), href: "#" },
     { label: t("header.nav.workInUSA"), href: "#" },
     { label: t("header.nav.universities"), href: "#" },
-    { label: t("header.nav.courses"), href: "#" },
-    { label: t("header.nav.scholarships"), href: "#" },
     { label: t("header.nav.aiChat"), href: "/chat", isHighlight: true },
   ];
 
@@ -153,22 +225,56 @@ export const Header = () => {
                   {/* Mega Menu Dropdown */}
                   {hoveredMenu === item.menuKey && (
                     <div className="absolute left-1/2 -translate-x-1/2 top-full pt-2">
-                      <div className="bg-background border border-border rounded-lg shadow-xl p-6 min-w-[600px] grid grid-cols-2 gap-4">
-                        {whyUSAItems.map((menuItem) => (
-                          <Link
-                            key={menuItem.href}
-                            to={menuItem.href}
-                            className="group p-3 rounded-lg hover:bg-muted transition-colors"
-                          >
-                            <h4 className="font-medium text-foreground group-hover:text-primary transition-colors">
-                              {menuItem.title}
-                            </h4>
-                            <p className="text-sm text-muted-foreground mt-1">
-                              {menuItem.description}
-                            </p>
-                          </Link>
-                        ))}
-                      </div>
+                      {item.menuKey === "planStudies" ? (
+                        <div className="bg-background border border-border rounded-lg shadow-xl p-6 min-w-[900px] flex gap-6">
+                          {/* Left: Menu Items Grid */}
+                          <div className="flex-1 grid grid-cols-2 gap-x-8 gap-y-4">
+                            {getMegaMenuItems(item.menuKey).items.map((menuItem) => (
+                              <Link
+                                key={menuItem.href}
+                                to={menuItem.href}
+                                className="group py-2 border-b border-border hover:border-primary transition-colors"
+                              >
+                                <h4 className="font-medium text-foreground group-hover:text-primary transition-colors">
+                                  {menuItem.title}
+                                </h4>
+                              </Link>
+                            ))}
+                          </div>
+                          {/* Right: Quick Links */}
+                          <div className="w-[200px] border-l border-border pl-6 flex flex-col gap-3">
+                            {getMegaMenuItems(item.menuKey).quickLinks?.map((quickLink) => (
+                              <Link
+                                key={quickLink.href}
+                                to={quickLink.href}
+                                className="group flex items-center justify-between p-3 rounded-lg border border-border hover:border-primary hover:bg-muted transition-colors"
+                              >
+                                <span className="font-medium text-foreground group-hover:text-primary transition-colors text-sm">
+                                  {quickLink.title}
+                                </span>
+                                {quickLink.icon}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="bg-background border border-border rounded-lg shadow-xl p-6 min-w-[600px] grid grid-cols-2 gap-4">
+                          {getMegaMenuItems(item.menuKey).items.map((menuItem) => (
+                            <Link
+                              key={menuItem.href}
+                              to={menuItem.href}
+                              className="group p-3 rounded-lg hover:bg-muted transition-colors"
+                            >
+                              <h4 className="font-medium text-foreground group-hover:text-primary transition-colors">
+                                {menuItem.title}
+                              </h4>
+                              <p className="text-sm text-muted-foreground mt-1">
+                                {menuItem.description}
+                              </p>
+                            </Link>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
