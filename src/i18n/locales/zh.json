@@ -173,5 +173,102 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "planStudies": {
+    "hero": {
+      "title": "规划您的学习",
+      "subtitle": "一点也不难。",
+      "description": "从学校选择到签证申请，在韩国准备一切所需信息。"
+    },
+    "sections": {
+      "planYourStudy": "规划您的学习",
+      "additionalInfo": "了解更多留学信息",
+      "stories": "故事",
+      "quickMore": "快速链接"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "韩国教育体系",
+        "desc": "韩国高等教育体系在大学和学院中分为学士、硕士和博士课程。大学附属机构也提供语言培训课程。"
+      },
+      "schoolType": {
+        "title": "学校类型",
+        "desc": "如果您正在考虑在韩国留学，请查看各种学校信息和课程。"
+      },
+      "certifiedUniversity": {
+        "title": "认证优秀大学",
+        "desc": "查看韩国具有高国际化能力的认证大学。"
+      },
+      "examAndKorean": {
+        "title": "TOPIK及韩语学习",
+        "desc": "了解韩语能力测试和学习韩语的方法。"
+      },
+      "expenses": {
+        "title": "留学费用",
+        "desc": "为了成功的留学生活，除了大学学费外，您还需要考虑其他费用。"
+      },
+      "scholarship": {
+        "title": "奖学金",
+        "desc": "提供各种奖学金以支持国际学生的学习机会。"
+      },
+      "visa": {
+        "title": "学生签证和居留身份",
+        "desc": "检查每个项目的资格和签证申请所需文件。"
+      },
+      "flowChart": {
+        "title": "申请流程图",
+        "desc": "提前了解您想申请的大学的申请流程。"
+      },
+      "onlineApplication": {
+        "title": "在线申请",
+        "desc": "一旦决定留学，您可以通过韩国留学网站轻松在线申请。"
+      },
+      "guidebook": {
+        "title": "指南",
+        "desc": "从学习准备到留学生活，通过指南获得帮助。"
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "查找专业和大学",
+        "desc": "按大学或专业名称搜索，一目了然地找到感兴趣的学校信息。"
+      },
+      "onlineKorean": {
+        "title": "在线韩语学习",
+        "desc": "参考各种在线学习资源，包括世宗学堂的韩国文化韩语和实用韩语。"
+      },
+      "consultation": {
+        "title": "在线咨询",
+        "desc": "我们快速回答您的咨询。"
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "GKS校友邀请培训",
+        "desc": "这是一个将为未来开启新可能性的宝贵机会。韩国政府提供奖学金支持。"
+      },
+      "interview": {
+        "title": "国际学生采访",
+        "desc": "我获得政府奖学金来韩国留学。在韩国度过了非常有益的时光。"
+      },
+      "opportunity": {
+        "title": "韩国留学机会",
+        "desc": "每年为国际学生提供本科和研究生学位课程的机会。"
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "查找专业和大学信息",
+      "guidebook": "下载指南",
+      "certifiedUniversity": "查看认证优秀大学",
+      "onlineApplication": "轻松在线申请",
+      "topik": "查看TOPIK考试申请和时间表",
+      "scholarship": "查找可用奖学金"
+    },
+    "cta": {
+      "title": "准备开始您的旅程了吗？",
+      "description": "今天就与我们一起开始您的留学规划",
+      "getStarted": "开始",
+      "askQuestions": "提问"
+    }
   }
 }

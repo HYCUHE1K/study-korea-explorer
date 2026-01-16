@@ -163,5 +163,102 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "planStudies": {
+    "hero": {
+      "title": "Planifica tus estudios",
+      "subtitle": "No es nada difícil.",
+      "description": "Prepara todo, desde la selección de la escuela hasta la información de solicitud de visa en Corea."
+    },
+    "sections": {
+      "planYourStudy": "Planifica tu estudio",
+      "additionalInfo": "Aprende más sobre estudiar en el extranjero",
+      "stories": "Historias",
+      "quickMore": "Enlaces rápidos"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "Sistema educativo de Corea",
+        "desc": "El sistema de educación superior de Corea se divide en programas de licenciatura, maestría y doctorado en universidades e instituciones. Los programas de formación lingüística también están disponibles en instituciones afiliadas a universidades."
+      },
+      "schoolType": {
+        "title": "Tipos de escuelas",
+        "desc": "Si estás considerando estudiar en Corea, consulta la información y programas de varias escuelas."
+      },
+      "certifiedUniversity": {
+        "title": "Universidades certificadas de excelencia",
+        "desc": "Consulta las universidades certificadas en Corea con alta capacidad de internacionalización."
+      },
+      "examAndKorean": {
+        "title": "TOPIK y estudio del coreano",
+        "desc": "Aprende sobre el examen de competencia del idioma coreano y formas de estudiar coreano."
+      },
+      "expenses": {
+        "title": "Gastos de estudio",
+        "desc": "Para una vida de estudio exitosa en el extranjero, debes considerar otros gastos además de la matrícula universitaria."
+      },
+      "scholarship": {
+        "title": "Becas",
+        "desc": "Se proporcionan varias becas para apoyar las oportunidades de estudio de los estudiantes internacionales."
+      },
+      "visa": {
+        "title": "Visa de estudiante y estado de residencia",
+        "desc": "Verifica la elegibilidad para cada programa y los documentos requeridos para la solicitud de visa."
+      },
+      "flowChart": {
+        "title": "Diagrama de flujo de solicitud",
+        "desc": "Aprende de antemano sobre el proceso de solicitud de la universidad a la que deseas postularte."
+      },
+      "onlineApplication": {
+        "title": "Solicitud en línea",
+        "desc": "Una vez que hayas decidido estudiar en el extranjero, puedes solicitar fácilmente en línea a través de Study in Korea."
+      },
+      "guidebook": {
+        "title": "Guía",
+        "desc": "Obtén ayuda a través de guías desde la preparación del estudio hasta la vida de estudio en el extranjero."
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "Buscar departamento y universidad",
+        "desc": "Busca por nombre de universidad o especialidad para encontrar información de la escuela de interés de un vistazo."
+      },
+      "onlineKorean": {
+        "title": "Aprendizaje de coreano en línea",
+        "desc": "Consulta varios recursos de aprendizaje en línea, incluido el coreano a través de la cultura coreana y el coreano práctico en el Instituto Rey Sejong."
+      },
+      "consultation": {
+        "title": "Consulta en línea",
+        "desc": "Respondemos a tus consultas rápidamente."
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "Capacitación de invitación de exalumnos de GKS",
+        "desc": "Una oportunidad valiosa que abrirá nuevas posibilidades para el futuro. El gobierno coreano apoya las becas."
+      },
+      "interview": {
+        "title": "Entrevista a estudiante internacional",
+        "desc": "Vine a estudiar en Corea con una beca del gobierno. Pasé un tiempo muy beneficioso en Corea."
+      },
+      "opportunity": {
+        "title": "Oportunidad de estudiar en Corea",
+        "desc": "Se proporcionan oportunidades a estudiantes internacionales para programas de grado universitario y posgrado cada año."
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "Buscar información de departamento y universidad",
+      "guidebook": "Descargar la guía",
+      "certifiedUniversity": "Consultar universidades certificadas de excelencia",
+      "onlineApplication": "Solicitar fácilmente en línea",
+      "topik": "Consultar solicitud y calendario del examen TOPIK",
+      "scholarship": "Buscar becas disponibles"
+    },
+    "cta": {
+      "title": "¿Listo para comenzar tu viaje?",
+      "description": "Comienza tu planificación de estudios en el extranjero con nosotros hoy",
+      "getStarted": "Comenzar",
+      "askQuestions": "Hacer preguntas"
+    }
   }
 }

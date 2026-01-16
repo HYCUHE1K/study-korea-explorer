@@ -427,5 +427,102 @@
       "visa": "What's the F-1 visa application process?",
       "cost": "How much does studying in the USA cost?"
     }
+  },
+  "planStudies": {
+    "hero": {
+      "title": "Plan your studies",
+      "subtitle": "Not difficult at all.",
+      "description": "Prepare everything from school selection to visa application information in Korea."
+    },
+    "sections": {
+      "planYourStudy": "Plan Your Study",
+      "additionalInfo": "Learn More About Study Abroad",
+      "stories": "Stories",
+      "quickMore": "Quick More"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "Korea's Education System",
+        "desc": "Korea's higher education system is divided into bachelor's, master's, and doctoral programs at universities and colleges. Language training programs are also available at university-affiliated institutions."
+      },
+      "schoolType": {
+        "title": "School Types",
+        "desc": "If you're considering studying in Korea, check out various school information and programs."
+      },
+      "certifiedUniversity": {
+        "title": "Certified Excellent Universities",
+        "desc": "Check out certified universities in Korea with high internationalization capacity."
+      },
+      "examAndKorean": {
+        "title": "TOPIK & Korean Study",
+        "desc": "Learn about the Korean language proficiency test and ways to study Korean."
+      },
+      "expenses": {
+        "title": "Study Expenses",
+        "desc": "For successful study abroad life, you need to consider other expenses besides university tuition."
+      },
+      "scholarship": {
+        "title": "Scholarships",
+        "desc": "Various scholarships are provided to support international students' study opportunities."
+      },
+      "visa": {
+        "title": "Student Visa & Residence Status",
+        "desc": "Check the eligibility for each program and required documents for visa application."
+      },
+      "flowChart": {
+        "title": "Application FlowChart",
+        "desc": "Learn in advance about the application process of the university you want to apply to."
+      },
+      "onlineApplication": {
+        "title": "Online Application",
+        "desc": "Once you've decided to study abroad, you can easily apply online through Study in Korea."
+      },
+      "guidebook": {
+        "title": "Guidebook",
+        "desc": "Get help through guidebooks from study preparation to study abroad life."
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "Find Department & University",
+        "desc": "Search by university or major name to find school information of interest at a glance."
+      },
+      "onlineKorean": {
+        "title": "Online Korean Learning",
+        "desc": "Refer to various online learning resources including Korean through Korean culture and practical Korean at King Sejong Institute."
+      },
+      "consultation": {
+        "title": "Online Consultation",
+        "desc": "We answer your inquiries quickly."
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "GKS Alumni Invitation Training",
+        "desc": "A precious opportunity that will open new possibilities for the future. The Korean government supports scholarships."
+      },
+      "interview": {
+        "title": "International Student Interview",
+        "desc": "I came to study in Korea with a government scholarship. I spent very beneficial time in Korea."
+      },
+      "opportunity": {
+        "title": "Opportunity to Study in Korea",
+        "desc": "Opportunities are provided to international students for undergraduate and graduate degree programs every year."
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "Find department & university information",
+      "guidebook": "Download the guidebook",
+      "certifiedUniversity": "Check certified excellent universities",
+      "onlineApplication": "Apply online easily",
+      "topik": "Check TOPIK exam application & schedule",
+      "scholarship": "Find available scholarships"
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "description": "Begin your study abroad planning with us today",
+      "getStarted": "Get Started",
+      "askQuestions": "Ask Questions"
+    }
   }
 }

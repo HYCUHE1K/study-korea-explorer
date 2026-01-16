@@ -173,5 +173,102 @@
     "saving": "Saving...",
     "updateSuccess": "Profile updated successfully!",
     "updateError": "Failed to update profile. Please try again."
+  },
+  "planStudies": {
+    "hero": {
+      "title": "Lên kế hoạch học tập",
+      "subtitle": "Không khó chút nào.",
+      "description": "Chuẩn bị mọi thứ từ việc chọn trường đến thông tin xin visa tại Hàn Quốc."
+    },
+    "sections": {
+      "planYourStudy": "Lên kế hoạch học tập của bạn",
+      "additionalInfo": "Tìm hiểu thêm về Du học",
+      "stories": "Câu chuyện",
+      "quickMore": "Liên kết nhanh"
+    },
+    "categories": {
+      "educationSystem": {
+        "title": "Hệ thống Giáo dục Hàn Quốc",
+        "desc": "Hệ thống giáo dục đại học Hàn Quốc được chia thành các chương trình cử nhân, thạc sĩ và tiến sĩ tại các trường đại học và cao đẳng. Các chương trình đào tạo ngôn ngữ cũng có sẵn tại các cơ sở trực thuộc trường đại học."
+      },
+      "schoolType": {
+        "title": "Các loại trường",
+        "desc": "Nếu bạn đang cân nhắc du học Hàn Quốc, hãy xem thông tin và chương trình của các trường khác nhau."
+      },
+      "certifiedUniversity": {
+        "title": "Các trường đại học được chứng nhận",
+        "desc": "Kiểm tra các trường đại học được chứng nhận ở Hàn Quốc có năng lực quốc tế hóa cao."
+      },
+      "examAndKorean": {
+        "title": "TOPIK & Học tiếng Hàn",
+        "desc": "Tìm hiểu về kỳ thi năng lực tiếng Hàn và cách học tiếng Hàn."
+      },
+      "expenses": {
+        "title": "Chi phí Du học",
+        "desc": "Để có cuộc sống du học thành công, bạn cần xem xét các chi phí khác ngoài học phí đại học."
+      },
+      "scholarship": {
+        "title": "Học bổng",
+        "desc": "Nhiều học bổng được cung cấp để hỗ trợ cơ hội học tập của sinh viên quốc tế."
+      },
+      "visa": {
+        "title": "Visa Du học & Tình trạng Cư trú",
+        "desc": "Kiểm tra điều kiện đủ điều kiện cho từng chương trình và tài liệu cần thiết để xin visa."
+      },
+      "flowChart": {
+        "title": "Sơ đồ Quy trình Đăng ký",
+        "desc": "Tìm hiểu trước về quy trình đăng ký của trường đại học bạn muốn nộp hồ sơ."
+      },
+      "onlineApplication": {
+        "title": "Đăng ký Trực tuyến",
+        "desc": "Khi đã quyết định du học, bạn có thể dễ dàng đăng ký trực tuyến thông qua Study in Korea."
+      },
+      "guidebook": {
+        "title": "Sổ tay Hướng dẫn",
+        "desc": "Nhận trợ giúp thông qua các sổ tay hướng dẫn từ chuẩn bị du học đến cuộc sống du học."
+      }
+    },
+    "additional": {
+      "findSchool": {
+        "title": "Tìm Khoa & Trường Đại học",
+        "desc": "Tìm kiếm theo tên trường đại học hoặc chuyên ngành để tìm thông tin trường mà bạn quan tâm một cách nhanh chóng."
+      },
+      "onlineKorean": {
+        "title": "Học tiếng Hàn Trực tuyến",
+        "desc": "Tham khảo các nguồn học trực tuyến khác nhau bao gồm tiếng Hàn thông qua văn hóa Hàn Quốc và tiếng Hàn thực tế tại Viện Vua Sejong."
+      },
+      "consultation": {
+        "title": "Tư vấn Trực tuyến",
+        "desc": "Chúng tôi trả lời các câu hỏi của bạn một cách nhanh chóng."
+      }
+    },
+    "stories": {
+      "gks": {
+        "title": "Đào tạo Mời Cựu sinh viên GKS",
+        "desc": "Một cơ hội quý giá sẽ mở ra những khả năng mới cho tương lai. Chính phủ Hàn Quốc hỗ trợ học bổng."
+      },
+      "interview": {
+        "title": "Phỏng vấn Sinh viên Quốc tế",
+        "desc": "Tôi đến du học Hàn Quốc với học bổng chính phủ. Tôi đã có thời gian rất có ích ở Hàn Quốc."
+      },
+      "opportunity": {
+        "title": "Cơ hội Du học Hàn Quốc",
+        "desc": "Các cơ hội được cung cấp cho sinh viên quốc tế cho các chương trình bằng đại học và sau đại học hàng năm."
+      }
+    },
+    "quickLinks": {
+      "findUniversity": "Tìm thông tin khoa & trường đại học",
+      "guidebook": "Tải xuống sổ tay hướng dẫn",
+      "certifiedUniversity": "Kiểm tra các trường đại học được chứng nhận",
+      "onlineApplication": "Đăng ký trực tuyến dễ dàng",
+      "topik": "Kiểm tra đăng ký thi TOPIK & lịch thi",
+      "scholarship": "Tìm học bổng có sẵn"
+    },
+    "cta": {
+      "title": "Sẵn sàng Bắt đầu Hành trình của Bạn?",
+      "description": "Bắt đầu lập kế hoạch du học với chúng tôi ngay hôm nay",
+      "getStarted": "Bắt đầu",
+      "askQuestions": "Đặt câu hỏi"
+    }
   }
 }
