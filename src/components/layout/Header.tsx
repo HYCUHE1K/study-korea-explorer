@@ -65,6 +65,34 @@ export const Header = () => {
     },
   ];
 
+  const educationCoursesItems: MegaMenuItem[] = [
+    { 
+      title: t("header.megaMenu.educationCourses.items.generalUniversity.title"), 
+      description: t("header.megaMenu.educationCourses.items.generalUniversity.description"),
+      href: "/courses/general-university"
+    },
+    { 
+      title: t("header.megaMenu.educationCourses.items.communityCollege.title"), 
+      description: t("header.megaMenu.educationCourses.items.communityCollege.description"),
+      href: "/courses/community-college"
+    },
+    { 
+      title: t("header.megaMenu.educationCourses.items.languageProgram.title"), 
+      description: t("header.megaMenu.educationCourses.items.languageProgram.description"),
+      href: "/courses/language-program"
+    },
+    { 
+      title: t("header.megaMenu.educationCourses.items.vocationalTraining.title"), 
+      description: t("header.megaMenu.educationCourses.items.vocationalTraining.description"),
+      href: "/courses/vocational-training"
+    },
+    { 
+      title: t("header.megaMenu.educationCourses.items.k12Observation.title"), 
+      description: t("header.megaMenu.educationCourses.items.k12Observation.description"),
+      href: "/courses/k12-observation"
+    },
+  ];
+
   const planStudiesItems: MegaMenuItem[] = [
     { 
       title: t("header.megaMenu.planStudies.items.educationSystem.title"), 
@@ -227,6 +255,8 @@ export const Header = () => {
     switch (menuKey) {
       case "whyUSA":
         return { items: whyUSAItems, quickLinks: null };
+      case "educationCourses":
+        return { items: educationCoursesItems, quickLinks: null };
       case "planStudies":
         return { items: planStudiesItems, quickLinks: planStudiesQuickLinks };
       case "lifeInUSA":
@@ -244,12 +274,12 @@ export const Header = () => {
 
   const navItems = [
     { label: t("header.nav.whyUSA"), href: "#", hasMegaMenu: true, menuKey: "whyUSA" },
+    { label: t("header.nav.educationCourses"), href: "#", hasMegaMenu: true, menuKey: "educationCourses" },
     { label: t("header.nav.planStudies"), href: "#", hasMegaMenu: true, menuKey: "planStudies" },
     { label: t("header.nav.lifeInUSA"), href: "#", hasMegaMenu: true, menuKey: "lifeInUSA" },
     { label: t("header.nav.workInUSA"), href: "#", hasMegaMenu: true, menuKey: "workInUSA" },
     { label: t("header.nav.community"), href: "#", hasMegaMenu: true, menuKey: "community" },
     { label: t("header.nav.notice"), href: "#", hasMegaMenu: true, menuKey: "notice" },
-    { label: t("header.nav.universities"), href: "#" },
     { label: t("header.nav.aiChat"), href: "/chat", isHighlight: true },
   ];
 
