@@ -3,12 +3,12 @@
     "logo": "Go Almond",
     "nav": {
       "whyUSA": "Why USA",
+      "educationCourses": "Education Courses",
       "planStudies": "Plan your studies",
       "lifeInUSA": "Life in USA",
       "workInUSA": "Work in USA",
       "community": "Community",
       "notice": "Notice",
-      "universities": "Universities",
       "aiChat": "AI Advisor"
     },
     "login": "Login",
@@ -40,6 +40,30 @@
           "research": {
             "title": "Research & Innovation",
             "description": "World-leading research environment"
+          }
+      }
+      },
+      "educationCourses": {
+        "items": {
+          "generalUniversity": {
+            "title": "General University",
+            "description": "4-year bachelor's degree at US universities"
+          },
+          "communityCollege": {
+            "title": "Community College (CC)",
+            "description": "Start at a 2-year college and transfer to a 4-year university"
+          },
+          "languageProgram": {
+            "title": "Language Program",
+            "description": "Improve English skills with ESL programs"
+          },
+          "vocationalTraining": {
+            "title": "Vocational Training",
+            "description": "Certificate courses and career training programs"
+          },
+          "k12Observation": {
+            "title": "K-12 Observation",
+            "description": "Experience American elementary and secondary education"
           }
         }
       },

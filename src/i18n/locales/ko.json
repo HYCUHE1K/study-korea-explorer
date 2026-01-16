@@ -3,12 +3,12 @@
     "logo": "Go Almond",
     "nav": {
       "whyUSA": "Why USA",
+      "educationCourses": "교육코스",
       "planStudies": "유학 계획",
       "lifeInUSA": "미국 생활",
       "workInUSA": "미국 취업",
       "community": "커뮤니티",
       "notice": "공지사항",
-      "universities": "대학교",
       "aiChat": "AI 상담"
     },
     "login": "로그인",
@@ -40,6 +40,30 @@
           "research": {
             "title": "연구 & 혁신",
             "description": "세계 최고의 연구 환경"
+          }
+      }
+      },
+      "educationCourses": {
+        "items": {
+          "generalUniversity": {
+            "title": "일반 대학",
+            "description": "미국 4년제 대학에서 학사 학위 취득"
+          },
+          "communityCollege": {
+            "title": "CC (커뮤니티 칼리지)",
+            "description": "2년제 대학에서 시작해 4년제로 편입"
+          },
+          "languageProgram": {
+            "title": "어학연수",
+            "description": "ESL 프로그램으로 영어 실력 향상"
+          },
+          "vocationalTraining": {
+            "title": "직업교육",
+            "description": "자격증 과정 및 커리어 훈련 프로그램"
+          },
+          "k12Observation": {
+            "title": "참관수업",
+            "description": "미국 초중고 교육 체험 프로그램"
           }
         }
       },
