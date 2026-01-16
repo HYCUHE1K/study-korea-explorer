@@ -9,7 +9,8 @@ import {
   ShoppingBag,
   Briefcase,
   GraduationCap,
-  Shield
+    Shield,
+    FileText
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
