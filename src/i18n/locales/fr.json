@@ -507,5 +507,62 @@
       "signup": "S'inscrire Maintenant",
       "chat": "Discuter avec un Conseiller IA"
     }
+  },
+  "community": {
+    "hero": {
+      "badge": "Hub communautaire",
+      "title": "Restez connecté à la communauté des études à l’étranger",
+      "subtitle": "Actualités, récits et ressources sélectionnés pour les étudiants internationaux",
+      "description": "Découvrez des vidéos de soutiens, des associations étudiantes, des bourses et des liens rapides inspirés de la communauté Study in Korea."
+    },
+    "sections": {
+      "updates": "Dernières mises à jour",
+      "updatesDesc": "Suivez l’actualité, les activités des soutiens, les bourses et la FAQ communautaire.",
+      "supporters": "Soutiens",
+      "supportersDesc": "Écoutez directement ceux qui témoignent sur les études et la vie à l’étranger.",
+      "associations": "Associations étudiantes",
+      "associationsDesc": "Contactez des associations régionales et obtenez un appui local.",
+      "shorts": "Histoires courtes",
+      "shortsDesc": "Vidéos rapides qui illustrent l’expérience d’études à l’étranger.",
+      "quick": "Liens rapides"
+    },
+    "updates": {
+      "notice": { "title": "Avis et actualités", "desc": "Annonces importantes et dates limites pour les étudiants." },
+      "stories": { "title": "Récits d’études", "desc": "Expériences réelles d’étudiants à l’étranger." },
+      "supporters": { "title": "Activités des soutiens", "desc": "Suivez les derniers événements et contenus de nos soutiens." },
+      "gks": { "title": "Temps forts des bourses", "desc": "Consultez les bourses type GKS et les mises à jour d’aides financières." },
+      "associations": { "title": "Associations étudiantes", "desc": "Trouvez des associations régionales à rejoindre." },
+      "faq": { "title": "Questions & FAQ", "desc": "Réponses aux questions fréquentes sur les études à l’étranger." },
+      "resources": { "title": "Ressources utiles", "desc": "Guides, listes de contrôle et outils pour préparer votre parcours." }
+    },
+    "supporters": {
+      "items": {
+        "1": { "title": "Soutiens de Northeastern University (projet final New York State Mall)", "author": "Mis en ligne par Study in Korea", "meta": "Interview vidéo, vie étudiante" },
+        "2": { "title": "Soutiens du campus asiatique de l’University of Utah", "author": "Mis en ligne par Study in Korea", "meta": "Visite du campus, programmes" },
+        "3": { "title": "Vie à l’Université féminine Duksung (Mink in Korea)", "author": "Mis en ligne par Mink in Korea", "meta": "Vlog, vie sur le campus" }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK (Association des étudiants de la République démocratique du Congo)", "country": "RDC", "meta": "Réseautage, mentorat et soutien entre pairs" },
+        "2": { "title": "FPVSAK (Fédération des anciens élèves du Pérou en Corée)", "country": "Pérou", "meta": "Événements communautaires et échanges culturels" },
+        "3": { "title": "KSAK (Association des étudiants kazakhs en Corée)", "country": "Kazakhstan", "meta": "Accompagnement local et soutien aux nouveaux arrivants" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "Moments forts du salon de l’emploi pour étudiants internationaux" },
+        "2": { "title": "Récits de mentorat de carrière" },
+        "3": { "title": "Rétrospective Global Talent Fair" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Trouver les soutiens Go Almond",
+      "findSchool": "Chercher écoles et filières",
+      "scholarships": "Explorer les bourses",
+      "onlineApplication": "Candidature en ligne",
+      "guidebook": "Télécharger le guide d’étude"
+    },
+    "cta": { "viewAll": "Tout voir" }
   }
 }

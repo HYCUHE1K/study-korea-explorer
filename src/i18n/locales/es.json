@@ -113,10 +113,6 @@
     "studyFair": "Feria Estudiar en EE.UU.",
     "studentAssoc": "Asociación de Estudiantes Internacionales"
   },
-  "community": {
-    "title": "Comunidad de Estudiantes Internacionales",
-    "subtitle": "Asociaciones de estudiantes por país"
-  },
   "footer": {
     "about": "Acerca de",
     "contact": "Contacto",
@@ -507,5 +503,62 @@
       "signup": "Regístrate Ahora",
       "chat": "Chatea con un Asesor de IA"
     }
+  },
+  "community": {
+    "hero": {
+      "badge": "Centro comunitario",
+      "title": "Mantente conectado con la comunidad de estudios en el extranjero",
+      "subtitle": "Noticias, historias y recursos seleccionados para estudiantes internacionales",
+      "description": "Explora videos de colaboradores, asociaciones estudiantiles, becas y enlaces rápidos inspirados en la comunidad Study in Korea."
+    },
+    "sections": {
+      "updates": "Últimas novedades",
+      "updatesDesc": "Mantente al tanto de noticias, actividades de colaboradores, becas y preguntas frecuentes.",
+      "supporters": "Colaboradores",
+      "supportersDesc": "Escucha directamente a quienes apoyan sobre estudiar y vivir en el extranjero.",
+      "associations": "Asociaciones estudiantiles",
+      "associationsDesc": "Conecta con asociaciones locales y recibe apoyo cercano.",
+      "shorts": "Historias breves",
+      "shortsDesc": "Videos cortos que muestran la experiencia de estudiar fuera.",
+      "quick": "Enlaces rápidos"
+    },
+    "updates": {
+      "notice": { "title": "Avisos y noticias", "desc": "Anuncios y plazos importantes para estudiantes." },
+      "stories": { "title": "Historias de estudio", "desc": "Experiencias reales de estudiantes en el extranjero." },
+      "supporters": { "title": "Actividades de colaboradores", "desc": "Sigue los eventos y contenidos más recientes de nuestros colaboradores." },
+      "gks": { "title": "Destacados de becas", "desc": "Revisa becas tipo GKS y novedades de ayudas financieras." },
+      "associations": { "title": "Asociaciones estudiantiles", "desc": "Encuentra asociaciones regionales a las que puedas unirte." },
+      "faq": { "title": "Consultas y FAQ", "desc": "Respuestas a preguntas frecuentes sobre estudiar fuera." },
+      "resources": { "title": "Recursos útiles", "desc": "Guías, listas de control y herramientas para planificar tu viaje." }
+    },
+    "supporters": {
+      "items": {
+        "1": { "title": "Colaboradores de Northeastern University (Capstone en New York State Mall)", "author": "Subido por Study in Korea", "meta": "Entrevista en video, vida estudiantil" },
+        "2": { "title": "Colaboradores del campus asiático de la University of Utah", "author": "Subido por Study in Korea", "meta": "Recorrido por el campus, programas" },
+        "3": { "title": "Vida en la Universidad Femenina Duksung (Mink in Korea)", "author": "Subido por Mink in Korea", "meta": "Vlog, vida en el campus" }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK (Asociación de estudiantes de la República Democrática del Congo)", "country": "R. D. del Congo", "meta": "Networking, mentoría y apoyo entre pares" },
+        "2": { "title": "FPVSAK (Federación de exalumnos de Perú en Corea)", "country": "Perú", "meta": "Eventos comunitarios e intercambio cultural" },
+        "3": { "title": "KSAK (Asociación de estudiantes kazajos en Corea)", "country": "Kazajistán", "meta": "Guía local y apoyo a recién llegados" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "Momentos destacados de la feria laboral para estudiantes internacionales" },
+        "2": { "title": "Historias de mentoría profesional" },
+        "3": { "title": "Resumen de la Global Talent Fair" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Encuentra colaboradores Go Almond",
+      "findSchool": "Busca escuelas y carreras",
+      "scholarships": "Explora becas",
+      "onlineApplication": "Solicitud en línea",
+      "guidebook": "Descarga la guía de estudio"
+    },
+    "cta": { "viewAll": "Ver todo" }
   }
 }

@@ -326,11 +326,6 @@
       { "title": "Cost of Living", "description": "Explore living costs in different US cities" }
     ]
   },
-  "community": {
-    "title": "International Student Community",
-    "subtitle": "Connect with students from your country",
-    "countries": ["China", "India", "South Korea", "Vietnam", "Taiwan", "Japan", "Saudi Arabia", "Canada", "Mexico", "Brazil"]
-  },
   "footer": {
     "logo": "Go Almond",
     "description": "Your trusted partner for studying in the USA",
@@ -735,6 +730,89 @@
       "description": "Start your professional journey in the USA with complete support",
       "signup": "Sign Up Now",
       "chat": "Chat with AI Advisor"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "Community Hub",
+      "title": "Stay Connected with the Study Abroad Community",
+      "subtitle": "News, stories, and resources curated for international students",
+      "description": "Explore supporter videos, student associations, scholarships, and quick links inspired by the Study in Korea community."
+    },
+    "sections": {
+      "updates": "Latest Updates",
+      "updatesDesc": "Stay on top of news, supporter activities, scholarships, and community FAQs.",
+      "supporters": "Supporters",
+      "supportersDesc": "Hear directly from student supporters about studying and living abroad.",
+      "associations": "Student Associations",
+      "associationsDesc": "Connect with regional student associations and get local support.",
+      "shorts": "Short-form Stories",
+      "shortsDesc": "Quick videos that highlight the study abroad experience.",
+      "quick": "Quick Links"
+    },
+    "updates": {
+      "notice": { "title": "Notices & News", "desc": "Important announcements and deadlines for students." },
+      "stories": { "title": "Study Stories", "desc": "Real experiences from students studying abroad." },
+      "supporters": { "title": "Supporter Activities", "desc": "Follow the latest events and content from our supporters." },
+      "gks": { "title": "Scholarship Highlights", "desc": "Check GKS-style scholarships and financial aid updates." },
+      "associations": { "title": "Student Associations", "desc": "Find regional student associations you can join." },
+      "faq": { "title": "Inquiries & FAQ", "desc": "Get answers to common questions about studying abroad." },
+      "resources": { "title": "Useful Resources", "desc": "Guides, checklists, and tools to plan your journey." }
+    },
+    "supporters": {
+      "items": {
+        "1": {
+          "title": "Northeastern University Supporters (New York State Mall Capstone)",
+          "author": "Uploaded by Study in Korea",
+          "meta": "Video interview, student life"
+        },
+        "2": {
+          "title": "University of Utah Asia Campus Supporters",
+          "author": "Uploaded by Study in Korea",
+          "meta": "Campus tour, programs"
+        },
+        "3": {
+          "title": "Life at Duksung Women’s University (Mink in Korea)",
+          "author": "Uploaded by Mink in Korea",
+          "meta": "Vlog, campus life"
+        }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": {
+          "title": "DECOK (Democratic Republic of Congo Student Association)",
+          "country": "DR Congo",
+          "meta": "Networking, mentoring, and peer support"
+        },
+        "2": {
+          "title": "FPVSAK (Federation of Peru Alumni in Korea)",
+          "country": "Peru",
+          "meta": "Community events and cultural exchange"
+        },
+        "3": {
+          "title": "KSAK (Kazakh Students Association in Korea)",
+          "country": "Kazakhstan",
+          "meta": "Local guidance and newcomer support"
+        }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "International Student Job Fair Highlights" },
+        "2": { "title": "Career Mentoring Stories" },
+        "3": { "title": "Global Talent Fair Recap" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Find Go Almond supporters",
+      "findSchool": "Search schools and majors",
+      "scholarships": "Explore scholarships",
+      "onlineApplication": "Online application",
+      "guidebook": "Download study guidebook"
+    },
+    "cta": {
+      "viewAll": "View all"
     }
   }
 }

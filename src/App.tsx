@@ -16,6 +16,7 @@ import PlanStudies from "./pages/PlanStudies";
 import LifeInUSA from "./pages/LifeInUSA";
 import WorkInUSA from "./pages/WorkInUSA";
 import NotFound from "./pages/NotFound";
+import Community from "./pages/Community";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/plan-studies" element={<PlanStudies />} />
             <Route path="/life-in-usa" element={<LifeInUSA />} />
             <Route path="/work-in-usa" element={<WorkInUSA />} />
+            <Route path="/community" element={<Community />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/auth/callback" element={<AuthCallback />} />

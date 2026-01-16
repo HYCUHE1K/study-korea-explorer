@@ -44,6 +44,63 @@
       "courses": "コース",
       "scholarships": "奨学金"
     },
+    "community": {
+      "hero": {
+        "badge": "コミュニティハブ",
+        "title": "留学コミュニティとつながり続ける",
+        "subtitle": "留学生向けに厳選されたニュース・ストーリー・リソース",
+        "description": "サポーター動画、学生団体、奨学金、韓国留学コミュニティ由来のクイックリンクをチェック。"
+      },
+      "sections": {
+        "updates": "最新情報",
+        "updatesDesc": "ニュース、サポーター活動、奨学金、コミュニティFAQをキャッチアップ。",
+        "supporters": "サポーター",
+        "supportersDesc": "留学・生活についてサポーターの声を直接聞こう。",
+        "associations": "学生団体",
+        "associationsDesc": "地域の学生団体とつながり、ローカルサポートを得る。",
+        "shorts": "ショートストーリー",
+        "shortsDesc": "留学体験を伝える短尺動画。",
+        "quick": "クイックリンク"
+      },
+      "updates": {
+        "notice": { "title": "お知らせ・ニュース", "desc": "学生向けの重要なお知らせと締切。" },
+        "stories": { "title": "留学ストーリー", "desc": "海外で学ぶ学生たちのリアル体験。" },
+        "supporters": { "title": "サポーター活動", "desc": "サポーターの最新イベントやコンテンツをフォロー。" },
+        "gks": { "title": "奨学金ハイライト", "desc": "GKS型奨学金や支援の最新情報を確認。" },
+        "associations": { "title": "学生団体", "desc": "参加できる地域学生団体を見つけよう。" },
+        "faq": { "title": "問い合わせ・FAQ", "desc": "留学に関するよくある質問に回答。" },
+        "resources": { "title": "役立つリソース", "desc": "旅の計画に役立つガイド、チェックリスト、ツール。" }
+      },
+      "supporters": {
+        "items": {
+          "1": { "title": "ノースイースタン大学サポーター（ニューヨーク州モール・キャップストーン）", "author": "Study in Korea によるアップロード", "meta": "ビデオインタビュー、学生生活" },
+          "2": { "title": "ユタ大学アジアキャンパス サポーター", "author": "Study in Korea によるアップロード", "meta": "キャンパスツアー、プログラム紹介" },
+          "3": { "title": "徳成女子大学の生活（Mink in Korea）", "author": "Mink in Korea によるアップロード", "meta": "Vlog、キャンパスライフ" }
+        }
+      },
+      "associations": {
+        "items": {
+          "1": { "title": "DECOK（コンゴ民主共和国学生会）", "country": "コンゴ民主共和国", "meta": "ネットワーキング、メンタリング、ピアサポート" },
+          "2": { "title": "FPVSAK（在韓ペルー同窓連盟）", "country": "ペルー", "meta": "コミュニティイベントと文化交流" },
+          "3": { "title": "KSAK（在韓カザフスタン学生会）", "country": "カザフスタン", "meta": "ローカル案内と新入生サポート" }
+        }
+      },
+      "shorts": {
+        "items": {
+          "1": { "title": "留学生ジョブフェア ハイライト" },
+          "2": { "title": "キャリアメンタリング ストーリー" },
+          "3": { "title": "グローバルタレントフェア総集編" }
+        }
+      },
+      "quick": {
+        "findSupporters": "Go Almond サポーターを探す",
+        "findSchool": "学校と専攻を検索",
+        "scholarships": "奨学金を探す",
+        "onlineApplication": "オンライン出願",
+        "guidebook": "留学ガイドブックをダウンロード"
+      },
+      "cta": { "viewAll": "すべて見る" }
+    },
     "login": "ログイン",
     "signup": "新規登録"
   },
@@ -121,11 +178,6 @@
       { "title": "ビザ情報", "description": "F-1ビザと入国要件について学ぶ" },
       { "title": "生活費", "description": "アメリカ各都市の生活費を探る" }
     ]
-  },
-  "community": {
-    "title": "留学生コミュニティ",
-    "subtitle": "アメリカの国別学生会",
-    "countries": ["中国", "インド", "韓国", "ベトナム", "台湾", "日本", "サウジアラビア", "カナダ", "メキシコ", "ブラジル"]
   },
   "footer": {
     "logo": "Study in USA",

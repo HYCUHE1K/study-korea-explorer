@@ -326,11 +326,6 @@
       { "title": "생활비 정보", "description": "미국 도시별 생활비 탐색" }
     ]
   },
-  "community": {
-    "title": "유학생 커뮤니티",
-    "subtitle": "본국 학생들과 연결하세요",
-    "countries": ["중국", "인도", "한국", "베트남", "대만", "일본", "사우디아라비아", "캐나다", "멕시코", "브라질"]
-  },
   "footer": {
     "logo": "Go Almond",
     "description": "미국 유학을 위한 믿을 수 있는 파트너",
@@ -735,6 +730,89 @@
       "description": "완벽한 지원으로 미국에서의 전문 경력을 시작하세요",
       "signup": "지금 가입하기",
       "chat": "AI 상담원과 채팅"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "커뮤니티 허브",
+      "title": "유학 커뮤니티와 연결되세요",
+      "subtitle": "유학생을 위한 소식, 이야기, 리소스를 한곳에 모았습니다",
+      "description": "Study in Korea 커뮤니티 구성을 참고해 서포터즈 영상, 학생회 정보, 장학금, 빠른 바로가기를 제공합니다."
+    },
+    "sections": {
+      "updates": "최신 소식",
+      "updatesDesc": "공지, 서포터즈 활동, 장학금, FAQ를 한눈에 확인하세요.",
+      "supporters": "서포터즈",
+      "supportersDesc": "유학과 캠퍼스 생활을 전하는 서포터즈의 이야기를 들어보세요.",
+      "associations": "재한 유학생회",
+      "associationsDesc": "국가·지역별 유학생회를 찾아 로컬 지원을 받아보세요.",
+      "shorts": "숏폼 스토리",
+      "shortsDesc": "유학 경험을 빠르게 보여주는 짧은 영상 모음입니다.",
+      "quick": "빠른 바로가기"
+    },
+    "updates": {
+      "notice": { "title": "공지 및 뉴스", "desc": "중요 안내와 마감 일정을 확인하세요." },
+      "stories": { "title": "유학 스토리", "desc": "유학 중인 학생들의 실제 경험." },
+      "supporters": { "title": "서포터즈 활동", "desc": "서포터즈의 최신 이벤트와 콘텐츠." },
+      "gks": { "title": "장학금 하이라이트", "desc": "GKS 스타일 장학금 및 재정 지원 소식." },
+      "associations": { "title": "학생회 정보", "desc": "가입할 수 있는 지역별 유학생회 찾기." },
+      "faq": { "title": "문의 & FAQ", "desc": "유학 관련 자주 묻는 질문을 확인하세요." },
+      "resources": { "title": "유용한 자료", "desc": "가이드, 체크리스트, 준비 도구 모음." }
+    },
+    "supporters": {
+      "items": {
+        "1": {
+          "title": "뉴욕 주립대 몰 캠퍼스 캡스톤 서포터즈",
+          "author": "제공: Study in Korea",
+          "meta": "영상 인터뷰, 캠퍼스 생활"
+        },
+        "2": {
+          "title": "유타대학교 아시아캠퍼스 서포터즈",
+          "author": "제공: Study in Korea",
+          "meta": "캠퍼스 투어, 전공 소개"
+        },
+        "3": {
+          "title": "덕성여대에서의 유학생활 (민크 인 코리아)",
+          "author": "제공: 민크 인 코리아",
+          "meta": "브이로그, 캠퍼스 라이프"
+        }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": {
+          "title": "DECOK (콩고민주공화국 유학생회)",
+          "country": "콩고민주공화국",
+          "meta": "네트워킹, 멘토링, 동료 지원"
+        },
+        "2": {
+          "title": "FPVSAK (페루 동문 연합)",
+          "country": "페루",
+          "meta": "커뮤니티 행사와 문화 교류"
+        },
+        "3": {
+          "title": "KSAK (카자흐스탄 유학생회)",
+          "country": "카자흐스탄",
+          "meta": "로컬 가이드와 신규 학생 지원"
+        }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "국제학생 잡페어 하이라이트" },
+        "2": { "title": "커리어 멘토링 스토리" },
+        "3": { "title": "글로벌 탤런트 페어 리캡" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Go Almond 서포터즈 찾기",
+      "findSchool": "학교와 전공 검색",
+      "scholarships": "장학금 살펴보기",
+      "onlineApplication": "온라인 지원",
+      "guidebook": "유학 가이드북 다운로드"
+    },
+    "cta": {
+      "viewAll": "전체 보기"
     }
   }
 }

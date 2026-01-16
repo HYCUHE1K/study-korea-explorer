@@ -53,7 +53,23 @@ const countryFlags: Record<string, string> = {
 export const CommunitySection = () => {
   const { t } = useTranslation();
 
-  const countries = t("community.countries", { returnObjects: true }) as string[];
+  const defaultCountries = [
+    "China",
+    "India",
+    "South Korea",
+    "Vietnam",
+    "Japan",
+    "Saudi Arabia",
+    "Canada",
+    "Mexico",
+    "Brazil",
+    "Taiwan",
+  ];
+  const countriesValue = t("community.countries", { returnObjects: true }) as unknown;
+  const countries =
+    Array.isArray(countriesValue) && countriesValue.length > 0
+      ? (countriesValue as string[])
+      : defaultCountries;
 
   return (
     <section className="py-16 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5">

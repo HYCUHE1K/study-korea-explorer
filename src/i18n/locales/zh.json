@@ -122,11 +122,6 @@
       { "title": "生活成本", "description": "探索美国不同城市的生活成本" }
     ]
   },
-  "community": {
-    "title": "国际学生社区",
-    "subtitle": "在美国的各国学生会",
-    "countries": ["中国", "印度", "韩国", "越南", "台湾", "日本", "沙特阿拉伯", "加拿大", "墨西哥", "巴西"]
-  },
   "footer": {
     "logo": "留学美国",
     "description": "美国留学综合信息系统",
@@ -516,6 +511,77 @@
       "description": "在全面支持下开始您在美国的职业之旅",
       "signup": "立即注册",
       "chat": "与AI顾问聊天"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "社区枢纽",
+      "title": "与留学社区保持联系",
+      "subtitle": "为国际学生精选的新闻、故事与资源",
+      "description": "探索支持者视频、学生协会、奖学金，以及借鉴韩国留学社区的快捷链接。"
+    },
+    "sections": {
+      "updates": "最新动态",
+      "updatesDesc": "及时获取新闻、支持者活动、奖学金和社区常见问答。",
+      "supporters": "支持者",
+      "supportersDesc": "直接聆听学生支持者分享留学与生活。",
+      "associations": "学生协会",
+      "associationsDesc": "联系各地区学生协会，获得在地帮助。",
+      "shorts": "短篇故事",
+      "shortsDesc": "快速了解留学体验的短视频。",
+      "quick": "快捷链接"
+    },
+    "updates": {
+      "notice": { "title": "通知与新闻", "desc": "面向学生的重要公告与截止日期。" },
+      "stories": { "title": "留学故事", "desc": "来自海外学生的真实经历。" },
+      "supporters": { "title": "支持者活动", "desc": "关注支持者的最新活动与内容。" },
+      "gks": { "title": "奖学金亮点", "desc": "查看 GKS 类奖学金与助学金动态。" },
+      "associations": { "title": "学生协会", "desc": "找到可加入的地区学生协会。" },
+      "faq": { "title": "咨询与常见问答", "desc": "解答留学相关常见问题。" },
+      "resources": { "title": "实用资源", "desc": "规划旅程的指南、清单与工具。" }
+    },
+    "supporters": {
+      "items": {
+        "1": {
+          "title": "东北大学支持者（纽约州购物中心结业项目）",
+          "author": "由 Study in Korea 上传",
+          "meta": "视频采访，学生生活"
+        },
+        "2": {
+          "title": "犹他大学亚洲校区支持者",
+          "author": "由 Study in Korea 上传",
+          "meta": "校园参观，项目介绍"
+        },
+        "3": {
+          "title": "德成女子大学的生活（韩国的 Mink）",
+          "author": "由 Mink in Korea 上传",
+          "meta": "Vlog，校园生活"
+        }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK（刚果民主共和国学生协会）", "country": "刚果民主共和国", "meta": "人脉交流、指导与同伴支持" },
+        "2": { "title": "FPVSAK（秘鲁在韩校友联合会）", "country": "秘鲁", "meta": "社区活动与文化交流" },
+        "3": { "title": "KSAK（哈萨克斯坦在韩学生协会）", "country": "哈萨克斯坦", "meta": "本地指南与新生支持" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "国际学生招聘会亮点" },
+        "2": { "title": "职业导师故事" },
+        "3": { "title": "全球人才博览会回顾" }
+      }
+    },
+    "quick": {
+      "findSupporters": "查找 Go Almond 支持者",
+      "findSchool": "搜索学校与专业",
+      "scholarships": "探索奖学金",
+      "onlineApplication": "在线申请",
+      "guidebook": "下载留学指南"
+    },
+    "cta": {
+      "viewAll": "查看全部"
     }
   }
 }

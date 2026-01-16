@@ -507,5 +507,62 @@
       "signup": "Jetzt Registrieren",
       "chat": "Mit KI-Berater Chatten"
     }
+  },
+  "community": {
+    "hero": {
+      "badge": "Community-Hub",
+      "title": "Bleib mit der Study-Abroad-Community verbunden",
+      "subtitle": "Nachrichten, Geschichten und Ressourcen für internationale Studierende",
+      "description": "Entdecke Videos von Unterstützer:innen, Studierendenverbände, Stipendien und schnelle Links aus der Study in Korea-Community."
+    },
+    "sections": {
+      "updates": "Aktuelle Updates",
+      "updatesDesc": "Verfolge Nachrichten, Aktivitäten der Unterstützer, Stipendien und Community-FAQ.",
+      "supporters": "Unterstützer:innen",
+      "supportersDesc": "Höre direkt von Unterstützer:innen über Studium und Leben im Ausland.",
+      "associations": "Studierendenverbände",
+      "associationsDesc": "Vernetze dich mit regionalen Verbänden und erhalte lokale Hilfe.",
+      "shorts": "Kurzgeschichten",
+      "shortsDesc": "Kurze Videos, die das Auslandsstudium zeigen.",
+      "quick": "Schnellzugriffe"
+    },
+    "updates": {
+      "notice": { "title": "Hinweise & News", "desc": "Wichtige Ankündigungen und Fristen für Studierende." },
+      "stories": { "title": "Study Stories", "desc": "Echte Erfahrungen von Studierenden im Ausland." },
+      "supporters": { "title": "Aktivitäten der Unterstützer:innen", "desc": "Verfolge aktuelle Events und Inhalte unserer Unterstützer:innen." },
+      "gks": { "title": "Stipendien-Highlights", "desc": "Infos zu GKS-ähnlichen Stipendien und Finanzhilfen." },
+      "associations": { "title": "Studierendenverbände", "desc": "Finde regionale Verbände, denen du beitreten kannst." },
+      "faq": { "title": "Anfragen & FAQ", "desc": "Antworten auf häufige Fragen zum Auslandsstudium." },
+      "resources": { "title": "Nützliche Ressourcen", "desc": "Guides, Checklisten und Tools für deine Planung." }
+    },
+    "supporters": {
+      "items": {
+        "1": { "title": "Unterstützer der Northeastern University (New York State Mall Capstone)", "author": "Hochgeladen von Study in Korea", "meta": "Video-Interview, Studierendenleben" },
+        "2": { "title": "Unterstützer des Asia Campus der University of Utah", "author": "Hochgeladen von Study in Korea", "meta": "Campusrundgang, Programme" },
+        "3": { "title": "Leben an der Duksung Women’s University (Mink in Korea)", "author": "Hochgeladen von Mink in Korea", "meta": "Vlog, Campusleben" }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK (Studierendenverband der Demokratischen Republik Kongo)", "country": "DR Kongo", "meta": "Networking, Mentoring und Peer-Support" },
+        "2": { "title": "FPVSAK (Bund peruanischer Alumni in Korea)", "country": "Peru", "meta": "Community-Events und Kulturaustausch" },
+        "3": { "title": "KSAK (Verband kasachischer Studierender in Korea)", "country": "Kasachstan", "meta": "Lokale Orientierung und Unterstützung für Neue" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "Highlights der Jobmesse für internationale Studierende" },
+        "2": { "title": "Karriere-Mentoring-Geschichten" },
+        "3": { "title": "Rückblick auf die Global Talent Fair" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Go Almond-Unterstützer finden",
+      "findSchool": "Hochschulen und Fächer suchen",
+      "scholarships": "Stipendien entdecken",
+      "onlineApplication": "Online-Bewerbung",
+      "guidebook": "Studienleitfaden herunterladen"
+    },
+    "cta": { "viewAll": "Alle ansehen" }
   }
 }

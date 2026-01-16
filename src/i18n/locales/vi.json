@@ -44,6 +44,63 @@
       "courses": "Khóa học",
       "scholarships": "Học bổng"
     },
+    "community": {
+      "hero": {
+        "badge": "Trung tâm Cộng đồng",
+        "title": "Kết nối cùng cộng đồng du học",
+        "subtitle": "Tin tức, câu chuyện và tài nguyên dành cho sinh viên quốc tế",
+        "description": "Khám phá video của hỗ trợ viên, hội sinh viên, học bổng và các liên kết nhanh lấy cảm hứng từ cộng đồng Du học Hàn Quốc."
+      },
+      "sections": {
+        "updates": "Cập nhật mới nhất",
+        "updatesDesc": "Theo dõi tin tức, hoạt động hỗ trợ viên, học bổng và FAQ cộng đồng.",
+        "supporters": "Hỗ trợ viên",
+        "supportersDesc": "Nghe trực tiếp chia sẻ về học tập và cuộc sống du học.",
+        "associations": "Hội sinh viên",
+        "associationsDesc": "Kết nối hội sinh viên khu vực và nhận hỗ trợ địa phương.",
+        "shorts": "Câu chuyện ngắn",
+        "shortsDesc": "Video ngắn nêu bật trải nghiệm du học.",
+        "quick": "Liên kết nhanh"
+      },
+      "updates": {
+        "notice": { "title": "Thông báo & Tin tức", "desc": "Thông báo quan trọng và hạn chót dành cho sinh viên." },
+        "stories": { "title": "Câu chuyện du học", "desc": "Trải nghiệm thực tế từ sinh viên đang học ở nước ngoài." },
+        "supporters": { "title": "Hoạt động hỗ trợ viên", "desc": "Theo dõi sự kiện và nội dung mới nhất từ hỗ trợ viên." },
+        "gks": { "title": "Điểm nhấn học bổng", "desc": "Xem các học bổng kiểu GKS và cập nhật hỗ trợ tài chính." },
+        "associations": { "title": "Hội sinh viên", "desc": "Tìm hội sinh viên khu vực để tham gia." },
+        "faq": { "title": "Hỏi đáp & FAQ", "desc": "Giải đáp câu hỏi thường gặp về du học." },
+        "resources": { "title": "Tài nguyên hữu ích", "desc": "Hướng dẫn, checklist và công cụ lập kế hoạch hành trình." }
+      },
+      "supporters": {
+        "items": {
+          "1": { "title": "Hỗ trợ viên Đại học Northeastern (Capstone tại New York State Mall)", "author": "Tải lên bởi Study in Korea", "meta": "Phỏng vấn video, đời sống sinh viên" },
+          "2": { "title": "Hỗ trợ viên Cơ sở châu Á Đại học Utah", "author": "Tải lên bởi Study in Korea", "meta": "Tham quan campus, chương trình" },
+          "3": { "title": "Cuộc sống tại Đại học Nữ Duksung (Mink in Korea)", "author": "Tải lên bởi Mink in Korea", "meta": "Vlog, đời sống campus" }
+        }
+      },
+      "associations": {
+        "items": {
+          "1": { "title": "DECOK (Hội sinh viên CHDC Congo)", "country": "CHDC Congo", "meta": "Kết nối, cố vấn và hỗ trợ đồng đẳng" },
+          "2": { "title": "FPVSAK (Liên đoàn cựu sinh viên Peru tại Hàn Quốc)", "country": "Peru", "meta": "Sự kiện cộng đồng và giao lưu văn hóa" },
+          "3": { "title": "KSAK (Hội sinh viên Kazakhstan tại Hàn Quốc)", "country": "Kazakhstan", "meta": "Hướng dẫn địa phương và hỗ trợ tân sinh viên" }
+        }
+      },
+      "shorts": {
+        "items": {
+          "1": { "title": "Điểm nhấn Hội chợ việc làm sinh viên quốc tế" },
+          "2": { "title": "Câu chuyện cố vấn nghề nghiệp" },
+          "3": { "title": "Tóm lược Hội chợ Nhân tài toàn cầu" }
+        }
+      },
+      "quick": {
+        "findSupporters": "Tìm hỗ trợ viên Go Almond",
+        "findSchool": "Tìm trường và ngành",
+        "scholarships": "Khám phá học bổng",
+        "onlineApplication": "Nộp hồ sơ trực tuyến",
+        "guidebook": "Tải sổ tay du học"
+      },
+      "cta": { "viewAll": "Xem tất cả" }
+    },
     "login": "Đăng nhập",
     "signup": "Đăng ký"
   },
@@ -121,11 +178,6 @@
       { "title": "Thông tin visa", "description": "Tìm hiểu về visa F-1 và yêu cầu nhập cư" },
       { "title": "Chi phí sinh hoạt", "description": "Khám phá chi phí sống ở các thành phố Mỹ" }
     ]
-  },
-  "community": {
-    "title": "Cộng đồng sinh viên quốc tế",
-    "subtitle": "Hội sinh viên theo quốc gia tại Mỹ",
-    "countries": ["Trung Quốc", "Ấn Độ", "Hàn Quốc", "Việt Nam", "Đài Loan", "Nhật Bản", "Ả Rập Saudi", "Canada", "Mexico", "Brazil"]
   },
   "footer": {
     "logo": "Du học Mỹ",
