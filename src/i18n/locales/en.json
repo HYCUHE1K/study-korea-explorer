@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Why USA",
+      "subtitle": "World-class education with globally recognized degrees and unmatched opportunities",
+      "description": "Discover why the United States is the top destination for international students seeking excellence in education."
+    },
+    "breadcrumb": "Why USA",
+    "sectionTitle": "Why USA",
+    "features": {
+      "education": {
+        "title": "World-Class Education",
+        "description": "The USA hosts the most globally recognized universities, offering cutting-edge programs, world-renowned faculty, and degrees valued by employers worldwide."
+      },
+      "research": {
+        "title": "Research & Innovation",
+        "description": "American universities lead in research and innovation, with access to state-of-the-art facilities, groundbreaking discoveries, and collaboration with industry leaders."
+      },
+      "scholarship": {
+        "title": "Scholarship Opportunities",
+        "description": "Generous financial aid and scholarship programs are available for international students, including government-sponsored programs like Fulbright."
+      },
+      "life": {
+        "title": "Quality of Life",
+        "description": "Experience diverse landscapes, vibrant cities, safe campuses, and a high standard of living while pursuing your education in America."
+      },
+      "opportunities": {
+        "title": "Career Opportunities",
+        "description": "OPT and CPT programs allow international students to gain valuable work experience. Many graduates build successful careers through H-1B visas."
+      },
+      "culture": {
+        "title": "Cultural Diversity",
+        "description": "American campuses are melting pots of cultures from around the world. Build a global network and experience diverse perspectives."
+      }
+    }
+  },
   "header": {
     "logo": "Go Almond",
     "nav": {
