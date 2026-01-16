@@ -105,6 +105,26 @@
             "description": "Legal guidance for international students"
           }
         }
+      },
+      "workInUSA": {
+        "items": {
+          "employment": {
+            "title": "Employment in USA",
+            "description": "Job opportunities and procedures for students"
+          },
+          "system": {
+            "title": "Employment System for Foreigners",
+            "description": "OPT, CPT, H1B visa information"
+          },
+          "internship": {
+            "title": "Internships and Work Experience",
+            "description": "Internship and practical experience opportunities"
+          },
+          "opportunities": {
+            "title": "Job Opportunities",
+            "description": "Job search information and listings"
+          }
+        }
       }
     }
   },

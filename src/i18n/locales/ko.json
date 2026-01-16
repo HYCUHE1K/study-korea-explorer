@@ -105,6 +105,26 @@
             "description": "유학생 관련 법률 안내"
           }
         }
+      },
+      "workInUSA": {
+        "items": {
+          "employment": {
+            "title": "미국 내 취업",
+            "description": "유학생 취업 기회와 절차"
+          },
+          "system": {
+            "title": "외국인 취업 제도",
+            "description": "OPT, CPT, H1B 비자 안내"
+          },
+          "internship": {
+            "title": "인턴십 및 현장 경험",
+            "description": "인턴십과 실무 경험 기회"
+          },
+          "opportunities": {
+            "title": "취업 기회",
+            "description": "구직 정보와 채용 공고"
+          }
+        }
       }
     }
   },
