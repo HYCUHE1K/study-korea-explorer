@@ -11,7 +11,38 @@
       "aiChat": "AI Advisor"
     },
     "login": "Login",
-    "signup": "Sign Up"
+    "signup": "Sign Up",
+    "megaMenu": {
+      "whyUSA": {
+        "title": "Why USA",
+        "items": {
+          "overview": {
+            "title": "Overview",
+            "description": "Why choose to study in the USA"
+          },
+          "education": {
+            "title": "Education System",
+            "description": "Understanding US higher education"
+          },
+          "rankings": {
+            "title": "University Rankings",
+            "description": "World-renowned American universities"
+          },
+          "culture": {
+            "title": "Culture & Diversity",
+            "description": "Experience diverse cultures"
+          },
+          "opportunities": {
+            "title": "Career Opportunities",
+            "description": "Post-graduation career prospects"
+          },
+          "research": {
+            "title": "Research & Innovation",
+            "description": "World-leading research environment"
+          }
+        }
+      }
+    }
   },
   "hero": {
     "title": "Go Almond",
