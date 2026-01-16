@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Warum USA",
+      "subtitle": "Weltklasse-Bildung mit weltweit anerkannten Abschlüssen und unvergleichlichen Möglichkeiten",
+      "description": "Entdecken Sie, warum die Vereinigten Staaten das Top-Ziel für internationale Studierende sind, die Exzellenz in der Bildung suchen."
+    },
+    "breadcrumb": "Warum USA",
+    "sectionTitle": "Warum USA",
+    "features": {
+      "education": {
+        "title": "Weltklasse-Bildung",
+        "description": "Die USA beherbergen die weltweit anerkanntesten Universitäten und bieten modernste Programme, weltbekannte Fakultäten und Abschlüsse, die von Arbeitgebern weltweit geschätzt werden."
+      },
+      "research": {
+        "title": "Forschung & Innovation",
+        "description": "Amerikanische Universitäten führen in Forschung und Innovation, mit Zugang zu hochmodernen Einrichtungen, bahnbrechenden Entdeckungen und Zusammenarbeit mit Branchenführern."
+      },
+      "scholarship": {
+        "title": "Stipendienmöglichkeiten",
+        "description": "Großzügige Finanzhilfe- und Stipendienprogramme stehen internationalen Studierenden zur Verfügung, einschließlich staatlich geförderter Programme wie Fulbright."
+      },
+      "life": {
+        "title": "Lebensqualität",
+        "description": "Erleben Sie vielfältige Landschaften, lebendige Städte, sichere Campus und einen hohen Lebensstandard, während Sie Ihre Ausbildung in Amerika verfolgen."
+      },
+      "opportunities": {
+        "title": "Karrieremöglichkeiten",
+        "description": "OPT- und CPT-Programme ermöglichen internationalen Studierenden wertvolle Berufserfahrung zu sammeln. Viele Absolventen bauen erfolgreiche Karrieren durch H-1B-Visa auf."
+      },
+      "culture": {
+        "title": "Kulturelle Vielfalt",
+        "description": "Amerikanische Campus sind Schmelztiegel der Kulturen aus der ganzen Welt. Bauen Sie ein globales Netzwerk auf und erleben Sie vielfältige Perspektiven."
+      }
+    }
+  },
   "nav": {
     "whyUSA": "Warum USA",
     "lifeInUSA": "Leben in den USA",
@@ -260,5 +295,274 @@
       "getStarted": "Loslegen",
       "askQuestions": "Fragen stellen"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Sichere & Einladende Umgebung",
+      "title": "Leben in den USA",
+      "subtitle": "Die USA sind ein sicheres Land mit niedrigen Kriminalitätsraten und bieten eine sichere Umgebung für internationale Studenten.",
+      "description": "Entdecken Sie alles, was Sie über das Leben in den Vereinigten Staaten als internationaler Student wissen müssen."
+    },
+    "sections": {
+      "lifeInUSA": "Leben in den USA",
+      "subtitle": "Wichtige Informationen für eine erfolgreiche Auslandsstudienerfahrung",
+      "additionalInfo": "Weitere Informationen zum Auslandsstudium",
+      "stories": "Geschichten",
+      "storiesSubtitle": "Echte Erfahrungen von internationalen Studenten",
+      "tags": "Beliebte Themen",
+      "quickMore": "Schnellzugriff"
+    },
+    "categories": {
+      "immigration": {
+        "title": "US-Einwanderungsverfahren",
+        "desc": "Von der Vorbereitung bis zur Ankunft am Flughafen - überprüfen Sie alle erforderlichen Verfahren und Checklisten auf Study in USA."
+      },
+      "housing": {
+        "title": "Wohn- und Unterkunftsinformationen",
+        "desc": "Intelligentes Leben für Auslandsstudium in den USA - überprüfen Sie wichtige Wohninformationen und planen Sie im Voraus."
+      },
+      "regions": {
+        "title": "Einführung in die US-Regionen",
+        "desc": "Großartige Städte zum Studieren in den USA - erleben Sie einzigartige regionale Gemeinschaftskulturen."
+      },
+      "livingCosts": {
+        "title": "Lebenshaltungskosten & Ausgaben",
+        "desc": "Auslandsstudienleben, das durch vielfältige Erfahrungen wächst - sparen Sie Kosten und verbringen Sie sinnvolle Zeit."
+      },
+      "stayDuration": {
+        "title": "Aufenthaltsstatus & Dauer",
+        "desc": "Überprüfen Sie hier Einwanderungsinformationen von der Ausländerregistrierung bis zu Änderungen der Aufenthaltsdauer."
+      },
+      "legalInfo": {
+        "title": "Rechtsinformationen zum Leben",
+        "desc": "Rechtsinformationen, die internationale Studenten über das Leben in den USA und verfügbare Unterstützungssysteme wissen sollten."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Verschiedene Stipendienunterstützung",
+        "desc": "Überprüfen Sie staatliche Stipendien für internationale Studenten sowie Stipendien von Unternehmen und Schulen."
+      },
+      "consultation": {
+        "title": "KI-Online-Beratung",
+        "desc": "Wir beantworten Ihre Anfragen schnell."
+      },
+      "findSchool": {
+        "title": "Fachbereich & Universität finden",
+        "desc": "Suchen Sie nach Universitäts- oder Studiengangnamen, um Schulinformationen auf einen Blick zu finden."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Alltags-Vlog",
+        "desc": "Echte Kurse und geschäftige Tage, die vergehen, sind wertvoller als alles andere."
+      },
+      "budgetTips": {
+        "title": "Budget-Spartipps",
+        "desc": "Erfahren Sie, wie Sie bei den Lebenshaltungskosten während des Auslandsstudiums sparen können."
+      },
+      "travelExperience": {
+        "title": "Beste Reiseziele",
+        "desc": "Absolventen teilen US-Kulturerfahrungen - wunderschöne Landschaften bieten etwas Besonderes."
+      }
+    },
+    "tags": {
+      "studentVlog": "Studentenleben-Vlog",
+      "budgetTips": "Budget-Spartipps",
+      "campusLife": "Campusleben",
+      "cityGuide": "Stadtführer"
+    },
+    "quickLinks": {
+      "findSchool": "Universitäts- und Fachbereichsinformationen finden",
+      "scholarships": "Verfügbare Stipendien finden",
+      "onlineApplication": "Einfach online bewerben",
+      "guidebook": "Wichtigen Leitfaden herunterladen"
+    },
+    "cta": {
+      "title": "Bereit, das Leben in den USA zu erleben?",
+      "description": "Starten Sie Ihre Reise mit vollständiger Unterstützung und Anleitung",
+      "planStudies": "Planen Sie Ihr Studium",
+      "askQuestions": "Fragen stellen"
+    }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Karrieremöglichkeiten",
+      "title": "Arbeiten in den USA",
+      "subtitle": "Vom Studium zur Karriere - Ihr Weg zum Erfolg",
+      "description": "Wir bieten Beschäftigungsinformationen und Jobsuchdienste, um internationale Studenten auf ihre Karriere in den USA vorzubereiten und zu helfen.",
+      "cta": "Jetzt Starten",
+      "viewJobs": "Stellenangebote Ansehen"
+    },
+    "sections": {
+      "employment": "Beschäftigung in den USA",
+      "system": "Arbeitsvisasystem",
+      "internship": "Praktikum & Erfahrung",
+      "recruitment": "Stellenangebote",
+      "platforms": "Job-Plattformen",
+      "tips": "Karrieretipps"
+    },
+    "mainTitle": "Karriereunterstützung für Internationale Studenten",
+    "mainSubtitle": "Umfassende Beschäftigungsinformationen und Karrieredienste für Ihren Erfolg",
+    "categories": {
+      "employment": {
+        "title": "Beschäftigung in den USA",
+        "desc": "Wichtige Informationen für internationale Studenten, die eine Beschäftigung in den USA suchen, einschließlich Jobvorbereitungsprozessen und Karriereberatung."
+      },
+      "foreignerSystem": {
+        "title": "Arbeitsvisasystem",
+        "desc": "Überprüfen Sie Berechtigungsinformationen für Vollzeit- und Teilzeitbeschäftigung, einschließlich OPT-, CPT- und H-1B-Visa-Anforderungen."
+      },
+      "internship": {
+        "title": "Freiwilligenarbeit & Branchenerfahrung",
+        "desc": "Schaffen Sie Erfolgschancen durch kulturellen Austausch und praktische Erfahrung über Freiwilligenarbeit und Praktika."
+      },
+      "recruitment": {
+        "title": "Stellenangebote",
+        "desc": "Wir helfen Ihnen, Jobs über wichtige Beschäftigungsplattformen wie LinkedIn, Indeed und universitäre Karrierezentren zu finden."
+      }
+    },
+    "additionalTitle": "Weitere Informationen zum Auslandsstudium",
+    "additional": {
+      "scholarships": {
+        "title": "Verschiedene Stipendienunterstützung",
+        "desc": "Überprüfen Sie Stipendien von der US-Regierung, Unternehmen und einzelnen Schulen für internationale Studenten."
+      },
+      "consultation": {
+        "title": "KI Kori Online-Beratung",
+        "desc": "Wir beantworten Ihre Anfragen schnell."
+      },
+      "schoolSearch": {
+        "title": "Finden Sie Ihre Universität & Ihr Hauptfach",
+        "desc": "Suchen Sie nach Universitäts- oder Studiengangnamen, um Informationen über interessante Schulen auf einen Blick zu finden."
+      }
+    },
+    "stories": {
+      "title": "Erfolgsgeschichten",
+      "subtitle": "Lernen Sie von Absolventen, die erfolgreich eine Beschäftigung in den USA gefunden haben",
+      "video1": {
+        "title": "2024 Jobmesse für Internationale Studenten",
+        "description": "1:1 Karriereberatung zur Unterstützung von Beschäftigungsaktivitäten in den USA.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Karriere-Mentoring durch Absolventen",
+        "description": "Hören Sie lebendige Beschäftigungsgeschichten von Mentoren aus verschiedenen Ländern.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "1:1 Rekrutierungsberatungen, Karrierevorträge von Absolventen, Unternehmenspräsentationen und mehr.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Jobsuch-Plattformen",
+    "platformsSubtitle": "Finden Sie Jobmöglichkeiten über führende US-Beschäftigungsplattformen",
+    "platforms": {
+      "linkedin": "Professionelles Networking und Jobsuche",
+      "indeed": "Umfassende Stellenangebote",
+      "glassdoor": "Unternehmensbewertungen und Gehälter",
+      "handshake": "Universitäre Karrieredienste",
+      "usajobs": "US-Regierungspositionen",
+      "angellist": "Startup- und Tech-Jobs",
+      "ziprecruiter": "KI-gestütztes Job-Matching",
+      "monster": "Karriereressourcen und Jobs"
+    },
+    "tipsTitle": "Karriere-Erfolgstipps",
+    "tipsSubtitle": "Wesentliche Strategien für internationale Studenten, die eine Beschäftigung in den USA suchen",
+    "tips": {
+      "networking": {
+        "title": "Bauen Sie Ihr Netzwerk auf",
+        "desc": "Besuchen Sie Karrieremessen, treten Sie Berufsverbänden bei und vernetzen Sie sich mit Alumni, um Ihr berufliches Netzwerk zu erweitern."
+      },
+      "resume": {
+        "title": "Perfektionieren Sie Ihren Lebenslauf",
+        "desc": "Erstellen Sie einen amerikanischen Lebenslauf, der Erfolge, Fähigkeiten und quantifizierbare Ergebnisse hervorhebt, die für Zielpositionen relevant sind."
+      },
+      "skills": {
+        "title": "Entwickeln Sie gefragte Fähigkeiten",
+        "desc": "Konzentrieren Sie sich auf technische Fähigkeiten, Kommunikationsfähigkeiten und branchenspezifisches Wissen, das von US-Arbeitgebern geschätzt wird."
+      },
+      "interview": {
+        "title": "Meistern Sie Interviews",
+        "desc": "Üben Sie häufige Interviewfragen, Verhaltensinterviews und Fallstudien. Bereiten Sie durchdachte Fragen für Interviewer vor."
+      },
+      "linkedin": {
+        "title": "Optimieren Sie Ihr LinkedIn-Profil",
+        "desc": "Erstellen Sie ein professionelles Profil mit Keywords, Empfehlungen und aktivem Engagement, um Recruiter anzuziehen."
+      },
+      "timing": {
+        "title": "Früh Beginnen",
+        "desc": "Beginnen Sie die Jobsuche 6-9 Monate vor dem Abschluss. Viele Unternehmen haben spezifische Zeitpläne für die internationale Einstellung."
+      }
+    },
+    "notice": {
+      "title": "2024 Jobmesse für Internationale Studenten",
+      "description": "Treffen Sie globale Talente, die in den USA arbeiten möchten! 1:1 Rekrutierungsberatungen, Beschäftigungsvorträge von Absolventen, Unternehmenspräsentationen und verschiedene Programme erwarten Sie.",
+      "cta": "Mehr Erfahren"
+    },
+    "cta": {
+      "title": "Bereit, Ihre Karriere zu starten?",
+      "description": "Starten Sie Ihre berufliche Reise in den USA mit vollständiger Unterstützung",
+      "signup": "Jetzt Registrieren",
+      "chat": "Mit KI-Berater Chatten"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "Community-Hub",
+      "title": "Bleib mit der Study-Abroad-Community verbunden",
+      "subtitle": "Nachrichten, Geschichten und Ressourcen für internationale Studierende",
+      "description": "Entdecke Videos von Unterstützer:innen, Studierendenverbände, Stipendien und schnelle Links aus der Study in Korea-Community."
+    },
+    "sections": {
+      "updates": "Aktuelle Updates",
+      "updatesDesc": "Verfolge Nachrichten, Aktivitäten der Unterstützer, Stipendien und Community-FAQ.",
+      "supporters": "Unterstützer:innen",
+      "supportersDesc": "Höre direkt von Unterstützer:innen über Studium und Leben im Ausland.",
+      "associations": "Studierendenverbände",
+      "associationsDesc": "Vernetze dich mit regionalen Verbänden und erhalte lokale Hilfe.",
+      "shorts": "Kurzgeschichten",
+      "shortsDesc": "Kurze Videos, die das Auslandsstudium zeigen.",
+      "quick": "Schnellzugriffe"
+    },
+    "updates": {
+      "notice": { "title": "Hinweise & News", "desc": "Wichtige Ankündigungen und Fristen für Studierende." },
+      "stories": { "title": "Study Stories", "desc": "Echte Erfahrungen von Studierenden im Ausland." },
+      "supporters": { "title": "Aktivitäten der Unterstützer:innen", "desc": "Verfolge aktuelle Events und Inhalte unserer Unterstützer:innen." },
+      "gks": { "title": "Stipendien-Highlights", "desc": "Infos zu GKS-ähnlichen Stipendien und Finanzhilfen." },
+      "associations": { "title": "Studierendenverbände", "desc": "Finde regionale Verbände, denen du beitreten kannst." },
+      "faq": { "title": "Anfragen & FAQ", "desc": "Antworten auf häufige Fragen zum Auslandsstudium." },
+      "resources": { "title": "Nützliche Ressourcen", "desc": "Guides, Checklisten und Tools für deine Planung." }
+    },
+    "supporters": {
+      "items": {
+        "1": { "title": "Unterstützer der Northeastern University (New York State Mall Capstone)", "author": "Hochgeladen von Study in Korea", "meta": "Video-Interview, Studierendenleben" },
+        "2": { "title": "Unterstützer des Asia Campus der University of Utah", "author": "Hochgeladen von Study in Korea", "meta": "Campusrundgang, Programme" },
+        "3": { "title": "Leben an der Duksung Women’s University (Mink in Korea)", "author": "Hochgeladen von Mink in Korea", "meta": "Vlog, Campusleben" }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK (Studierendenverband der Demokratischen Republik Kongo)", "country": "DR Kongo", "meta": "Networking, Mentoring und Peer-Support" },
+        "2": { "title": "FPVSAK (Bund peruanischer Alumni in Korea)", "country": "Peru", "meta": "Community-Events und Kulturaustausch" },
+        "3": { "title": "KSAK (Verband kasachischer Studierender in Korea)", "country": "Kasachstan", "meta": "Lokale Orientierung und Unterstützung für Neue" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "Highlights der Jobmesse für internationale Studierende" },
+        "2": { "title": "Karriere-Mentoring-Geschichten" },
+        "3": { "title": "Rückblick auf die Global Talent Fair" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Go Almond-Unterstützer finden",
+      "findSchool": "Hochschulen und Fächer suchen",
+      "scholarships": "Stipendien entdecken",
+      "onlineApplication": "Online-Bewerbung",
+      "guidebook": "Studienleitfaden herunterladen"
+    },
+    "cta": { "viewAll": "Alle ansehen" }
   }
 }

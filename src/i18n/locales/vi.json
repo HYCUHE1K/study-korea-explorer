@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Tại sao chọn Mỹ",
+      "subtitle": "Giáo dục đẳng cấp thế giới với bằng cấp được công nhận toàn cầu và cơ hội vô song",
+      "description": "Khám phá tại sao Hoa Kỳ là điểm đến hàng đầu cho sinh viên quốc tế đang tìm kiếm sự xuất sắc trong giáo dục."
+    },
+    "breadcrumb": "Tại sao chọn Mỹ",
+    "sectionTitle": "Tại sao chọn Mỹ",
+    "features": {
+      "education": {
+        "title": "Giáo dục đẳng cấp thế giới",
+        "description": "Hoa Kỳ có các trường đại học được công nhận toàn cầu nhất, cung cấp các chương trình tiên tiến, đội ngũ giảng viên nổi tiếng thế giới và bằng cấp được các nhà tuyển dụng trên toàn thế giới đánh giá cao."
+      },
+      "research": {
+        "title": "Nghiên cứu & Đổi mới",
+        "description": "Các trường đại học Mỹ dẫn đầu trong nghiên cứu và đổi mới, với quyền truy cập vào cơ sở vật chất hiện đại, những khám phá đột phá và hợp tác với các nhà lãnh đạo ngành."
+      },
+      "scholarship": {
+        "title": "Cơ hội học bổng",
+        "description": "Các chương trình hỗ trợ tài chính và học bổng hào phóng có sẵn cho sinh viên quốc tế, bao gồm các chương trình do chính phủ tài trợ như Fulbright."
+      },
+      "life": {
+        "title": "Chất lượng cuộc sống",
+        "description": "Trải nghiệm cảnh quan đa dạng, thành phố sôi động, khuôn viên an toàn và mức sống cao trong khi theo đuổi giáo dục của bạn tại Mỹ."
+      },
+      "opportunities": {
+        "title": "Cơ hội nghề nghiệp",
+        "description": "Các chương trình OPT và CPT cho phép sinh viên quốc tế có được kinh nghiệm làm việc quý giá. Nhiều sinh viên tốt nghiệp xây dựng sự nghiệp thành công thông qua visa H-1B."
+      },
+      "culture": {
+        "title": "Đa dạng văn hóa",
+        "description": "Các trường đại học Mỹ là nơi hội tụ các nền văn hóa từ khắp nơi trên thế giới. Xây dựng mạng lưới toàn cầu và trải nghiệm các quan điểm đa dạng."
+      }
+    }
+  },
   "header": {
     "logo": "Du học Mỹ",
     "nav": {
@@ -8,6 +43,63 @@
       "universities": "Trường đại học",
       "courses": "Khóa học",
       "scholarships": "Học bổng"
+    },
+    "community": {
+      "hero": {
+        "badge": "Trung tâm Cộng đồng",
+        "title": "Kết nối cùng cộng đồng du học",
+        "subtitle": "Tin tức, câu chuyện và tài nguyên dành cho sinh viên quốc tế",
+        "description": "Khám phá video của hỗ trợ viên, hội sinh viên, học bổng và các liên kết nhanh lấy cảm hứng từ cộng đồng Du học Hàn Quốc."
+      },
+      "sections": {
+        "updates": "Cập nhật mới nhất",
+        "updatesDesc": "Theo dõi tin tức, hoạt động hỗ trợ viên, học bổng và FAQ cộng đồng.",
+        "supporters": "Hỗ trợ viên",
+        "supportersDesc": "Nghe trực tiếp chia sẻ về học tập và cuộc sống du học.",
+        "associations": "Hội sinh viên",
+        "associationsDesc": "Kết nối hội sinh viên khu vực và nhận hỗ trợ địa phương.",
+        "shorts": "Câu chuyện ngắn",
+        "shortsDesc": "Video ngắn nêu bật trải nghiệm du học.",
+        "quick": "Liên kết nhanh"
+      },
+      "updates": {
+        "notice": { "title": "Thông báo & Tin tức", "desc": "Thông báo quan trọng và hạn chót dành cho sinh viên." },
+        "stories": { "title": "Câu chuyện du học", "desc": "Trải nghiệm thực tế từ sinh viên đang học ở nước ngoài." },
+        "supporters": { "title": "Hoạt động hỗ trợ viên", "desc": "Theo dõi sự kiện và nội dung mới nhất từ hỗ trợ viên." },
+        "gks": { "title": "Điểm nhấn học bổng", "desc": "Xem các học bổng kiểu GKS và cập nhật hỗ trợ tài chính." },
+        "associations": { "title": "Hội sinh viên", "desc": "Tìm hội sinh viên khu vực để tham gia." },
+        "faq": { "title": "Hỏi đáp & FAQ", "desc": "Giải đáp câu hỏi thường gặp về du học." },
+        "resources": { "title": "Tài nguyên hữu ích", "desc": "Hướng dẫn, checklist và công cụ lập kế hoạch hành trình." }
+      },
+      "supporters": {
+        "items": {
+          "1": { "title": "Hỗ trợ viên Đại học Northeastern (Capstone tại New York State Mall)", "author": "Tải lên bởi Study in Korea", "meta": "Phỏng vấn video, đời sống sinh viên" },
+          "2": { "title": "Hỗ trợ viên Cơ sở châu Á Đại học Utah", "author": "Tải lên bởi Study in Korea", "meta": "Tham quan campus, chương trình" },
+          "3": { "title": "Cuộc sống tại Đại học Nữ Duksung (Mink in Korea)", "author": "Tải lên bởi Mink in Korea", "meta": "Vlog, đời sống campus" }
+        }
+      },
+      "associations": {
+        "items": {
+          "1": { "title": "DECOK (Hội sinh viên CHDC Congo)", "country": "CHDC Congo", "meta": "Kết nối, cố vấn và hỗ trợ đồng đẳng" },
+          "2": { "title": "FPVSAK (Liên đoàn cựu sinh viên Peru tại Hàn Quốc)", "country": "Peru", "meta": "Sự kiện cộng đồng và giao lưu văn hóa" },
+          "3": { "title": "KSAK (Hội sinh viên Kazakhstan tại Hàn Quốc)", "country": "Kazakhstan", "meta": "Hướng dẫn địa phương và hỗ trợ tân sinh viên" }
+        }
+      },
+      "shorts": {
+        "items": {
+          "1": { "title": "Điểm nhấn Hội chợ việc làm sinh viên quốc tế" },
+          "2": { "title": "Câu chuyện cố vấn nghề nghiệp" },
+          "3": { "title": "Tóm lược Hội chợ Nhân tài toàn cầu" }
+        }
+      },
+      "quick": {
+        "findSupporters": "Tìm hỗ trợ viên Go Almond",
+        "findSchool": "Tìm trường và ngành",
+        "scholarships": "Khám phá học bổng",
+        "onlineApplication": "Nộp hồ sơ trực tuyến",
+        "guidebook": "Tải sổ tay du học"
+      },
+      "cta": { "viewAll": "Xem tất cả" }
     },
     "login": "Đăng nhập",
     "signup": "Đăng ký"
@@ -86,11 +178,6 @@
       { "title": "Thông tin visa", "description": "Tìm hiểu về visa F-1 và yêu cầu nhập cư" },
       { "title": "Chi phí sinh hoạt", "description": "Khám phá chi phí sống ở các thành phố Mỹ" }
     ]
-  },
-  "community": {
-    "title": "Cộng đồng sinh viên quốc tế",
-    "subtitle": "Hội sinh viên theo quốc gia tại Mỹ",
-    "countries": ["Trung Quốc", "Ấn Độ", "Hàn Quốc", "Việt Nam", "Đài Loan", "Nhật Bản", "Ả Rập Saudi", "Canada", "Mexico", "Brazil"]
   },
   "footer": {
     "logo": "Du học Mỹ",
@@ -269,6 +356,218 @@
       "description": "Bắt đầu lập kế hoạch du học với chúng tôi ngay hôm nay",
       "getStarted": "Bắt đầu",
       "askQuestions": "Đặt câu hỏi"
+    }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Môi trường An toàn & Thân thiện",
+      "title": "Cuộc sống tại Mỹ",
+      "subtitle": "Mỹ là một quốc gia an toàn với tỷ lệ tội phạm thấp, cung cấp môi trường an toàn cho sinh viên quốc tế.",
+      "description": "Khám phá mọi thứ bạn cần biết về cuộc sống ở Hoa Kỳ với tư cách là sinh viên quốc tế."
+    },
+    "sections": {
+      "lifeInUSA": "Cuộc sống tại Mỹ",
+      "subtitle": "Thông tin cần thiết cho trải nghiệm du học thành công",
+      "additionalInfo": "Thông tin Du học Thêm",
+      "stories": "Câu chuyện",
+      "storiesSubtitle": "Trải nghiệm thực tế từ sinh viên quốc tế",
+      "tags": "Chủ đề Phổ biến",
+      "quickMore": "Truy cập Nhanh"
+    },
+    "categories": {
+      "immigration": {
+        "title": "Thủ tục Nhập cảnh Mỹ",
+        "desc": "Từ trước khi khởi hành đến khi đến sân bay, kiểm tra tất cả các thủ tục cần thiết và danh sách kiểm tra trên Study in USA."
+      },
+      "housing": {
+        "title": "Thông tin Sinh hoạt & Nhà ở",
+        "desc": "Cuộc sống du học Mỹ thông minh - kiểm tra thông tin sinh hoạt cần thiết và lập kế hoạch trước."
+      },
+      "regions": {
+        "title": "Giới thiệu Khu vực Mỹ",
+        "desc": "Các thành phố tuyệt vời để du học tại Mỹ - trải nghiệm văn hóa cộng đồng khu vực độc đáo."
+      },
+      "livingCosts": {
+        "title": "Chi phí Sinh hoạt & Chi tiêu",
+        "desc": "Cuộc sống du học phát triển qua trải nghiệm đa dạng - tiết kiệm chi phí trong khi dành thời gian có ý nghĩa."
+      },
+      "stayDuration": {
+        "title": "Tình trạng Cư trú & Thời gian",
+        "desc": "Kiểm tra thông tin nhập cư từ đăng ký người nước ngoài đến thay đổi thời gian lưu trú tại đây."
+      },
+      "legalInfo": {
+        "title": "Thông tin Pháp lý Sinh hoạt",
+        "desc": "Thông tin pháp lý sinh viên quốc tế nên biết về cuộc sống tại Mỹ và các hệ thống hỗ trợ có sẵn."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Hỗ trợ Học bổng Đa dạng",
+        "desc": "Kiểm tra học bổng của chính phủ dành cho sinh viên quốc tế và học bổng từ các công ty và trường học."
+      },
+      "consultation": {
+        "title": "Tư vấn Trực tuyến AI",
+        "desc": "Chúng tôi trả lời các câu hỏi của bạn một cách nhanh chóng."
+      },
+      "findSchool": {
+        "title": "Tìm Khoa & Trường Đại học",
+        "desc": "Tìm kiếm theo tên trường đại học hoặc chuyên ngành để tìm thông tin trường một cách nhanh chóng."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Vlog Cuộc sống Hàng ngày",
+        "desc": "Các lớp học thực tế và những ngày bận rộn trôi qua có giá trị hơn bất cứ điều gì."
+      },
+      "budgetTips": {
+        "title": "Mẹo Tiết kiệm Ngân sách",
+        "desc": "Học cách tiết kiệm chi phí sinh hoạt trong khi du học."
+      },
+      "travelExperience": {
+        "title": "Điểm đến Du lịch Tốt nhất",
+        "desc": "Các tiền bối chia sẻ trải nghiệm văn hóa Mỹ - phong cảnh đẹp mang đến điều gì đó đặc biệt."
+      }
+    },
+    "tags": {
+      "studentVlog": "Vlog Cuộc sống Sinh viên",
+      "budgetTips": "Mẹo Tiết kiệm Ngân sách",
+      "campusLife": "Cuộc sống Trường học",
+      "cityGuide": "Hướng dẫn Thành phố"
+    },
+    "quickLinks": {
+      "findSchool": "Tìm thông tin trường đại học & khoa",
+      "scholarships": "Tìm học bổng có sẵn",
+      "onlineApplication": "Đăng ký trực tuyến dễ dàng",
+      "guidebook": "Tải xuống sổ tay hướng dẫn cần thiết"
+    },
+    "cta": {
+      "title": "Sẵn sàng Trải nghiệm Cuộc sống Mỹ?",
+      "description": "Bắt đầu hành trình của bạn với sự hỗ trợ và hướng dẫn hoàn chỉnh",
+      "planStudies": "Lên kế hoạch Học tập",
+      "askQuestions": "Đặt câu hỏi"
+    }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Cơ hội Nghề nghiệp",
+      "title": "Làm việc tại Mỹ",
+      "subtitle": "Từ học tập đến sự nghiệp - Con đường thành công của bạn",
+      "description": "Chúng tôi cung cấp thông tin việc làm và dịch vụ tìm kiếm việc làm để giúp sinh viên quốc tế chuẩn bị và tìm kiếm sự nghiệp tại Mỹ.",
+      "cta": "Bắt đầu",
+      "viewJobs": "Xem việc làm"
+    },
+    "sections": {
+      "employment": "Việc làm tại Mỹ",
+      "system": "Hệ thống Visa Lao động",
+      "internship": "Thực tập & Kinh nghiệm",
+      "recruitment": "Việc làm",
+      "platforms": "Nền tảng Tìm việc",
+      "tips": "Mẹo Nghề nghiệp"
+    },
+    "mainTitle": "Hỗ trợ Nghề nghiệp Sinh viên Quốc tế",
+    "mainSubtitle": "Thông tin việc làm toàn diện và dịch vụ nghề nghiệp cho sự thành công của bạn",
+    "categories": {
+      "employment": {
+        "title": "Việc làm tại Mỹ",
+        "desc": "Thông tin cần thiết cho sinh viên quốc tế tìm kiếm việc làm tại Mỹ, bao gồm quy trình chuẩn bị công việc và hướng dẫn nghề nghiệp."
+      },
+      "foreignerSystem": {
+        "title": "Hệ thống Visa Lao động",
+        "desc": "Kiểm tra thông tin về điều kiện việc làm toàn thời gian và bán thời gian, bao gồm yêu cầu visa OPT, CPT và H-1B."
+      },
+      "internship": {
+        "title": "Tình nguyện & Kinh nghiệm Ngành",
+        "desc": "Tạo cơ hội thành tựu thông qua trao đổi văn hóa và kinh nghiệm thực tế qua hoạt động tình nguyện và thực tập."
+      },
+      "recruitment": {
+        "title": "Việc làm",
+        "desc": "Chúng tôi giúp bạn tìm việc thông qua các nền tảng việc làm chính bao gồm LinkedIn, Indeed và trung tâm nghề nghiệp đại học."
+      }
+    },
+    "additionalTitle": "Thêm Thông tin Du học",
+    "additional": {
+      "scholarships": {
+        "title": "Hỗ trợ Học bổng Đa dạng",
+        "desc": "Kiểm tra học bổng từ chính phủ Mỹ, các công ty và từng trường học dành cho sinh viên quốc tế."
+      },
+      "consultation": {
+        "title": "Tư vấn Trực tuyến AI",
+        "desc": "Chúng tôi phản hồi nhanh chóng các câu hỏi của bạn."
+      },
+      "schoolSearch": {
+        "title": "Tìm Trường & Chuyên ngành",
+        "desc": "Tìm kiếm theo tên trường đại học hoặc chuyên ngành để tìm thông tin về các trường quan tâm ngay lập tức."
+      }
+    },
+    "stories": {
+      "title": "Câu chuyện Thành công",
+      "subtitle": "Học hỏi từ những tiền bối đã tìm được việc làm thành công tại Mỹ",
+      "video1": {
+        "title": "Hội chợ Việc làm 2024 cho Sinh viên Quốc tế",
+        "description": "Tư vấn nghề nghiệp 1:1 hỗ trợ hoạt động việc làm tại Mỹ.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Hướng dẫn Nghề nghiệp từ Tiền bối",
+        "description": "Lắng nghe những câu chuyện việc làm sống động từ những người hướng dẫn đến từ nhiều quốc gia khác nhau.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "Tư vấn tuyển dụng 1:1, bài giảng nghề nghiệp từ tiền bối, thông tin tuyển dụng công ty và nhiều hơn nữa.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Nền tảng Tìm việc",
+    "platformsSubtitle": "Tìm cơ hội việc làm thông qua các nền tảng việc làm hàng đầu của Mỹ",
+    "platforms": {
+      "linkedin": "Mạng lưới chuyên nghiệp và tìm việc",
+      "indeed": "Danh sách việc làm toàn diện",
+      "glassdoor": "Đánh giá công ty và mức lương",
+      "handshake": "Dịch vụ nghề nghiệp đại học",
+      "usajobs": "Vị trí chính phủ Mỹ",
+      "angellist": "Việc làm khởi nghiệp và công nghệ",
+      "ziprecruiter": "Ghép việc làm bằng AI",
+      "monster": "Tài nguyên nghề nghiệp và việc làm"
+    },
+    "tipsTitle": "Mẹo Thành công Nghề nghiệp",
+    "tipsSubtitle": "Các chiến lược thiết yếu cho sinh viên quốc tế tìm kiếm việc làm tại Mỹ",
+    "tips": {
+      "networking": {
+        "title": "Xây dựng Mạng lưới",
+        "desc": "Tham dự hội chợ việc làm, tham gia các hiệp hội chuyên nghiệp và kết nối với cựu sinh viên để mở rộng mạng lưới chuyên nghiệp."
+      },
+      "resume": {
+        "title": "Hoàn thiện Sơ yếu lý lịch",
+        "desc": "Tạo sơ yếu lý lịch theo phong cách Mỹ nổi bật thành tích, kỹ năng và kết quả có thể định lượng liên quan đến vị trí mục tiêu."
+      },
+      "skills": {
+        "title": "Phát triển Kỹ năng Cần thiết",
+        "desc": "Tập trung vào kỹ năng kỹ thuật, khả năng giao tiếp và kiến thức chuyên ngành được các nhà tuyển dụng Mỹ đánh giá cao."
+      },
+      "interview": {
+        "title": "Thành thạo Phỏng vấn",
+        "desc": "Luyện tập các câu hỏi phỏng vấn thông thường, phỏng vấn hành vi và nghiên cứu tình huống. Chuẩn bị các câu hỏi sâu sắc cho người phỏng vấn."
+      },
+      "linkedin": {
+        "title": "Tối ưu Hồ sơ LinkedIn",
+        "desc": "Tạo hồ sơ chuyên nghiệp với từ khóa, đề xuất và tương tác tích cực để thu hút nhà tuyển dụng."
+      },
+      "timing": {
+        "title": "Bắt đầu Sớm",
+        "desc": "Bắt đầu tìm việc 6-9 tháng trước khi tốt nghiệp. Nhiều công ty có lịch trình tuyển dụng quốc tế cụ thể."
+      }
+    },
+    "notice": {
+      "title": "Hội chợ Việc làm Sinh viên Quốc tế 2024",
+      "description": "Gặp gỡ những tài năng toàn cầu đang tìm kiếm làm việc tại Mỹ! Tư vấn tuyển dụng 1:1, bài giảng việc làm từ tiền bối, thông tin công ty và nhiều chương trình khác đang chờ bạn.",
+      "cta": "Tìm hiểu thêm"
+    },
+    "cta": {
+      "title": "Sẵn sàng Khởi động Sự nghiệp?",
+      "description": "Bắt đầu hành trình nghề nghiệp của bạn tại Mỹ với sự hỗ trợ hoàn toàn",
+      "signup": "Đăng ký Ngay",
+      "chat": "Trò chuyện với Cố vấn AI"
     }
   }
 }

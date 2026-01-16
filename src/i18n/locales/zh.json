@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "为什么选择美国",
+      "subtitle": "世界一流的教育，全球认可的学位和无与伦比的机会",
+      "description": "了解为什么美国是寻求卓越教育的国际学生的首选目的地。"
+    },
+    "breadcrumb": "为什么选择美国",
+    "sectionTitle": "为什么选择美国",
+    "features": {
+      "education": {
+        "title": "世界一流教育",
+        "description": "美国拥有全球最受认可的大学，提供尖端课程、世界知名的教师队伍以及受全球雇主重视的学位。"
+      },
+      "research": {
+        "title": "研究与创新",
+        "description": "美国大学在研究和创新方面处于领先地位，拥有最先进的设施、突破性的发现，以及与行业领导者的合作机会。"
+      },
+      "scholarship": {
+        "title": "奖学金机会",
+        "description": "为国际学生提供丰厚的经济援助和奖学金项目，包括政府资助的项目，如富布赖特奖学金。"
+      },
+      "life": {
+        "title": "生活质量",
+        "description": "在美国追求教育的同时，体验多样化的景观、充满活力的城市、安全的校园和高标准的生活。"
+      },
+      "opportunities": {
+        "title": "职业机会",
+        "description": "OPT和CPT项目允许国际学生获得宝贵的工作经验。许多毕业生通过H-1B签证建立成功的职业生涯。"
+      },
+      "culture": {
+        "title": "文化多样性",
+        "description": "美国校园是来自世界各地文化的熔炉。建立全球网络，体验多元化的观点。"
+      }
+    }
+  },
   "header": {
     "logo": "留学美国",
     "nav": {
@@ -86,11 +121,6 @@
       { "title": "签证信息", "description": "了解F-1签证和移民要求" },
       { "title": "生活成本", "description": "探索美国不同城市的生活成本" }
     ]
-  },
-  "community": {
-    "title": "国际学生社区",
-    "subtitle": "在美国的各国学生会",
-    "countries": ["中国", "印度", "韩国", "越南", "台湾", "日本", "沙特阿拉伯", "加拿大", "墨西哥", "巴西"]
   },
   "footer": {
     "logo": "留学美国",
@@ -269,6 +299,289 @@
       "description": "今天就与我们一起开始您的留学规划",
       "getStarted": "开始",
       "askQuestions": "提问"
+    }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "安全友好的环境",
+      "title": "美国生活",
+      "subtitle": "美国是一个犯罪率低的安全国家，为国际学生提供安全的环境。",
+      "description": "了解作为国际学生在美国生活所需的一切信息。"
+    },
+    "sections": {
+      "lifeInUSA": "美国生活",
+      "subtitle": "成功留学体验的必备信息",
+      "additionalInfo": "更多留学信息",
+      "stories": "故事",
+      "storiesSubtitle": "国际学生的真实经历",
+      "tags": "热门话题",
+      "quickMore": "快速访问"
+    },
+    "categories": {
+      "immigration": {
+        "title": "美国入境程序",
+        "desc": "从出发前到机场到达，在留学美国网站上查看所有必要程序和检查清单。"
+      },
+      "housing": {
+        "title": "生活和住房信息",
+        "desc": "智慧美国留学生活 - 查看必要的生活信息并提前规划。"
+      },
+      "regions": {
+        "title": "美国地区介绍",
+        "desc": "美国优秀的留学城市 - 体验独特的地区社区文化。"
+      },
+      "livingCosts": {
+        "title": "生活费用和开支",
+        "desc": "通过多样化体验成长的留学生活 - 在节省成本的同时度过有意义的时光。"
+      },
+      "stayDuration": {
+        "title": "居留身份和时长",
+        "desc": "从外国人登记到居留期限变更，在此查看移民信息。"
+      },
+      "legalInfo": {
+        "title": "生活法律信息",
+        "desc": "国际学生应该了解的美国生活法律信息和可用的支持系统。"
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "各种奖学金支持",
+        "desc": "查看面向国际学生的政府奖学金以及企业和学校提供的奖学金。"
+      },
+      "consultation": {
+        "title": "AI在线咨询",
+        "desc": "我们快速回答您的咨询。"
+      },
+      "findSchool": {
+        "title": "查找专业和大学",
+        "desc": "按大学或专业名称搜索，一目了然地找到学校信息。"
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "日常生活Vlog",
+        "desc": "真实的课程和忙碌的日子比任何东西都更有价值。"
+      },
+      "budgetTips": {
+        "title": "预算节省技巧",
+        "desc": "学习如何在留学期间节省生活费用。"
+      },
+      "travelExperience": {
+        "title": "最佳旅游目的地",
+        "desc": "学长学姐分享美国文化体验 - 美丽的风景提供特别的东西。"
+      }
+    },
+    "tags": {
+      "studentVlog": "学生生活Vlog",
+      "budgetTips": "预算节省技巧",
+      "campusLife": "校园生活",
+      "cityGuide": "城市指南"
+    },
+    "quickLinks": {
+      "findSchool": "查找大学和专业信息",
+      "scholarships": "查找可用奖学金",
+      "onlineApplication": "轻松在线申请",
+      "guidebook": "下载必备指南"
+    },
+    "cta": {
+      "title": "准备体验美国生活了吗？",
+      "description": "在全面支持和指导下开始您的旅程",
+      "planStudies": "规划您的学习",
+      "askQuestions": "提问"
+    }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "职业机会",
+      "title": "在美国工作",
+      "subtitle": "从学术到职业 - 您的成功之路",
+      "description": "我们提供就业信息和求职服务，帮助国际学生在美国准备和寻找职业机会。",
+      "cta": "开始",
+      "viewJobs": "查看职位空缺"
+    },
+    "sections": {
+      "employment": "美国就业",
+      "system": "工作签证制度",
+      "internship": "实习与经验",
+      "recruitment": "职位空缺",
+      "platforms": "求职平台",
+      "tips": "职业技巧"
+    },
+    "mainTitle": "国际学生职业支持",
+    "mainSubtitle": "全面的就业信息和职业服务助您成功",
+    "categories": {
+      "employment": {
+        "title": "美国就业",
+        "desc": "为在美国寻求就业的国际学生提供必要信息，包括求职准备流程和职业指导。"
+      },
+      "foreignerSystem": {
+        "title": "工作签证制度",
+        "desc": "查看全职和兼职就业的资格信息，包括OPT、CPT和H-1B签证要求。"
+      },
+      "internship": {
+        "title": "志愿者与行业经验",
+        "desc": "通过志愿服务和实习进行文化交流和实践经验，创造成就机会。"
+      },
+      "recruitment": {
+        "title": "职位空缺",
+        "desc": "我们帮助您通过LinkedIn、Indeed和大学职业中心等主要就业平台找到工作。"
+      }
+    },
+    "additionalTitle": "更多留学信息",
+    "additional": {
+      "scholarships": {
+        "title": "各种奖学金支持",
+        "desc": "查看美国政府、企业和各个学校为国际学生提供的奖学金。"
+      },
+      "consultation": {
+        "title": "AI在线咨询",
+        "desc": "我们快速回答您的咨询。"
+      },
+      "schoolSearch": {
+        "title": "查找您的大学和专业",
+        "desc": "按大学或专业名称搜索，一目了然地找到感兴趣的学校信息。"
+      }
+    },
+    "stories": {
+      "title": "成功故事",
+      "subtitle": "学习成功在美国找到工作的学长学姐的经验",
+      "video1": {
+        "title": "2024年国际学生招聘会",
+        "description": "支持在美国就业活动的1对1职业咨询。",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "学长学姐职业指导",
+        "description": "聆听来自不同国家的导师生动的就业故事。",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024全球人才招聘会",
+        "description": "1对1招聘咨询、学长学姐职业讲座、企业招聘简报等。",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "求职平台",
+    "platformsSubtitle": "通过美国领先的就业平台寻找工作机会",
+    "platforms": {
+      "linkedin": "专业网络和求职",
+      "indeed": "综合职位列表",
+      "glassdoor": "公司评论和薪资",
+      "handshake": "大学职业服务",
+      "usajobs": "美国政府职位",
+      "angellist": "初创企业和科技工作",
+      "ziprecruiter": "AI驱动的职位匹配",
+      "monster": "职业资源和工作"
+    },
+    "tipsTitle": "职业成功技巧",
+    "tipsSubtitle": "国际学生在美国求职的必备策略",
+    "tips": {
+      "networking": {
+        "title": "建立您的人际网络",
+        "desc": "参加职业招聘会，加入专业协会，与校友联系以扩展您的专业网络。"
+      },
+      "resume": {
+        "title": "完善您的简历",
+        "desc": "创建美式简历，突出成就、技能和与目标职位相关的可量化结果。"
+      },
+      "skills": {
+        "title": "发展需求技能",
+        "desc": "专注于美国雇主重视的技术技能、沟通能力和行业特定知识。"
+      },
+      "interview": {
+        "title": "掌握面试技巧",
+        "desc": "练习常见面试问题、行为面试和案例研究。为面试官准备有见地的问题。"
+      },
+      "linkedin": {
+        "title": "优化LinkedIn个人资料",
+        "desc": "创建包含关键词、推荐和积极参与的专业资料以吸引招聘人员。"
+      },
+      "timing": {
+        "title": "尽早开始",
+        "desc": "在毕业前6-9个月开始求职。许多公司有特定的国际招聘时间表。"
+      }
+    },
+    "notice": {
+      "title": "2024年国际学生招聘会",
+      "description": "与寻求在美国工作的全球人才见面！1对1招聘咨询、学长学姐就业讲座、企业简报会和各种项目等待着您。",
+      "cta": "了解更多"
+    },
+    "cta": {
+      "title": "准备开启您的职业生涯了吗？",
+      "description": "在全面支持下开始您在美国的职业之旅",
+      "signup": "立即注册",
+      "chat": "与AI顾问聊天"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "社区枢纽",
+      "title": "与留学社区保持联系",
+      "subtitle": "为国际学生精选的新闻、故事与资源",
+      "description": "探索支持者视频、学生协会、奖学金，以及借鉴韩国留学社区的快捷链接。"
+    },
+    "sections": {
+      "updates": "最新动态",
+      "updatesDesc": "及时获取新闻、支持者活动、奖学金和社区常见问答。",
+      "supporters": "支持者",
+      "supportersDesc": "直接聆听学生支持者分享留学与生活。",
+      "associations": "学生协会",
+      "associationsDesc": "联系各地区学生协会，获得在地帮助。",
+      "shorts": "短篇故事",
+      "shortsDesc": "快速了解留学体验的短视频。",
+      "quick": "快捷链接"
+    },
+    "updates": {
+      "notice": { "title": "通知与新闻", "desc": "面向学生的重要公告与截止日期。" },
+      "stories": { "title": "留学故事", "desc": "来自海外学生的真实经历。" },
+      "supporters": { "title": "支持者活动", "desc": "关注支持者的最新活动与内容。" },
+      "gks": { "title": "奖学金亮点", "desc": "查看 GKS 类奖学金与助学金动态。" },
+      "associations": { "title": "学生协会", "desc": "找到可加入的地区学生协会。" },
+      "faq": { "title": "咨询与常见问答", "desc": "解答留学相关常见问题。" },
+      "resources": { "title": "实用资源", "desc": "规划旅程的指南、清单与工具。" }
+    },
+    "supporters": {
+      "items": {
+        "1": {
+          "title": "东北大学支持者（纽约州购物中心结业项目）",
+          "author": "由 Study in Korea 上传",
+          "meta": "视频采访，学生生活"
+        },
+        "2": {
+          "title": "犹他大学亚洲校区支持者",
+          "author": "由 Study in Korea 上传",
+          "meta": "校园参观，项目介绍"
+        },
+        "3": {
+          "title": "德成女子大学的生活（韩国的 Mink）",
+          "author": "由 Mink in Korea 上传",
+          "meta": "Vlog，校园生活"
+        }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK（刚果民主共和国学生协会）", "country": "刚果民主共和国", "meta": "人脉交流、指导与同伴支持" },
+        "2": { "title": "FPVSAK（秘鲁在韩校友联合会）", "country": "秘鲁", "meta": "社区活动与文化交流" },
+        "3": { "title": "KSAK（哈萨克斯坦在韩学生协会）", "country": "哈萨克斯坦", "meta": "本地指南与新生支持" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "国际学生招聘会亮点" },
+        "2": { "title": "职业导师故事" },
+        "3": { "title": "全球人才博览会回顾" }
+      }
+    },
+    "quick": {
+      "findSupporters": "查找 Go Almond 支持者",
+      "findSchool": "搜索学校与专业",
+      "scholarships": "探索奖学金",
+      "onlineApplication": "在线申请",
+      "guidebook": "下载留学指南"
+    },
+    "cta": {
+      "viewAll": "查看全部"
     }
   }
 }

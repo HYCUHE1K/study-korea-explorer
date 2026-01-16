@@ -326,11 +326,6 @@
       { "title": "Cost of Living", "description": "Explore living costs in different US cities" }
     ]
   },
-  "community": {
-    "title": "International Student Community",
-    "subtitle": "Connect with students from your country",
-    "countries": ["China", "India", "South Korea", "Vietnam", "Taiwan", "Japan", "Saudi Arabia", "Canada", "Mexico", "Brazil"]
-  },
   "footer": {
     "logo": "Go Almond",
     "description": "Your trusted partner for studying in the USA",
@@ -523,6 +518,301 @@
       "description": "Begin your study abroad planning with us today",
       "getStarted": "Get Started",
       "askQuestions": "Ask Questions"
+    }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Safe & Welcoming Environment",
+      "title": "Life in USA",
+      "subtitle": "The USA is a safe country with low crime rates, providing a secure environment for international students.",
+      "description": "Discover everything you need to know about living in the United States as an international student."
+    },
+    "sections": {
+      "lifeInUSA": "Life in USA",
+      "subtitle": "Essential information for a successful study abroad experience",
+      "additionalInfo": "More Study Abroad Information",
+      "stories": "Stories",
+      "storiesSubtitle": "Real experiences from international students",
+      "tags": "Popular Topics",
+      "quickMore": "Quick Access"
+    },
+    "categories": {
+      "immigration": {
+        "title": "USA Immigration Procedures",
+        "desc": "From pre-departure to airport arrival, check all necessary procedures and checklists on Study in USA."
+      },
+      "housing": {
+        "title": "Living & Housing Information",
+        "desc": "Smart USA study abroad life - check essential living information and plan ahead."
+      },
+      "regions": {
+        "title": "USA Regional Introduction",
+        "desc": "Great cities to study in the USA - experience unique regional community cultures."
+      },
+      "livingCosts": {
+        "title": "Living Costs & Expenses",
+        "desc": "Study abroad life that grows through diverse experiences - save costs while spending meaningful time."
+      },
+      "stayDuration": {
+        "title": "Residence Status & Duration",
+        "desc": "Check immigration information from alien registration to stay duration changes here."
+      },
+      "legalInfo": {
+        "title": "Living Legal Information",
+        "desc": "Legal information international students should know about USA life and support systems available."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Various Scholarship Support",
+        "desc": "Check government scholarships for international students and scholarships from companies and schools."
+      },
+      "consultation": {
+        "title": "AI Online Consultation",
+        "desc": "We answer your inquiries quickly."
+      },
+      "findSchool": {
+        "title": "Find Department & University",
+        "desc": "Search by university or major name to find school information at a glance."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Daily Life Vlog",
+        "desc": "Real classes and busy days passing by are more valuable than anything."
+      },
+      "budgetTips": {
+        "title": "Budget Saving Tips",
+        "desc": "Learn how to save on living expenses while studying abroad."
+      },
+      "travelExperience": {
+        "title": "Best Travel Destinations",
+        "desc": "Seniors share USA cultural experiences - beautiful scenery offers something special."
+      }
+    },
+    "tags": {
+      "studentVlog": "Student Life Vlog",
+      "budgetTips": "Budget Saving Tips",
+      "campusLife": "Campus Life",
+      "cityGuide": "City Guide"
+    },
+    "quickLinks": {
+      "findSchool": "Find university & department information",
+      "scholarships": "Find available scholarships",
+      "onlineApplication": "Apply online easily",
+      "guidebook": "Download essential guidebook"
+    },
+    "cta": {
+      "title": "Ready to Experience USA Life?",
+      "description": "Start your journey with complete support and guidance",
+      "planStudies": "Plan Your Studies",
+      "askQuestions": "Ask Questions"
+    }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Career Opportunities",
+      "title": "Work in USA",
+      "subtitle": "From academics to career - Your journey to success",
+      "description": "We provide employment information and job search services to help international students prepare for and find careers in the USA.",
+      "cta": "Get Started",
+      "viewJobs": "View Job Openings"
+    },
+    "sections": {
+      "employment": "Employment in USA",
+      "system": "Work Visa System",
+      "internship": "Internship & Experience",
+      "recruitment": "Job Openings",
+      "platforms": "Job Platforms",
+      "tips": "Career Tips"
+    },
+    "mainTitle": "International Student Career Support",
+    "mainSubtitle": "Comprehensive employment information and career services for your success",
+    "categories": {
+      "employment": {
+        "title": "Employment in USA",
+        "desc": "Essential information for international students seeking employment in the USA, including job preparation processes and career guidance."
+      },
+      "foreignerSystem": {
+        "title": "Work Visa System",
+        "desc": "Check eligibility information for full-time and part-time employment, including OPT, CPT, and H-1B visa requirements."
+      },
+      "internship": {
+        "title": "Volunteer & Industry Experience",
+        "desc": "Create opportunities for achievement through cultural exchange and practical experience via volunteering and internships."
+      },
+      "recruitment": {
+        "title": "Job Openings",
+        "desc": "We help you find jobs through major employment platforms including LinkedIn, Indeed, and university career centers."
+      }
+    },
+    "additionalTitle": "More Study Abroad Information",
+    "additional": {
+      "scholarships": {
+        "title": "Various Scholarship Support",
+        "desc": "Check scholarships from the US government, corporations, and individual schools for international students."
+      },
+      "consultation": {
+        "title": "AI Kori Online Consultation",
+        "desc": "We respond quickly to your inquiries."
+      },
+      "schoolSearch": {
+        "title": "Find Your University & Major",
+        "desc": "Search by university or major name to find information about schools of interest at a glance."
+      }
+    },
+    "stories": {
+      "title": "Success Stories",
+      "subtitle": "Learn from seniors who successfully found employment in the USA",
+      "video1": {
+        "title": "2024 Job Fair for International Students",
+        "description": "1:1 career consultation supporting employment activities in the USA.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Career Mentoring by Seniors",
+        "description": "Listen to vivid employment stories from mentors from various countries.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "1:1 recruitment consultations, senior career lectures, company recruitment briefings and more.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Job Search Platforms",
+    "platformsSubtitle": "Find job opportunities through leading US employment platforms",
+    "platforms": {
+      "linkedin": "Professional networking and job search",
+      "indeed": "Comprehensive job listings",
+      "glassdoor": "Company reviews and salaries",
+      "handshake": "University career services",
+      "usajobs": "US government positions",
+      "angellist": "Startup and tech jobs",
+      "ziprecruiter": "AI-powered job matching",
+      "monster": "Career resources and jobs"
+    },
+    "tipsTitle": "Career Success Tips",
+    "tipsSubtitle": "Essential strategies for international students seeking employment in the USA",
+    "tips": {
+      "networking": {
+        "title": "Build Your Network",
+        "desc": "Attend career fairs, join professional associations, and connect with alumni to expand your professional network."
+      },
+      "resume": {
+        "title": "Perfect Your Resume",
+        "desc": "Create an American-style resume highlighting achievements, skills, and quantifiable results relevant to target positions."
+      },
+      "skills": {
+        "title": "Develop In-Demand Skills",
+        "desc": "Focus on technical skills, communication abilities, and industry-specific knowledge valued by US employers."
+      },
+      "interview": {
+        "title": "Master Interviews",
+        "desc": "Practice common interview questions, behavioral interviews, and case studies. Prepare thoughtful questions for interviewers."
+      },
+      "linkedin": {
+        "title": "Optimize LinkedIn Profile",
+        "desc": "Create a professional profile with keywords, recommendations, and active engagement to attract recruiters."
+      },
+      "timing": {
+        "title": "Start Early",
+        "desc": "Begin job search 6-9 months before graduation. Many companies have specific international hiring timelines."
+      }
+    },
+    "notice": {
+      "title": "2024 International Student Job Fair",
+      "description": "Meet global talent seeking to work in the USA! 1:1 recruitment consultations, senior employment lectures, company briefings, and various programs await you.",
+      "cta": "Learn More"
+    },
+    "cta": {
+      "title": "Ready to Launch Your Career?",
+      "description": "Start your professional journey in the USA with complete support",
+      "signup": "Sign Up Now",
+      "chat": "Chat with AI Advisor"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "Community Hub",
+      "title": "Stay Connected with the Study Abroad Community",
+      "subtitle": "News, stories, and resources curated for international students",
+      "description": "Explore supporter videos, student associations, scholarships, and quick links inspired by the Study in Korea community."
+    },
+    "sections": {
+      "updates": "Latest Updates",
+      "updatesDesc": "Stay on top of news, supporter activities, scholarships, and community FAQs.",
+      "supporters": "Supporters",
+      "supportersDesc": "Hear directly from student supporters about studying and living abroad.",
+      "associations": "Student Associations",
+      "associationsDesc": "Connect with regional student associations and get local support.",
+      "shorts": "Short-form Stories",
+      "shortsDesc": "Quick videos that highlight the study abroad experience.",
+      "quick": "Quick Links"
+    },
+    "updates": {
+      "notice": { "title": "Notices & News", "desc": "Important announcements and deadlines for students." },
+      "stories": { "title": "Study Stories", "desc": "Real experiences from students studying abroad." },
+      "supporters": { "title": "Supporter Activities", "desc": "Follow the latest events and content from our supporters." },
+      "gks": { "title": "Scholarship Highlights", "desc": "Check GKS-style scholarships and financial aid updates." },
+      "associations": { "title": "Student Associations", "desc": "Find regional student associations you can join." },
+      "faq": { "title": "Inquiries & FAQ", "desc": "Get answers to common questions about studying abroad." },
+      "resources": { "title": "Useful Resources", "desc": "Guides, checklists, and tools to plan your journey." }
+    },
+    "supporters": {
+      "items": {
+        "1": {
+          "title": "Northeastern University Supporters (New York State Mall Capstone)",
+          "author": "Uploaded by Study in Korea",
+          "meta": "Video interview, student life"
+        },
+        "2": {
+          "title": "University of Utah Asia Campus Supporters",
+          "author": "Uploaded by Study in Korea",
+          "meta": "Campus tour, programs"
+        },
+        "3": {
+          "title": "Life at Duksung Women’s University (Mink in Korea)",
+          "author": "Uploaded by Mink in Korea",
+          "meta": "Vlog, campus life"
+        }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": {
+          "title": "DECOK (Democratic Republic of Congo Student Association)",
+          "country": "DR Congo",
+          "meta": "Networking, mentoring, and peer support"
+        },
+        "2": {
+          "title": "FPVSAK (Federation of Peru Alumni in Korea)",
+          "country": "Peru",
+          "meta": "Community events and cultural exchange"
+        },
+        "3": {
+          "title": "KSAK (Kazakh Students Association in Korea)",
+          "country": "Kazakhstan",
+          "meta": "Local guidance and newcomer support"
+        }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "International Student Job Fair Highlights" },
+        "2": { "title": "Career Mentoring Stories" },
+        "3": { "title": "Global Talent Fair Recap" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Find Go Almond supporters",
+      "findSchool": "Search schools and majors",
+      "scholarships": "Explore scholarships",
+      "onlineApplication": "Online application",
+      "guidebook": "Download study guidebook"
+    },
+    "cta": {
+      "viewAll": "View all"
     }
   }
 }

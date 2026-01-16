@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Pourquoi les États-Unis",
+      "subtitle": "Une éducation de classe mondiale avec des diplômes reconnus mondialement et des opportunités inégalées",
+      "description": "Découvrez pourquoi les États-Unis sont la destination privilégiée des étudiants internationaux en quête d'excellence éducative."
+    },
+    "breadcrumb": "Pourquoi les États-Unis",
+    "sectionTitle": "Pourquoi les États-Unis",
+    "features": {
+      "education": {
+        "title": "Éducation de Classe Mondiale",
+        "description": "Les États-Unis abritent les universités les plus reconnues au monde, offrant des programmes de pointe, des professeurs de renommée mondiale et des diplômes valorisés par les employeurs du monde entier."
+      },
+      "research": {
+        "title": "Recherche et Innovation",
+        "description": "Les universités américaines sont leaders en recherche et innovation, avec accès à des installations de pointe, des découvertes révolutionnaires et une collaboration avec les leaders de l'industrie."
+      },
+      "scholarship": {
+        "title": "Opportunités de Bourses",
+        "description": "De généreux programmes d'aide financière et de bourses sont disponibles pour les étudiants internationaux, y compris des programmes parrainés par le gouvernement comme Fulbright."
+      },
+      "life": {
+        "title": "Qualité de Vie",
+        "description": "Découvrez des paysages diversifiés, des villes dynamiques, des campus sûrs et un niveau de vie élevé tout en poursuivant vos études en Amérique."
+      },
+      "opportunities": {
+        "title": "Opportunités de Carrière",
+        "description": "Les programmes OPT et CPT permettent aux étudiants internationaux d'acquérir une expérience professionnelle précieuse. De nombreux diplômés construisent des carrières réussies grâce aux visas H-1B."
+      },
+      "culture": {
+        "title": "Diversité Culturelle",
+        "description": "Les campus américains sont des creusets de cultures du monde entier. Construisez un réseau mondial et découvrez des perspectives diverses."
+      }
+    }
+  },
   "nav": {
     "whyUSA": "Pourquoi les États-Unis",
     "lifeInUSA": "Vie aux États-Unis",
@@ -260,5 +295,274 @@
       "getStarted": "Commencer",
       "askQuestions": "Poser des questions"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Environnement Sûr et Accueillant",
+      "title": "Vie aux États-Unis",
+      "subtitle": "Les États-Unis sont un pays sûr avec de faibles taux de criminalité, offrant un environnement sécurisé pour les étudiants internationaux.",
+      "description": "Découvrez tout ce que vous devez savoir sur la vie aux États-Unis en tant qu'étudiant international."
+    },
+    "sections": {
+      "lifeInUSA": "Vie aux États-Unis",
+      "subtitle": "Informations essentielles pour une expérience d'études à l'étranger réussie",
+      "additionalInfo": "Plus d'informations sur les études à l'étranger",
+      "stories": "Histoires",
+      "storiesSubtitle": "Expériences réelles d'étudiants internationaux",
+      "tags": "Sujets Populaires",
+      "quickMore": "Accès Rapide"
+    },
+    "categories": {
+      "immigration": {
+        "title": "Procédures d'Immigration aux États-Unis",
+        "desc": "Du pré-départ à l'arrivée à l'aéroport, vérifiez toutes les procédures nécessaires et les listes de contrôle sur Study in USA."
+      },
+      "housing": {
+        "title": "Informations sur le Logement et l'Hébergement",
+        "desc": "Vie d'études intelligente aux États-Unis - vérifiez les informations essentielles sur le logement et planifiez à l'avance."
+      },
+      "regions": {
+        "title": "Introduction Régionale des États-Unis",
+        "desc": "Grandes villes pour étudier aux États-Unis - découvrez des cultures communautaires régionales uniques."
+      },
+      "livingCosts": {
+        "title": "Coûts de Vie et Dépenses",
+        "desc": "Vie d'études à l'étranger qui grandit grâce à des expériences diverses - économisez des coûts tout en passant un temps significatif."
+      },
+      "stayDuration": {
+        "title": "Statut de Résidence et Durée",
+        "desc": "Vérifiez les informations d'immigration de l'enregistrement en tant qu'étranger aux changements de durée de séjour ici."
+      },
+      "legalInfo": {
+        "title": "Informations Juridiques pour Vivre",
+        "desc": "Informations juridiques que les étudiants internationaux doivent connaître sur la vie aux États-Unis et les systèmes de soutien disponibles."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Divers Soutiens de Bourses",
+        "desc": "Vérifiez les bourses gouvernementales pour les étudiants internationaux et les bourses des entreprises et des écoles."
+      },
+      "consultation": {
+        "title": "Consultation en Ligne par IA",
+        "desc": "Nous répondons rapidement à vos questions."
+      },
+      "findSchool": {
+        "title": "Trouver Département et Université",
+        "desc": "Recherchez par nom d'université ou de spécialité pour trouver les informations scolaires en un coup d'œil."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Vlog de la Vie Quotidienne",
+        "desc": "Les vraies classes et les jours chargés qui passent sont plus précieux que tout."
+      },
+      "budgetTips": {
+        "title": "Conseils d'Économie de Budget",
+        "desc": "Apprenez à économiser sur les dépenses de vie pendant vos études à l'étranger."
+      },
+      "travelExperience": {
+        "title": "Meilleures Destinations de Voyage",
+        "desc": "Les anciens partagent des expériences culturelles américaines - les beaux paysages offrent quelque chose de spécial."
+      }
+    },
+    "tags": {
+      "studentVlog": "Vlog de Vie Étudiante",
+      "budgetTips": "Conseils d'Économie de Budget",
+      "campusLife": "Vie sur le Campus",
+      "cityGuide": "Guide de la Ville"
+    },
+    "quickLinks": {
+      "findSchool": "Trouver les informations sur l'université et le département",
+      "scholarships": "Trouver les bourses disponibles",
+      "onlineApplication": "Postuler facilement en ligne",
+      "guidebook": "Télécharger le guide essentiel"
+    },
+    "cta": {
+      "title": "Prêt à Vivre l'Expérience de la Vie aux États-Unis ?",
+      "description": "Commencez votre voyage avec un soutien et des conseils complets",
+      "planStudies": "Planifiez vos Études",
+      "askQuestions": "Poser des Questions"
+    }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "Opportunités de Carrière",
+      "title": "Travailler aux États-Unis",
+      "subtitle": "Des études à la carrière - Votre voyage vers le succès",
+      "description": "Nous fournissons des informations sur l'emploi et des services de recherche d'emploi pour aider les étudiants internationaux à se préparer et à trouver des carrières aux États-Unis.",
+      "cta": "Commencer",
+      "viewJobs": "Voir les Offres d'Emploi"
+    },
+    "sections": {
+      "employment": "Emploi aux États-Unis",
+      "system": "Système de Visa de Travail",
+      "internship": "Stage et Expérience",
+      "recruitment": "Offres d'Emploi",
+      "platforms": "Plateformes d'Emploi",
+      "tips": "Conseils de Carrière"
+    },
+    "mainTitle": "Soutien Professionnel pour Étudiants Internationaux",
+    "mainSubtitle": "Informations complètes sur l'emploi et services de carrière pour votre succès",
+    "categories": {
+      "employment": {
+        "title": "Emploi aux États-Unis",
+        "desc": "Informations essentielles pour les étudiants internationaux recherchant un emploi aux États-Unis, y compris les processus de préparation à l'emploi et l'orientation professionnelle."
+      },
+      "foreignerSystem": {
+        "title": "Système de Visa de Travail",
+        "desc": "Vérifiez les informations d'éligibilité pour l'emploi à temps plein et à temps partiel, y compris les exigences des visas OPT, CPT et H-1B."
+      },
+      "internship": {
+        "title": "Bénévolat et Expérience Industrielle",
+        "desc": "Créez des opportunités de réussite grâce à l'échange culturel et à l'expérience pratique via le bénévolat et les stages."
+      },
+      "recruitment": {
+        "title": "Offres d'Emploi",
+        "desc": "Nous vous aidons à trouver des emplois via les principales plateformes d'emploi, notamment LinkedIn, Indeed et les centres de carrière universitaires."
+      }
+    },
+    "additionalTitle": "Plus d'Informations sur les Études à l'Étranger",
+    "additional": {
+      "scholarships": {
+        "title": "Divers Soutiens de Bourses",
+        "desc": "Vérifiez les bourses du gouvernement américain, des entreprises et des écoles individuelles pour les étudiants internationaux."
+      },
+      "consultation": {
+        "title": "Consultation en Ligne AI Kori",
+        "desc": "Nous répondons rapidement à vos demandes."
+      },
+      "schoolSearch": {
+        "title": "Trouvez votre Université et Spécialité",
+        "desc": "Recherchez par nom d'université ou de spécialité pour trouver des informations sur les écoles d'intérêt en un coup d'œil."
+      }
+    },
+    "stories": {
+      "title": "Histoires de Réussite",
+      "subtitle": "Apprenez des anciens qui ont réussi à trouver un emploi aux États-Unis",
+      "video1": {
+        "title": "Salon de l'Emploi 2024 pour Étudiants Internationaux",
+        "description": "Consultation professionnelle 1:1 soutenant les activités d'emploi aux États-Unis.",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "Mentorat Professionnel par les Anciens",
+        "description": "Écoutez des histoires d'emploi vivantes de mentors de différents pays.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "SALON MONDIAL DES TALENTS 2024",
+        "description": "Consultations de recrutement 1:1, conférences professionnelles des anciens, présentations de recrutement d'entreprises et plus encore.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "Plateformes de Recherche d'Emploi",
+    "platformsSubtitle": "Trouvez des opportunités d'emploi via les principales plateformes d'emploi américaines",
+    "platforms": {
+      "linkedin": "Réseautage professionnel et recherche d'emploi",
+      "indeed": "Listes d'emplois complètes",
+      "glassdoor": "Avis d'entreprises et salaires",
+      "handshake": "Services de carrière universitaires",
+      "usajobs": "Postes du gouvernement américain",
+      "angellist": "Emplois dans les startups et la technologie",
+      "ziprecruiter": "Correspondance d'emplois par IA",
+      "monster": "Ressources de carrière et emplois"
+    },
+    "tipsTitle": "Conseils pour Réussir sa Carrière",
+    "tipsSubtitle": "Stratégies essentielles pour les étudiants internationaux recherchant un emploi aux États-Unis",
+    "tips": {
+      "networking": {
+        "title": "Construisez votre Réseau",
+        "desc": "Assistez à des salons de l'emploi, rejoignez des associations professionnelles et connectez-vous avec des anciens pour élargir votre réseau professionnel."
+      },
+      "resume": {
+        "title": "Perfectionnez votre CV",
+        "desc": "Créez un CV de style américain mettant en évidence les réalisations, les compétences et les résultats quantifiables pertinents pour les postes ciblés."
+      },
+      "skills": {
+        "title": "Développez des Compétences Demandées",
+        "desc": "Concentrez-vous sur les compétences techniques, les capacités de communication et les connaissances spécifiques à l'industrie valorisées par les employeurs américains."
+      },
+      "interview": {
+        "title": "Maîtrisez les Entretiens",
+        "desc": "Pratiquez les questions d'entretien courantes, les entretiens comportementaux et les études de cas. Préparez des questions réfléchies pour les interviewers."
+      },
+      "linkedin": {
+        "title": "Optimisez votre Profil LinkedIn",
+        "desc": "Créez un profil professionnel avec des mots-clés, des recommandations et un engagement actif pour attirer les recruteurs."
+      },
+      "timing": {
+        "title": "Commencez Tôt",
+        "desc": "Commencez la recherche d'emploi 6 à 9 mois avant l'obtention du diplôme. De nombreuses entreprises ont des calendriers spécifiques pour l'embauche internationale."
+      }
+    },
+    "notice": {
+      "title": "Salon de l'Emploi 2024 pour Étudiants Internationaux",
+      "description": "Rencontrez des talents mondiaux cherchant à travailler aux États-Unis ! Consultations de recrutement 1:1, conférences d'emploi des anciens, présentations d'entreprises et divers programmes vous attendent.",
+      "cta": "En Savoir Plus"
+    },
+    "cta": {
+      "title": "Prêt à Lancer votre Carrière ?",
+      "description": "Commencez votre parcours professionnel aux États-Unis avec un soutien complet",
+      "signup": "S'inscrire Maintenant",
+      "chat": "Discuter avec un Conseiller IA"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "Hub communautaire",
+      "title": "Restez connecté à la communauté des études à l’étranger",
+      "subtitle": "Actualités, récits et ressources sélectionnés pour les étudiants internationaux",
+      "description": "Découvrez des vidéos de soutiens, des associations étudiantes, des bourses et des liens rapides inspirés de la communauté Study in Korea."
+    },
+    "sections": {
+      "updates": "Dernières mises à jour",
+      "updatesDesc": "Suivez l’actualité, les activités des soutiens, les bourses et la FAQ communautaire.",
+      "supporters": "Soutiens",
+      "supportersDesc": "Écoutez directement ceux qui témoignent sur les études et la vie à l’étranger.",
+      "associations": "Associations étudiantes",
+      "associationsDesc": "Contactez des associations régionales et obtenez un appui local.",
+      "shorts": "Histoires courtes",
+      "shortsDesc": "Vidéos rapides qui illustrent l’expérience d’études à l’étranger.",
+      "quick": "Liens rapides"
+    },
+    "updates": {
+      "notice": { "title": "Avis et actualités", "desc": "Annonces importantes et dates limites pour les étudiants." },
+      "stories": { "title": "Récits d’études", "desc": "Expériences réelles d’étudiants à l’étranger." },
+      "supporters": { "title": "Activités des soutiens", "desc": "Suivez les derniers événements et contenus de nos soutiens." },
+      "gks": { "title": "Temps forts des bourses", "desc": "Consultez les bourses type GKS et les mises à jour d’aides financières." },
+      "associations": { "title": "Associations étudiantes", "desc": "Trouvez des associations régionales à rejoindre." },
+      "faq": { "title": "Questions & FAQ", "desc": "Réponses aux questions fréquentes sur les études à l’étranger." },
+      "resources": { "title": "Ressources utiles", "desc": "Guides, listes de contrôle et outils pour préparer votre parcours." }
+    },
+    "supporters": {
+      "items": {
+        "1": { "title": "Soutiens de Northeastern University (projet final New York State Mall)", "author": "Mis en ligne par Study in Korea", "meta": "Interview vidéo, vie étudiante" },
+        "2": { "title": "Soutiens du campus asiatique de l’University of Utah", "author": "Mis en ligne par Study in Korea", "meta": "Visite du campus, programmes" },
+        "3": { "title": "Vie à l’Université féminine Duksung (Mink in Korea)", "author": "Mis en ligne par Mink in Korea", "meta": "Vlog, vie sur le campus" }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": { "title": "DECOK (Association des étudiants de la République démocratique du Congo)", "country": "RDC", "meta": "Réseautage, mentorat et soutien entre pairs" },
+        "2": { "title": "FPVSAK (Fédération des anciens élèves du Pérou en Corée)", "country": "Pérou", "meta": "Événements communautaires et échanges culturels" },
+        "3": { "title": "KSAK (Association des étudiants kazakhs en Corée)", "country": "Kazakhstan", "meta": "Accompagnement local et soutien aux nouveaux arrivants" }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "Moments forts du salon de l’emploi pour étudiants internationaux" },
+        "2": { "title": "Récits de mentorat de carrière" },
+        "3": { "title": "Rétrospective Global Talent Fair" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Trouver les soutiens Go Almond",
+      "findSchool": "Chercher écoles et filières",
+      "scholarships": "Explorer les bourses",
+      "onlineApplication": "Candidature en ligne",
+      "guidebook": "Télécharger le guide d’étude"
+    },
+    "cta": { "viewAll": "Tout voir" }
   }
 }

@@ -326,11 +326,6 @@
       { "title": "생활비 정보", "description": "미국 도시별 생활비 탐색" }
     ]
   },
-  "community": {
-    "title": "유학생 커뮤니티",
-    "subtitle": "본국 학생들과 연결하세요",
-    "countries": ["중국", "인도", "한국", "베트남", "대만", "일본", "사우디아라비아", "캐나다", "멕시코", "브라질"]
-  },
   "footer": {
     "logo": "Go Almond",
     "description": "미국 유학을 위한 믿을 수 있는 파트너",
@@ -523,6 +518,301 @@
       "description": "지금 바로 유학 계획을 시작하세요",
       "getStarted": "시작하기",
       "askQuestions": "질문하기"
+    }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "안전한 환경",
+      "title": "미국에서의 생활",
+      "subtitle": "미국은 범죄율이 낮은 국가로 유학생들이 안전하게 생활할 수 있는 좋은 환경을 가지고 있습니다.",
+      "description": "국제 학생으로서 미국에서 생활하는 데 필요한 모든 정보를 확인하세요."
+    },
+    "sections": {
+      "lifeInUSA": "미국에서의 생활",
+      "subtitle": "성공적인 유학 생활을 위한 필수 정보",
+      "additionalInfo": "더 알아보는 유학 정보",
+      "stories": "스토리",
+      "storiesSubtitle": "재학생들의 실제 경험담",
+      "tags": "인기 주제",
+      "quickMore": "바로가기"
+    },
+    "categories": {
+      "immigration": {
+        "title": "미국 입국 수속",
+        "desc": "출발 전부터 공항에 도착하기까지, 유학 정보 가이드도 Study in USA에서 필요한 체크리스트를 확인하세요."
+      },
+      "housing": {
+        "title": "생활 및 주거 정보",
+        "desc": "슬기로운 미국 유학 생활, 생활에 필요한 정보를 확인하고 계획을 세워보세요."
+      },
+      "regions": {
+        "title": "미국의 지역소개",
+        "desc": "미국에서 공부하기 좋은 도시, 특색 있는 지역사회 문화를 체험하실 수 있습니다."
+      },
+      "livingCosts": {
+        "title": "생활비 및 경비",
+        "desc": "다양한 경험을 통해 성장하는 유학 생활, 비용을 절감하면서도 의미 있는 시간을 보내는 것이 중요합니다."
+      },
+      "stayDuration": {
+        "title": "거주 자격 및 체류 기간",
+        "desc": "외국인 등록부터 체류 기간 변경까지 출입국 관련 정보를 여기서 확인하세요."
+      },
+      "legalInfo": {
+        "title": "생활법령 정보",
+        "desc": "유학생들이 알아야 할 미국 생활의 법률 정보와 지원받을 수 있는 제도를 확인하세요."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "다양한 장학금 지원",
+        "desc": "미국 정부에서 진행하는 유학생들을 위한 장학금제도와 기업 및 각 학교별 장학금을 확인하세요."
+      },
+      "consultation": {
+        "title": "AI 온라인 상담",
+        "desc": "궁금한 사항을 문의하시면 빠르게 답변드리고 있습니다."
+      },
+      "findSchool": {
+        "title": "원하는 학과, 대학 찾기",
+        "desc": "대학 또는 전공 이름으로 검색하시면 관심있는 학교 정보를 한눈에 찾아 보실 수 있습니다."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "일상 생활 Vlog",
+        "desc": "현실적 실습과 재미있는 수업을 듣고 바쁘게 지나가는 날들이 무엇보다 가치가 있습니다."
+      },
+      "budgetTips": {
+        "title": "생활비 절약 팁",
+        "desc": "유학 중 생활비를 아끼는 방법을 배워보세요."
+      },
+      "travelExperience": {
+        "title": "가장 좋았던 여행지",
+        "desc": "선배들이 들려주는 미국 문화체험, 미국의 아름다운 경치는 특별함을 선사해 줍니다."
+      }
+    },
+    "tags": {
+      "studentVlog": "유학 생활 Vlog",
+      "budgetTips": "생활비 절약 팁",
+      "campusLife": "캠퍼스 생활",
+      "cityGuide": "도시 가이드"
+    },
+    "quickLinks": {
+      "findSchool": "궁금한 대학 & 학과 정보를 찾아보세요",
+      "scholarships": "지원받을 수 있는 장학금을 찾아보세요",
+      "onlineApplication": "온라인 원서 접수 간단하게 신청하세요",
+      "guidebook": "유학 필수 정보, 가이드북 다운로드 받으세요"
+    },
+    "cta": {
+      "title": "미국 생활을 경험할 준비가 되셨나요?",
+      "description": "완벽한 지원과 가이드로 여정을 시작하세요",
+      "planStudies": "유학 계획하기",
+      "askQuestions": "질문하기"
+    }
+  },
+  "workInUSA": {
+    "hero": {
+      "badge": "취업 기회",
+      "title": "미국에서 일하기",
+      "subtitle": "학업에서 취업으로 - 성공을 향한 여정",
+      "description": "유학생들의 취업준비 정보를 안내하고 일자리를 찾을 수 있도록 취업 관련 서비스를 제공하고 있습니다.",
+      "cta": "시작하기",
+      "viewJobs": "채용 정보 보기"
+    },
+    "sections": {
+      "employment": "미국 취업",
+      "system": "취업 비자 제도",
+      "internship": "인턴십 & 경험",
+      "recruitment": "채용 정보",
+      "platforms": "구인 플랫폼",
+      "tips": "취업 팁"
+    },
+    "mainTitle": "유학생 취업 지원",
+    "mainSubtitle": "성공적인 미국 취업을 위한 종합 정보와 서비스",
+    "categories": {
+      "employment": {
+        "title": "미국에서의 취업",
+        "desc": "미국에서 취업을 희망하는 유학생들에게 취업준비 과정에 필요한 정보를 제공해 드리고 있습니다."
+      },
+      "foreignerSystem": {
+        "title": "외국인 취업제도",
+        "desc": "미국의 풀타임, 파트타임 유형에 따른 OPT, CPT, H-1B 비자 등 취업 자격 정보를 확인하세요."
+      },
+      "internship": {
+        "title": "자원봉사 및 산업 경험",
+        "desc": "자원봉사를 통한 문화 교류, 실질적인 경험으로 성취의 기회를 만들어 보세요."
+      },
+      "recruitment": {
+        "title": "채용 정보",
+        "desc": "LinkedIn, Indeed, 대학 취업센터 등 주요 채용 정보 플랫폼을 통해 일자리를 찾는데 도움을 드리고 있습니다."
+      }
+    },
+    "additionalTitle": "더 알아보는 유학 정보",
+    "additional": {
+      "scholarships": {
+        "title": "다양한 장학금 지원",
+        "desc": "미국 정부, 기업 및 각 학교별 유학생을 위한 장학금제도를 확인하세요."
+      },
+      "consultation": {
+        "title": "AI Kori 온라인 상담",
+        "desc": "궁금한 사항을 문의 주시면 빠르게 답변드리고 있습니다."
+      },
+      "schoolSearch": {
+        "title": "원하는 학과, 대학 찾기",
+        "desc": "대학 또는 전공 이름으로 검색하시면 관심있는 학교 정보를 한눈에 찾아 보실 수 있습니다."
+      }
+    },
+    "stories": {
+      "title": "성공 스토리",
+      "subtitle": "미국에서 성공적으로 취업한 선배들의 이야기를 들어보세요",
+      "video1": {
+        "title": "2024 외국인 유학생을 위한 찾아가는 방문 상담",
+        "description": "미국에서의 취업활동을 지원하는 1:1 방문 상담",
+        "url": "yw4zCtBrQp4"
+      },
+      "video2": {
+        "title": "선배에게 듣는 취업 멘토링 특강",
+        "description": "다양한 국가 출신 멘토들의 생생한 취업 스토리를 들을 수 있습니다.",
+        "url": "eJASTm-WcUM"
+      },
+      "video3": {
+        "title": "2024 GLOBAL TALENT FAIR",
+        "description": "기업과 유학생 1:1 채용 상담, 선배들의 취업특강, 기업 채용설명회 등 다양한 프로그램을 만나실 수 있습니다.",
+        "url": "P8c-j3Ox2tE"
+      }
+    },
+    "platformsTitle": "구인 플랫폼",
+    "platformsSubtitle": "주요 미국 채용 플랫폼을 통해 일자리를 찾아보세요",
+    "platforms": {
+      "linkedin": "전문가 네트워킹 및 구직",
+      "indeed": "종합 채용 정보",
+      "glassdoor": "기업 리뷰 및 연봉 정보",
+      "handshake": "대학 취업 서비스",
+      "usajobs": "미국 정부 채용",
+      "angellist": "스타트업 및 기술 일자리",
+      "ziprecruiter": "AI 기반 일자리 매칭",
+      "monster": "취업 리소스 및 일자리"
+    },
+    "tipsTitle": "취업 성공 팁",
+    "tipsSubtitle": "미국 취업을 준비하는 유학생을 위한 필수 전략",
+    "tips": {
+      "networking": {
+        "title": "네트워크 구축",
+        "desc": "취업 박람회 참석, 전문가 협회 가입, 동문 연결을 통해 전문 네트워크를 확장하세요."
+      },
+      "resume": {
+        "title": "완벽한 이력서 작성",
+        "desc": "목표 직무와 관련된 성과, 기술, 정량화 가능한 결과를 강조하는 미국식 이력서를 작성하세요."
+      },
+      "skills": {
+        "title": "수요 높은 기술 개발",
+        "desc": "미국 고용주들이 중요하게 여기는 기술 능력, 커뮤니케이션 능력, 산업별 지식에 집중하세요."
+      },
+      "interview": {
+        "title": "인터뷰 마스터",
+        "desc": "일반적인 인터뷰 질문, 행동 면접, 케이스 스터디를 연습하세요. 면접관을 위한 질문도 준비하세요."
+      },
+      "linkedin": {
+        "title": "LinkedIn 프로필 최적화",
+        "desc": "키워드, 추천사, 적극적인 참여가 포함된 전문 프로필을 만들어 리크루터의 관심을 끄세요."
+      },
+      "timing": {
+        "title": "조기 시작",
+        "desc": "졸업 6-9개월 전에 구직을 시작하세요. 많은 기업들이 특정 국제 채용 일정을 가지고 있습니다."
+      }
+    },
+    "notice": {
+      "title": "2024 외국인 유학생 취업 박람회",
+      "description": "미국에서 일할 글로벌 인재 모여라! 기업과 유학생 1:1 채용 상담, 선배들의 취업특강, 기업 채용설명회 등의 다양한 프로그램을 만나실 수 있습니다.",
+      "cta": "더 알아보기"
+    },
+    "cta": {
+      "title": "커리어를 시작할 준비가 되셨나요?",
+      "description": "완벽한 지원으로 미국에서의 전문 경력을 시작하세요",
+      "signup": "지금 가입하기",
+      "chat": "AI 상담원과 채팅"
+    }
+  },
+  "community": {
+    "hero": {
+      "badge": "커뮤니티 허브",
+      "title": "유학 커뮤니티와 연결되세요",
+      "subtitle": "유학생을 위한 소식, 이야기, 리소스를 한곳에 모았습니다",
+      "description": "Study in Korea 커뮤니티 구성을 참고해 서포터즈 영상, 학생회 정보, 장학금, 빠른 바로가기를 제공합니다."
+    },
+    "sections": {
+      "updates": "최신 소식",
+      "updatesDesc": "공지, 서포터즈 활동, 장학금, FAQ를 한눈에 확인하세요.",
+      "supporters": "서포터즈",
+      "supportersDesc": "유학과 캠퍼스 생활을 전하는 서포터즈의 이야기를 들어보세요.",
+      "associations": "재한 유학생회",
+      "associationsDesc": "국가·지역별 유학생회를 찾아 로컬 지원을 받아보세요.",
+      "shorts": "숏폼 스토리",
+      "shortsDesc": "유학 경험을 빠르게 보여주는 짧은 영상 모음입니다.",
+      "quick": "빠른 바로가기"
+    },
+    "updates": {
+      "notice": { "title": "공지 및 뉴스", "desc": "중요 안내와 마감 일정을 확인하세요." },
+      "stories": { "title": "유학 스토리", "desc": "유학 중인 학생들의 실제 경험." },
+      "supporters": { "title": "서포터즈 활동", "desc": "서포터즈의 최신 이벤트와 콘텐츠." },
+      "gks": { "title": "장학금 하이라이트", "desc": "GKS 스타일 장학금 및 재정 지원 소식." },
+      "associations": { "title": "학생회 정보", "desc": "가입할 수 있는 지역별 유학생회 찾기." },
+      "faq": { "title": "문의 & FAQ", "desc": "유학 관련 자주 묻는 질문을 확인하세요." },
+      "resources": { "title": "유용한 자료", "desc": "가이드, 체크리스트, 준비 도구 모음." }
+    },
+    "supporters": {
+      "items": {
+        "1": {
+          "title": "뉴욕 주립대 몰 캠퍼스 캡스톤 서포터즈",
+          "author": "제공: Study in Korea",
+          "meta": "영상 인터뷰, 캠퍼스 생활"
+        },
+        "2": {
+          "title": "유타대학교 아시아캠퍼스 서포터즈",
+          "author": "제공: Study in Korea",
+          "meta": "캠퍼스 투어, 전공 소개"
+        },
+        "3": {
+          "title": "덕성여대에서의 유학생활 (민크 인 코리아)",
+          "author": "제공: 민크 인 코리아",
+          "meta": "브이로그, 캠퍼스 라이프"
+        }
+      }
+    },
+    "associations": {
+      "items": {
+        "1": {
+          "title": "DECOK (콩고민주공화국 유학생회)",
+          "country": "콩고민주공화국",
+          "meta": "네트워킹, 멘토링, 동료 지원"
+        },
+        "2": {
+          "title": "FPVSAK (페루 동문 연합)",
+          "country": "페루",
+          "meta": "커뮤니티 행사와 문화 교류"
+        },
+        "3": {
+          "title": "KSAK (카자흐스탄 유학생회)",
+          "country": "카자흐스탄",
+          "meta": "로컬 가이드와 신규 학생 지원"
+        }
+      }
+    },
+    "shorts": {
+      "items": {
+        "1": { "title": "국제학생 잡페어 하이라이트" },
+        "2": { "title": "커리어 멘토링 스토리" },
+        "3": { "title": "글로벌 탤런트 페어 리캡" }
+      }
+    },
+    "quick": {
+      "findSupporters": "Go Almond 서포터즈 찾기",
+      "findSchool": "학교와 전공 검색",
+      "scholarships": "장학금 살펴보기",
+      "onlineApplication": "온라인 지원",
+      "guidebook": "유학 가이드북 다운로드"
+    },
+    "cta": {
+      "viewAll": "전체 보기"
     }
   }
 }
