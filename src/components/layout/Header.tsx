@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Search, User, LogOut, MessageCircle } from "lucide-react";
+import { Menu, X, Search, User, LogOut, MessageCircle, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -13,14 +13,54 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+interface MegaMenuItem {
+  title: string;
+  description: string;
+  href: string;
+}
+
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [hoveredMenu, setHoveredMenu] = useState<string | null>(null);
   const { t } = useTranslation();
   const { user, signOut } = useAuth();
   const navigate = useNavigate();
 
+  const whyUSAItems: MegaMenuItem[] = [
+    { 
+      title: t("header.megaMenu.whyUSA.items.overview.title"), 
+      description: t("header.megaMenu.whyUSA.items.overview.description"),
+      href: "/why-usa/overview"
+    },
+    { 
+      title: t("header.megaMenu.whyUSA.items.education.title"), 
+      description: t("header.megaMenu.whyUSA.items.education.description"),
+      href: "/why-usa/education"
+    },
+    { 
+      title: t("header.megaMenu.whyUSA.items.rankings.title"), 
+      description: t("header.megaMenu.whyUSA.items.rankings.description"),
+      href: "/why-usa/rankings"
+    },
+    { 
+      title: t("header.megaMenu.whyUSA.items.culture.title"), 
+      description: t("header.megaMenu.whyUSA.items.culture.description"),
+      href: "/why-usa/culture"
+    },
+    { 
+      title: t("header.megaMenu.whyUSA.items.opportunities.title"), 
+      description: t("header.megaMenu.whyUSA.items.opportunities.description"),
+      href: "/why-usa/opportunities"
+    },
+    { 
+      title: t("header.megaMenu.whyUSA.items.research.title"), 
+      description: t("header.megaMenu.whyUSA.items.research.description"),
+      href: "/why-usa/research"
+    },
+  ];
+
   const navItems = [
-    { label: t("header.nav.whyUSA"), href: "#" },
+    { label: t("header.nav.whyUSA"), href: "#", hasMegaMenu: true, menuKey: "whyUSA" },
     { label: t("header.nav.lifeInUSA"), href: "#" },
     { label: t("header.nav.workInUSA"), href: "#" },
     { label: t("header.nav.universities"), href: "#" },
@@ -96,7 +136,43 @@ export const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
-              item.href.startsWith('/') ? (
+              item.hasMegaMenu ? (
+                <div
+                  key={item.label}
+                  className="relative"
+                  onMouseEnter={() => setHoveredMenu(item.menuKey || null)}
+                  onMouseLeave={() => setHoveredMenu(null)}
+                >
+                  <button
+                    className="text-foreground font-medium hover:text-primary transition-colors flex items-center gap-1"
+                  >
+                    {item.label}
+                    <ChevronDown className={`h-4 w-4 transition-transform ${hoveredMenu === item.menuKey ? 'rotate-180' : ''}`} />
+                  </button>
+                  
+                  {/* Mega Menu Dropdown */}
+                  {hoveredMenu === item.menuKey && (
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-2">
+                      <div className="bg-background border border-border rounded-lg shadow-xl p-6 min-w-[600px] grid grid-cols-2 gap-4">
+                        {whyUSAItems.map((menuItem) => (
+                          <Link
+                            key={menuItem.href}
+                            to={menuItem.href}
+                            className="group p-3 rounded-lg hover:bg-muted transition-colors"
+                          >
+                            <h4 className="font-medium text-foreground group-hover:text-primary transition-colors">
+                              {menuItem.title}
+                            </h4>
+                            <p className="text-sm text-muted-foreground mt-1">
+                              {menuItem.description}
+                            </p>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : item.href.startsWith('/') ? (
                 <Link
                   key={item.label}
                   to={item.href}
