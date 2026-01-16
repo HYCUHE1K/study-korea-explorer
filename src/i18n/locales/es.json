@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "¿Por qué EE.UU.?",
+      "subtitle": "Educación de clase mundial con títulos reconocidos globalmente y oportunidades incomparables",
+      "description": "Descubre por qué Estados Unidos es el destino principal para estudiantes internacionales que buscan la excelencia en la educación."
+    },
+    "breadcrumb": "¿Por qué EE.UU.?",
+    "sectionTitle": "¿Por qué EE.UU.?",
+    "features": {
+      "education": {
+        "title": "Educación de Clase Mundial",
+        "description": "Estados Unidos alberga las universidades más reconocidas a nivel mundial, ofreciendo programas de vanguardia, profesorado de renombre mundial y títulos valorados por empleadores en todo el mundo."
+      },
+      "research": {
+        "title": "Investigación e Innovación",
+        "description": "Las universidades estadounidenses lideran en investigación e innovación, con acceso a instalaciones de última generación, descubrimientos revolucionarios y colaboración con líderes de la industria."
+      },
+      "scholarship": {
+        "title": "Oportunidades de Becas",
+        "description": "Hay disponibles generosos programas de ayuda financiera y becas para estudiantes internacionales, incluyendo programas patrocinados por el gobierno como Fulbright."
+      },
+      "life": {
+        "title": "Calidad de Vida",
+        "description": "Experimenta paisajes diversos, ciudades vibrantes, campus seguros y un alto nivel de vida mientras persigues tu educación en América."
+      },
+      "opportunities": {
+        "title": "Oportunidades Profesionales",
+        "description": "Los programas OPT y CPT permiten a los estudiantes internacionales obtener valiosa experiencia laboral. Muchos graduados construyen carreras exitosas a través de visas H-1B."
+      },
+      "culture": {
+        "title": "Diversidad Cultural",
+        "description": "Los campus estadounidenses son crisoles de culturas de todo el mundo. Construye una red global y experimenta perspectivas diversas."
+      }
+    }
+  },
   "nav": {
     "whyUSA": "¿Por qué EE.UU.?",
     "lifeInUSA": "Vida en EE.UU.",

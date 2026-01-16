@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Warum USA",
+      "subtitle": "Weltklasse-Bildung mit weltweit anerkannten Abschlüssen und unvergleichlichen Möglichkeiten",
+      "description": "Entdecken Sie, warum die Vereinigten Staaten das Top-Ziel für internationale Studierende sind, die Exzellenz in der Bildung suchen."
+    },
+    "breadcrumb": "Warum USA",
+    "sectionTitle": "Warum USA",
+    "features": {
+      "education": {
+        "title": "Weltklasse-Bildung",
+        "description": "Die USA beherbergen die weltweit anerkanntesten Universitäten und bieten modernste Programme, weltbekannte Fakultäten und Abschlüsse, die von Arbeitgebern weltweit geschätzt werden."
+      },
+      "research": {
+        "title": "Forschung & Innovation",
+        "description": "Amerikanische Universitäten führen in Forschung und Innovation, mit Zugang zu hochmodernen Einrichtungen, bahnbrechenden Entdeckungen und Zusammenarbeit mit Branchenführern."
+      },
+      "scholarship": {
+        "title": "Stipendienmöglichkeiten",
+        "description": "Großzügige Finanzhilfe- und Stipendienprogramme stehen internationalen Studierenden zur Verfügung, einschließlich staatlich geförderter Programme wie Fulbright."
+      },
+      "life": {
+        "title": "Lebensqualität",
+        "description": "Erleben Sie vielfältige Landschaften, lebendige Städte, sichere Campus und einen hohen Lebensstandard, während Sie Ihre Ausbildung in Amerika verfolgen."
+      },
+      "opportunities": {
+        "title": "Karrieremöglichkeiten",
+        "description": "OPT- und CPT-Programme ermöglichen internationalen Studierenden wertvolle Berufserfahrung zu sammeln. Viele Absolventen bauen erfolgreiche Karrieren durch H-1B-Visa auf."
+      },
+      "culture": {
+        "title": "Kulturelle Vielfalt",
+        "description": "Amerikanische Campus sind Schmelztiegel der Kulturen aus der ganzen Welt. Bauen Sie ein globales Netzwerk auf und erleben Sie vielfältige Perspektiven."
+      }
+    }
+  },
   "nav": {
     "whyUSA": "Warum USA",
     "lifeInUSA": "Leben in den USA",

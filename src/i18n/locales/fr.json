@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Pourquoi les États-Unis",
+      "subtitle": "Une éducation de classe mondiale avec des diplômes reconnus mondialement et des opportunités inégalées",
+      "description": "Découvrez pourquoi les États-Unis sont la destination privilégiée des étudiants internationaux en quête d'excellence éducative."
+    },
+    "breadcrumb": "Pourquoi les États-Unis",
+    "sectionTitle": "Pourquoi les États-Unis",
+    "features": {
+      "education": {
+        "title": "Éducation de Classe Mondiale",
+        "description": "Les États-Unis abritent les universités les plus reconnues au monde, offrant des programmes de pointe, des professeurs de renommée mondiale et des diplômes valorisés par les employeurs du monde entier."
+      },
+      "research": {
+        "title": "Recherche et Innovation",
+        "description": "Les universités américaines sont leaders en recherche et innovation, avec accès à des installations de pointe, des découvertes révolutionnaires et une collaboration avec les leaders de l'industrie."
+      },
+      "scholarship": {
+        "title": "Opportunités de Bourses",
+        "description": "De généreux programmes d'aide financière et de bourses sont disponibles pour les étudiants internationaux, y compris des programmes parrainés par le gouvernement comme Fulbright."
+      },
+      "life": {
+        "title": "Qualité de Vie",
+        "description": "Découvrez des paysages diversifiés, des villes dynamiques, des campus sûrs et un niveau de vie élevé tout en poursuivant vos études en Amérique."
+      },
+      "opportunities": {
+        "title": "Opportunités de Carrière",
+        "description": "Les programmes OPT et CPT permettent aux étudiants internationaux d'acquérir une expérience professionnelle précieuse. De nombreux diplômés construisent des carrières réussies grâce aux visas H-1B."
+      },
+      "culture": {
+        "title": "Diversité Culturelle",
+        "description": "Les campus américains sont des creusets de cultures du monde entier. Construisez un réseau mondial et découvrez des perspectives diverses."
+      }
+    }
+  },
   "nav": {
     "whyUSA": "Pourquoi les États-Unis",
     "lifeInUSA": "Vie aux États-Unis",

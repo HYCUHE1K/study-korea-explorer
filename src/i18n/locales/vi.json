@@ -1,4 +1,39 @@
 {
+  "whyUSA": {
+    "hero": {
+      "title": "Tại sao chọn Mỹ",
+      "subtitle": "Giáo dục đẳng cấp thế giới với bằng cấp được công nhận toàn cầu và cơ hội vô song",
+      "description": "Khám phá tại sao Hoa Kỳ là điểm đến hàng đầu cho sinh viên quốc tế đang tìm kiếm sự xuất sắc trong giáo dục."
+    },
+    "breadcrumb": "Tại sao chọn Mỹ",
+    "sectionTitle": "Tại sao chọn Mỹ",
+    "features": {
+      "education": {
+        "title": "Giáo dục đẳng cấp thế giới",
+        "description": "Hoa Kỳ có các trường đại học được công nhận toàn cầu nhất, cung cấp các chương trình tiên tiến, đội ngũ giảng viên nổi tiếng thế giới và bằng cấp được các nhà tuyển dụng trên toàn thế giới đánh giá cao."
+      },
+      "research": {
+        "title": "Nghiên cứu & Đổi mới",
+        "description": "Các trường đại học Mỹ dẫn đầu trong nghiên cứu và đổi mới, với quyền truy cập vào cơ sở vật chất hiện đại, những khám phá đột phá và hợp tác với các nhà lãnh đạo ngành."
+      },
+      "scholarship": {
+        "title": "Cơ hội học bổng",
+        "description": "Các chương trình hỗ trợ tài chính và học bổng hào phóng có sẵn cho sinh viên quốc tế, bao gồm các chương trình do chính phủ tài trợ như Fulbright."
+      },
+      "life": {
+        "title": "Chất lượng cuộc sống",
+        "description": "Trải nghiệm cảnh quan đa dạng, thành phố sôi động, khuôn viên an toàn và mức sống cao trong khi theo đuổi giáo dục của bạn tại Mỹ."
+      },
+      "opportunities": {
+        "title": "Cơ hội nghề nghiệp",
+        "description": "Các chương trình OPT và CPT cho phép sinh viên quốc tế có được kinh nghiệm làm việc quý giá. Nhiều sinh viên tốt nghiệp xây dựng sự nghiệp thành công thông qua visa H-1B."
+      },
+      "culture": {
+        "title": "Đa dạng văn hóa",
+        "description": "Các trường đại học Mỹ là nơi hội tụ các nền văn hóa từ khắp nơi trên thế giới. Xây dựng mạng lưới toàn cầu và trải nghiệm các quan điểm đa dạng."
+      }
+    }
+  },
   "header": {
     "logo": "Du học Mỹ",
     "nav": {
