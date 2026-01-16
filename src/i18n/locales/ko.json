@@ -77,6 +77,34 @@
           "application": "온라인 지원",
           "guidebook": "유학 가이드북"
         }
+      },
+      "lifeInUSA": {
+        "items": {
+          "immigration": {
+            "title": "미국 입국 절차",
+            "description": "입국 시 필요한 서류와 절차"
+          },
+          "housing": {
+            "title": "주거 및 생활 정보",
+            "description": "숙소 유형과 생활 환경"
+          },
+          "regions": {
+            "title": "미국 지역 소개",
+            "description": "주요 도시와 지역별 특징"
+          },
+          "livingCosts": {
+            "title": "생활비 안내",
+            "description": "도시별 생활비 비교"
+          },
+          "stayDuration": {
+            "title": "체류 자격 및 기간",
+            "description": "비자 상태와 체류 기간 관리"
+          },
+          "legalInfo": {
+            "title": "법률 정보",
+            "description": "유학생 관련 법률 안내"
+          }
+        }
       }
     }
   },
