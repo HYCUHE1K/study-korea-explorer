@@ -7,6 +7,7 @@
       "lifeInUSA": "미국 생활",
       "workInUSA": "미국 취업",
       "community": "커뮤니티",
+      "notice": "공지사항",
       "universities": "대학교",
       "aiChat": "AI 상담"
     },
@@ -144,6 +145,26 @@
           "faq": {
             "title": "문의 & FAQ",
             "description": "자주 묻는 질문과 문의하기"
+          }
+        }
+      },
+      "notice": {
+        "items": {
+          "news": {
+            "title": "공지 & 뉴스",
+            "description": "최신 공지사항과 뉴스"
+          },
+          "scholarships": {
+            "title": "장학금 공지",
+            "description": "장학금 관련 공지사항"
+          },
+          "useful": {
+            "title": "유용한 정보",
+            "description": "유학 준비에 도움되는 정보"
+          },
+          "archives": {
+            "title": "자료실",
+            "description": "문서 및 자료 모음"
           }
         }
       }
