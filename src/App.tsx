@@ -11,6 +11,7 @@ import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
 import Chat from "./pages/Chat";
 import AuthCallback from "./pages/AuthCallback";
+import WhyUSA from "./pages/WhyUSA";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,8 @@ const App = () => (
         <AuthProvider>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/why-usa" element={<WhyUSA />} />
+            <Route path="/why-usa/:section" element={<WhyUSA />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/auth/callback" element={<AuthCallback />} />

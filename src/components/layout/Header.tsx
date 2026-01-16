@@ -273,7 +273,7 @@ export const Header = () => {
   };
 
   const navItems = [
-    { label: t("header.nav.whyUSA"), href: "#", hasMegaMenu: true, menuKey: "whyUSA" },
+    { label: t("header.nav.whyUSA"), href: "/why-usa", hasMegaMenu: true, menuKey: "whyUSA" },
     { label: t("header.nav.educationCourses"), href: "#", hasMegaMenu: true, menuKey: "educationCourses" },
     { label: t("header.nav.planStudies"), href: "#", hasMegaMenu: true, menuKey: "planStudies" },
     { label: t("header.nav.lifeInUSA"), href: "#", hasMegaMenu: true, menuKey: "lifeInUSA" },
