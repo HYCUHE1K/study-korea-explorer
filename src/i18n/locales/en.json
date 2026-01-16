@@ -6,6 +6,7 @@
       "planStudies": "Plan your studies",
       "lifeInUSA": "Life in USA",
       "workInUSA": "Work in USA",
+      "community": "Community",
       "universities": "Universities",
       "aiChat": "AI Advisor"
     },
@@ -123,6 +124,26 @@
           "opportunities": {
             "title": "Job Opportunities",
             "description": "Job search information and listings"
+          }
+        }
+      },
+      "community": {
+        "items": {
+          "stories": {
+            "title": "Study Abroad Stories",
+            "description": "Experiences from students who studied in USA"
+          },
+          "supporters": {
+            "title": "Go Almond Supporters",
+            "description": "Meet our student supporters"
+          },
+          "association": {
+            "title": "International Student Association in USA",
+            "description": "Student organizations in the USA"
+          },
+          "faq": {
+            "title": "Inquiries & FAQ",
+            "description": "Frequently asked questions and contact"
           }
         }
       }

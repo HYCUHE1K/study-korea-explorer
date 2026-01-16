@@ -6,6 +6,7 @@
       "planStudies": "유학 계획",
       "lifeInUSA": "미국 생활",
       "workInUSA": "미국 취업",
+      "community": "커뮤니티",
       "universities": "대학교",
       "aiChat": "AI 상담"
     },
@@ -123,6 +124,26 @@
           "opportunities": {
             "title": "취업 기회",
             "description": "구직 정보와 채용 공고"
+          }
+        }
+      },
+      "community": {
+        "items": {
+          "stories": {
+            "title": "유학 스토리",
+            "description": "선배들의 미국 유학 경험담"
+          },
+          "supporters": {
+            "title": "Go Almond 서포터즈",
+            "description": "유학생을 돕는 서포터즈 소개"
+          },
+          "association": {
+            "title": "미국 유학생 협회",
+            "description": "미국 내 유학생 단체 정보"
+          },
+          "faq": {
+            "title": "문의 & FAQ",
+            "description": "자주 묻는 질문과 문의하기"
           }
         }
       }
