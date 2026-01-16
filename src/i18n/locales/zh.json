@@ -270,5 +270,94 @@
       "getStarted": "开始",
       "askQuestions": "提问"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "安全友好的环境",
+      "title": "美国生活",
+      "subtitle": "美国是一个犯罪率低的安全国家，为国际学生提供安全的环境。",
+      "description": "了解作为国际学生在美国生活所需的一切信息。"
+    },
+    "sections": {
+      "lifeInUSA": "美国生活",
+      "subtitle": "成功留学体验的必备信息",
+      "additionalInfo": "更多留学信息",
+      "stories": "故事",
+      "storiesSubtitle": "国际学生的真实经历",
+      "tags": "热门话题",
+      "quickMore": "快速访问"
+    },
+    "categories": {
+      "immigration": {
+        "title": "美国入境程序",
+        "desc": "从出发前到机场到达，在留学美国网站上查看所有必要程序和检查清单。"
+      },
+      "housing": {
+        "title": "生活和住房信息",
+        "desc": "智慧美国留学生活 - 查看必要的生活信息并提前规划。"
+      },
+      "regions": {
+        "title": "美国地区介绍",
+        "desc": "美国优秀的留学城市 - 体验独特的地区社区文化。"
+      },
+      "livingCosts": {
+        "title": "生活费用和开支",
+        "desc": "通过多样化体验成长的留学生活 - 在节省成本的同时度过有意义的时光。"
+      },
+      "stayDuration": {
+        "title": "居留身份和时长",
+        "desc": "从外国人登记到居留期限变更，在此查看移民信息。"
+      },
+      "legalInfo": {
+        "title": "生活法律信息",
+        "desc": "国际学生应该了解的美国生活法律信息和可用的支持系统。"
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "各种奖学金支持",
+        "desc": "查看面向国际学生的政府奖学金以及企业和学校提供的奖学金。"
+      },
+      "consultation": {
+        "title": "AI在线咨询",
+        "desc": "我们快速回答您的咨询。"
+      },
+      "findSchool": {
+        "title": "查找专业和大学",
+        "desc": "按大学或专业名称搜索，一目了然地找到学校信息。"
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "日常生活Vlog",
+        "desc": "真实的课程和忙碌的日子比任何东西都更有价值。"
+      },
+      "budgetTips": {
+        "title": "预算节省技巧",
+        "desc": "学习如何在留学期间节省生活费用。"
+      },
+      "travelExperience": {
+        "title": "最佳旅游目的地",
+        "desc": "学长学姐分享美国文化体验 - 美丽的风景提供特别的东西。"
+      }
+    },
+    "tags": {
+      "studentVlog": "学生生活Vlog",
+      "budgetTips": "预算节省技巧",
+      "campusLife": "校园生活",
+      "cityGuide": "城市指南"
+    },
+    "quickLinks": {
+      "findSchool": "查找大学和专业信息",
+      "scholarships": "查找可用奖学金",
+      "onlineApplication": "轻松在线申请",
+      "guidebook": "下载必备指南"
+    },
+    "cta": {
+      "title": "准备体验美国生活了吗？",
+      "description": "在全面支持和指导下开始您的旅程",
+      "planStudies": "规划您的学习",
+      "askQuestions": "提问"
+    }
   }
 }

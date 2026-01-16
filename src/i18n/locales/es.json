@@ -260,5 +260,94 @@
       "getStarted": "Comenzar",
       "askQuestions": "Hacer preguntas"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Ambiente Seguro y Acogedor",
+      "title": "Vida en EE.UU.",
+      "subtitle": "EE.UU. es un país seguro con bajas tasas de criminalidad, proporcionando un ambiente seguro para estudiantes internacionales.",
+      "description": "Descubre todo lo que necesitas saber sobre vivir en Estados Unidos como estudiante internacional."
+    },
+    "sections": {
+      "lifeInUSA": "Vida en EE.UU.",
+      "subtitle": "Información esencial para una experiencia exitosa de estudios en el extranjero",
+      "additionalInfo": "Más información sobre estudios en el extranjero",
+      "stories": "Historias",
+      "storiesSubtitle": "Experiencias reales de estudiantes internacionales",
+      "tags": "Temas Populares",
+      "quickMore": "Acceso Rápido"
+    },
+    "categories": {
+      "immigration": {
+        "title": "Procedimientos de Inmigración a EE.UU.",
+        "desc": "Desde antes de la partida hasta la llegada al aeropuerto, verifica todos los procedimientos y listas de verificación necesarios en Study in USA."
+      },
+      "housing": {
+        "title": "Información de Vivienda y Alojamiento",
+        "desc": "Vida inteligente de estudios en EE.UU. - verifica información esencial de vivienda y planifica con anticipación."
+      },
+      "regions": {
+        "title": "Introducción Regional de EE.UU.",
+        "desc": "Grandes ciudades para estudiar en EE.UU. - experimenta culturas comunitarias regionales únicas."
+      },
+      "livingCosts": {
+        "title": "Costos de Vida y Gastos",
+        "desc": "Vida de estudios en el extranjero que crece a través de experiencias diversas - ahorra costos mientras pasas tiempo significativo."
+      },
+      "stayDuration": {
+        "title": "Estado de Residencia y Duración",
+        "desc": "Verifica información de inmigración desde el registro como extranjero hasta cambios en la duración de estadía aquí."
+      },
+      "legalInfo": {
+        "title": "Información Legal para Vivir",
+        "desc": "Información legal que los estudiantes internacionales deben conocer sobre la vida en EE.UU. y sistemas de apoyo disponibles."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Varios Apoyos de Becas",
+        "desc": "Verifica becas gubernamentales para estudiantes internacionales y becas de empresas y escuelas."
+      },
+      "consultation": {
+        "title": "Consulta en Línea con IA",
+        "desc": "Respondemos tus consultas rápidamente."
+      },
+      "findSchool": {
+        "title": "Buscar Departamento y Universidad",
+        "desc": "Busca por nombre de universidad o especialidad para encontrar información escolar de un vistazo."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Vlog de Vida Diaria",
+        "desc": "Las clases reales y los días ocupados que pasan son más valiosos que cualquier cosa."
+      },
+      "budgetTips": {
+        "title": "Consejos para Ahorrar Presupuesto",
+        "desc": "Aprende cómo ahorrar en gastos de vida mientras estudias en el extranjero."
+      },
+      "travelExperience": {
+        "title": "Mejores Destinos de Viaje",
+        "desc": "Los seniors comparten experiencias culturales de EE.UU. - los hermosos paisajes ofrecen algo especial."
+      }
+    },
+    "tags": {
+      "studentVlog": "Vlog de Vida Estudiantil",
+      "budgetTips": "Consejos de Ahorro de Presupuesto",
+      "campusLife": "Vida en el Campus",
+      "cityGuide": "Guía de la Ciudad"
+    },
+    "quickLinks": {
+      "findSchool": "Buscar información de universidad y departamento",
+      "scholarships": "Buscar becas disponibles",
+      "onlineApplication": "Aplicar fácilmente en línea",
+      "guidebook": "Descargar guía esencial"
+    },
+    "cta": {
+      "title": "¿Listo para Experimentar la Vida en EE.UU.?",
+      "description": "Comienza tu viaje con apoyo y orientación completos",
+      "planStudies": "Planifica tus Estudios",
+      "askQuestions": "Hacer Preguntas"
+    }
   }
 }

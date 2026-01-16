@@ -270,5 +270,94 @@
       "getStarted": "Bắt đầu",
       "askQuestions": "Đặt câu hỏi"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Môi trường An toàn & Thân thiện",
+      "title": "Cuộc sống tại Mỹ",
+      "subtitle": "Mỹ là một quốc gia an toàn với tỷ lệ tội phạm thấp, cung cấp môi trường an toàn cho sinh viên quốc tế.",
+      "description": "Khám phá mọi thứ bạn cần biết về cuộc sống ở Hoa Kỳ với tư cách là sinh viên quốc tế."
+    },
+    "sections": {
+      "lifeInUSA": "Cuộc sống tại Mỹ",
+      "subtitle": "Thông tin cần thiết cho trải nghiệm du học thành công",
+      "additionalInfo": "Thông tin Du học Thêm",
+      "stories": "Câu chuyện",
+      "storiesSubtitle": "Trải nghiệm thực tế từ sinh viên quốc tế",
+      "tags": "Chủ đề Phổ biến",
+      "quickMore": "Truy cập Nhanh"
+    },
+    "categories": {
+      "immigration": {
+        "title": "Thủ tục Nhập cảnh Mỹ",
+        "desc": "Từ trước khi khởi hành đến khi đến sân bay, kiểm tra tất cả các thủ tục cần thiết và danh sách kiểm tra trên Study in USA."
+      },
+      "housing": {
+        "title": "Thông tin Sinh hoạt & Nhà ở",
+        "desc": "Cuộc sống du học Mỹ thông minh - kiểm tra thông tin sinh hoạt cần thiết và lập kế hoạch trước."
+      },
+      "regions": {
+        "title": "Giới thiệu Khu vực Mỹ",
+        "desc": "Các thành phố tuyệt vời để du học tại Mỹ - trải nghiệm văn hóa cộng đồng khu vực độc đáo."
+      },
+      "livingCosts": {
+        "title": "Chi phí Sinh hoạt & Chi tiêu",
+        "desc": "Cuộc sống du học phát triển qua trải nghiệm đa dạng - tiết kiệm chi phí trong khi dành thời gian có ý nghĩa."
+      },
+      "stayDuration": {
+        "title": "Tình trạng Cư trú & Thời gian",
+        "desc": "Kiểm tra thông tin nhập cư từ đăng ký người nước ngoài đến thay đổi thời gian lưu trú tại đây."
+      },
+      "legalInfo": {
+        "title": "Thông tin Pháp lý Sinh hoạt",
+        "desc": "Thông tin pháp lý sinh viên quốc tế nên biết về cuộc sống tại Mỹ và các hệ thống hỗ trợ có sẵn."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Hỗ trợ Học bổng Đa dạng",
+        "desc": "Kiểm tra học bổng của chính phủ dành cho sinh viên quốc tế và học bổng từ các công ty và trường học."
+      },
+      "consultation": {
+        "title": "Tư vấn Trực tuyến AI",
+        "desc": "Chúng tôi trả lời các câu hỏi của bạn một cách nhanh chóng."
+      },
+      "findSchool": {
+        "title": "Tìm Khoa & Trường Đại học",
+        "desc": "Tìm kiếm theo tên trường đại học hoặc chuyên ngành để tìm thông tin trường một cách nhanh chóng."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Vlog Cuộc sống Hàng ngày",
+        "desc": "Các lớp học thực tế và những ngày bận rộn trôi qua có giá trị hơn bất cứ điều gì."
+      },
+      "budgetTips": {
+        "title": "Mẹo Tiết kiệm Ngân sách",
+        "desc": "Học cách tiết kiệm chi phí sinh hoạt trong khi du học."
+      },
+      "travelExperience": {
+        "title": "Điểm đến Du lịch Tốt nhất",
+        "desc": "Các tiền bối chia sẻ trải nghiệm văn hóa Mỹ - phong cảnh đẹp mang đến điều gì đó đặc biệt."
+      }
+    },
+    "tags": {
+      "studentVlog": "Vlog Cuộc sống Sinh viên",
+      "budgetTips": "Mẹo Tiết kiệm Ngân sách",
+      "campusLife": "Cuộc sống Trường học",
+      "cityGuide": "Hướng dẫn Thành phố"
+    },
+    "quickLinks": {
+      "findSchool": "Tìm thông tin trường đại học & khoa",
+      "scholarships": "Tìm học bổng có sẵn",
+      "onlineApplication": "Đăng ký trực tuyến dễ dàng",
+      "guidebook": "Tải xuống sổ tay hướng dẫn cần thiết"
+    },
+    "cta": {
+      "title": "Sẵn sàng Trải nghiệm Cuộc sống Mỹ?",
+      "description": "Bắt đầu hành trình của bạn với sự hỗ trợ và hướng dẫn hoàn chỉnh",
+      "planStudies": "Lên kế hoạch Học tập",
+      "askQuestions": "Đặt câu hỏi"
+    }
   }
 }

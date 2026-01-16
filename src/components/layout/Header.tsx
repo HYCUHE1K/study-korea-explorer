@@ -276,7 +276,7 @@ export const Header = () => {
     { label: t("header.nav.whyUSA"), href: "/why-usa", hasMegaMenu: true, menuKey: "whyUSA" },
     { label: t("header.nav.educationCourses"), href: "#", hasMegaMenu: true, menuKey: "educationCourses" },
     { label: t("header.nav.planStudies"), href: "/plan-studies", hasMegaMenu: true, menuKey: "planStudies" },
-    { label: t("header.nav.lifeInUSA"), href: "#", hasMegaMenu: true, menuKey: "lifeInUSA" },
+    { label: t("header.nav.lifeInUSA"), href: "/life-in-usa", hasMegaMenu: true, menuKey: "lifeInUSA" },
     { label: t("header.nav.workInUSA"), href: "#", hasMegaMenu: true, menuKey: "workInUSA" },
     { label: t("header.nav.community"), href: "#", hasMegaMenu: true, menuKey: "community" },
     { label: t("header.nav.notice"), href: "#", hasMegaMenu: true, menuKey: "notice" },

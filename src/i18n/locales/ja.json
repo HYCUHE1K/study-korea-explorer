@@ -270,5 +270,94 @@
       "getStarted": "始める",
       "askQuestions": "質問する"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "安全で温かい環境",
+      "title": "アメリカでの生活",
+      "subtitle": "アメリカは犯罪率が低く安全な国で、留学生に安全な環境を提供しています。",
+      "description": "留学生としてアメリカで生活するために知っておくべきすべての情報を発見してください。"
+    },
+    "sections": {
+      "lifeInUSA": "アメリカでの生活",
+      "subtitle": "成功した留学体験のための必須情報",
+      "additionalInfo": "留学に関する詳細情報",
+      "stories": "ストーリー",
+      "storiesSubtitle": "留学生の実体験",
+      "tags": "人気トピック",
+      "quickMore": "クイックアクセス"
+    },
+    "categories": {
+      "immigration": {
+        "title": "アメリカ入国手続き",
+        "desc": "出発前から空港到着まで、Study in USAですべての必要な手続きとチェックリストを確認してください。"
+      },
+      "housing": {
+        "title": "生活と住居情報",
+        "desc": "スマートなアメリカ留学生活 - 必須の生活情報を確認して事前に計画しましょう。"
+      },
+      "regions": {
+        "title": "アメリカ地域紹介",
+        "desc": "アメリカの素晴らしい留学都市 - ユニークな地域コミュニティ文化を体験してください。"
+      },
+      "livingCosts": {
+        "title": "生活費と支出",
+        "desc": "多様な経験を通じて成長する留学生活 - コストを節約しながら意味のある時間を過ごしましょう。"
+      },
+      "stayDuration": {
+        "title": "在留資格と期間",
+        "desc": "外国人登録から滞在期間の変更まで、ここで入国情報を確認してください。"
+      },
+      "legalInfo": {
+        "title": "生活法律情報",
+        "desc": "留学生が知っておくべきアメリカ生活に関する法律情報と利用可能なサポートシステム。"
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "さまざまな奨学金サポート",
+        "desc": "留学生向けの政府奨学金、企業や学校からの奨学金を確認してください。"
+      },
+      "consultation": {
+        "title": "AIオンライン相談",
+        "desc": "お問い合わせに迅速に回答いたします。"
+      },
+      "findSchool": {
+        "title": "学科・大学検索",
+        "desc": "大学名や専攻名で検索し、学校情報を一目で確認できます。"
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "日常生活Vlog",
+        "desc": "本当の授業と忙しく過ぎる日々は何よりも価値があります。"
+      },
+      "budgetTips": {
+        "title": "予算節約のコツ",
+        "desc": "留学中に生活費を節約する方法を学びましょう。"
+      },
+      "travelExperience": {
+        "title": "最高の旅行先",
+        "desc": "先輩たちがアメリカの文化体験を共有 - 美しい景色が特別なものを提供します。"
+      }
+    },
+    "tags": {
+      "studentVlog": "学生生活Vlog",
+      "budgetTips": "予算節約のコツ",
+      "campusLife": "キャンパスライフ",
+      "cityGuide": "シティガイド"
+    },
+    "quickLinks": {
+      "findSchool": "大学・学科情報の検索",
+      "scholarships": "利用可能な奨学金の検索",
+      "onlineApplication": "簡単オンライン申請",
+      "guidebook": "必須ガイドブックのダウンロード"
+    },
+    "cta": {
+      "title": "アメリカ生活を体験する準備はできましたか？",
+      "description": "完全なサポートとガイダンスで旅を始めましょう",
+      "planStudies": "留学計画",
+      "askQuestions": "質問する"
+    }
   }
 }

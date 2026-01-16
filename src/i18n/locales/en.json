@@ -524,5 +524,94 @@
       "getStarted": "Get Started",
       "askQuestions": "Ask Questions"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Safe & Welcoming Environment",
+      "title": "Life in USA",
+      "subtitle": "The USA is a safe country with low crime rates, providing a secure environment for international students.",
+      "description": "Discover everything you need to know about living in the United States as an international student."
+    },
+    "sections": {
+      "lifeInUSA": "Life in USA",
+      "subtitle": "Essential information for a successful study abroad experience",
+      "additionalInfo": "More Study Abroad Information",
+      "stories": "Stories",
+      "storiesSubtitle": "Real experiences from international students",
+      "tags": "Popular Topics",
+      "quickMore": "Quick Access"
+    },
+    "categories": {
+      "immigration": {
+        "title": "USA Immigration Procedures",
+        "desc": "From pre-departure to airport arrival, check all necessary procedures and checklists on Study in USA."
+      },
+      "housing": {
+        "title": "Living & Housing Information",
+        "desc": "Smart USA study abroad life - check essential living information and plan ahead."
+      },
+      "regions": {
+        "title": "USA Regional Introduction",
+        "desc": "Great cities to study in the USA - experience unique regional community cultures."
+      },
+      "livingCosts": {
+        "title": "Living Costs & Expenses",
+        "desc": "Study abroad life that grows through diverse experiences - save costs while spending meaningful time."
+      },
+      "stayDuration": {
+        "title": "Residence Status & Duration",
+        "desc": "Check immigration information from alien registration to stay duration changes here."
+      },
+      "legalInfo": {
+        "title": "Living Legal Information",
+        "desc": "Legal information international students should know about USA life and support systems available."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Various Scholarship Support",
+        "desc": "Check government scholarships for international students and scholarships from companies and schools."
+      },
+      "consultation": {
+        "title": "AI Online Consultation",
+        "desc": "We answer your inquiries quickly."
+      },
+      "findSchool": {
+        "title": "Find Department & University",
+        "desc": "Search by university or major name to find school information at a glance."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Daily Life Vlog",
+        "desc": "Real classes and busy days passing by are more valuable than anything."
+      },
+      "budgetTips": {
+        "title": "Budget Saving Tips",
+        "desc": "Learn how to save on living expenses while studying abroad."
+      },
+      "travelExperience": {
+        "title": "Best Travel Destinations",
+        "desc": "Seniors share USA cultural experiences - beautiful scenery offers something special."
+      }
+    },
+    "tags": {
+      "studentVlog": "Student Life Vlog",
+      "budgetTips": "Budget Saving Tips",
+      "campusLife": "Campus Life",
+      "cityGuide": "City Guide"
+    },
+    "quickLinks": {
+      "findSchool": "Find university & department information",
+      "scholarships": "Find available scholarships",
+      "onlineApplication": "Apply online easily",
+      "guidebook": "Download essential guidebook"
+    },
+    "cta": {
+      "title": "Ready to Experience USA Life?",
+      "description": "Start your journey with complete support and guidance",
+      "planStudies": "Plan Your Studies",
+      "askQuestions": "Ask Questions"
+    }
   }
 }

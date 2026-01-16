@@ -260,5 +260,94 @@
       "getStarted": "Commencer",
       "askQuestions": "Poser des questions"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Environnement Sûr et Accueillant",
+      "title": "Vie aux États-Unis",
+      "subtitle": "Les États-Unis sont un pays sûr avec de faibles taux de criminalité, offrant un environnement sécurisé pour les étudiants internationaux.",
+      "description": "Découvrez tout ce que vous devez savoir sur la vie aux États-Unis en tant qu'étudiant international."
+    },
+    "sections": {
+      "lifeInUSA": "Vie aux États-Unis",
+      "subtitle": "Informations essentielles pour une expérience d'études à l'étranger réussie",
+      "additionalInfo": "Plus d'informations sur les études à l'étranger",
+      "stories": "Histoires",
+      "storiesSubtitle": "Expériences réelles d'étudiants internationaux",
+      "tags": "Sujets Populaires",
+      "quickMore": "Accès Rapide"
+    },
+    "categories": {
+      "immigration": {
+        "title": "Procédures d'Immigration aux États-Unis",
+        "desc": "Du pré-départ à l'arrivée à l'aéroport, vérifiez toutes les procédures nécessaires et les listes de contrôle sur Study in USA."
+      },
+      "housing": {
+        "title": "Informations sur le Logement et l'Hébergement",
+        "desc": "Vie d'études intelligente aux États-Unis - vérifiez les informations essentielles sur le logement et planifiez à l'avance."
+      },
+      "regions": {
+        "title": "Introduction Régionale des États-Unis",
+        "desc": "Grandes villes pour étudier aux États-Unis - découvrez des cultures communautaires régionales uniques."
+      },
+      "livingCosts": {
+        "title": "Coûts de Vie et Dépenses",
+        "desc": "Vie d'études à l'étranger qui grandit grâce à des expériences diverses - économisez des coûts tout en passant un temps significatif."
+      },
+      "stayDuration": {
+        "title": "Statut de Résidence et Durée",
+        "desc": "Vérifiez les informations d'immigration de l'enregistrement en tant qu'étranger aux changements de durée de séjour ici."
+      },
+      "legalInfo": {
+        "title": "Informations Juridiques pour Vivre",
+        "desc": "Informations juridiques que les étudiants internationaux doivent connaître sur la vie aux États-Unis et les systèmes de soutien disponibles."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Divers Soutiens de Bourses",
+        "desc": "Vérifiez les bourses gouvernementales pour les étudiants internationaux et les bourses des entreprises et des écoles."
+      },
+      "consultation": {
+        "title": "Consultation en Ligne par IA",
+        "desc": "Nous répondons rapidement à vos questions."
+      },
+      "findSchool": {
+        "title": "Trouver Département et Université",
+        "desc": "Recherchez par nom d'université ou de spécialité pour trouver les informations scolaires en un coup d'œil."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Vlog de la Vie Quotidienne",
+        "desc": "Les vraies classes et les jours chargés qui passent sont plus précieux que tout."
+      },
+      "budgetTips": {
+        "title": "Conseils d'Économie de Budget",
+        "desc": "Apprenez à économiser sur les dépenses de vie pendant vos études à l'étranger."
+      },
+      "travelExperience": {
+        "title": "Meilleures Destinations de Voyage",
+        "desc": "Les anciens partagent des expériences culturelles américaines - les beaux paysages offrent quelque chose de spécial."
+      }
+    },
+    "tags": {
+      "studentVlog": "Vlog de Vie Étudiante",
+      "budgetTips": "Conseils d'Économie de Budget",
+      "campusLife": "Vie sur le Campus",
+      "cityGuide": "Guide de la Ville"
+    },
+    "quickLinks": {
+      "findSchool": "Trouver les informations sur l'université et le département",
+      "scholarships": "Trouver les bourses disponibles",
+      "onlineApplication": "Postuler facilement en ligne",
+      "guidebook": "Télécharger le guide essentiel"
+    },
+    "cta": {
+      "title": "Prêt à Vivre l'Expérience de la Vie aux États-Unis ?",
+      "description": "Commencez votre voyage avec un soutien et des conseils complets",
+      "planStudies": "Planifiez vos Études",
+      "askQuestions": "Poser des Questions"
+    }
   }
 }

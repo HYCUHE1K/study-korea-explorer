@@ -260,5 +260,94 @@
       "getStarted": "Loslegen",
       "askQuestions": "Fragen stellen"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "Sichere & Einladende Umgebung",
+      "title": "Leben in den USA",
+      "subtitle": "Die USA sind ein sicheres Land mit niedrigen Kriminalitätsraten und bieten eine sichere Umgebung für internationale Studenten.",
+      "description": "Entdecken Sie alles, was Sie über das Leben in den Vereinigten Staaten als internationaler Student wissen müssen."
+    },
+    "sections": {
+      "lifeInUSA": "Leben in den USA",
+      "subtitle": "Wichtige Informationen für eine erfolgreiche Auslandsstudienerfahrung",
+      "additionalInfo": "Weitere Informationen zum Auslandsstudium",
+      "stories": "Geschichten",
+      "storiesSubtitle": "Echte Erfahrungen von internationalen Studenten",
+      "tags": "Beliebte Themen",
+      "quickMore": "Schnellzugriff"
+    },
+    "categories": {
+      "immigration": {
+        "title": "US-Einwanderungsverfahren",
+        "desc": "Von der Vorbereitung bis zur Ankunft am Flughafen - überprüfen Sie alle erforderlichen Verfahren und Checklisten auf Study in USA."
+      },
+      "housing": {
+        "title": "Wohn- und Unterkunftsinformationen",
+        "desc": "Intelligentes Leben für Auslandsstudium in den USA - überprüfen Sie wichtige Wohninformationen und planen Sie im Voraus."
+      },
+      "regions": {
+        "title": "Einführung in die US-Regionen",
+        "desc": "Großartige Städte zum Studieren in den USA - erleben Sie einzigartige regionale Gemeinschaftskulturen."
+      },
+      "livingCosts": {
+        "title": "Lebenshaltungskosten & Ausgaben",
+        "desc": "Auslandsstudienleben, das durch vielfältige Erfahrungen wächst - sparen Sie Kosten und verbringen Sie sinnvolle Zeit."
+      },
+      "stayDuration": {
+        "title": "Aufenthaltsstatus & Dauer",
+        "desc": "Überprüfen Sie hier Einwanderungsinformationen von der Ausländerregistrierung bis zu Änderungen der Aufenthaltsdauer."
+      },
+      "legalInfo": {
+        "title": "Rechtsinformationen zum Leben",
+        "desc": "Rechtsinformationen, die internationale Studenten über das Leben in den USA und verfügbare Unterstützungssysteme wissen sollten."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "Verschiedene Stipendienunterstützung",
+        "desc": "Überprüfen Sie staatliche Stipendien für internationale Studenten sowie Stipendien von Unternehmen und Schulen."
+      },
+      "consultation": {
+        "title": "KI-Online-Beratung",
+        "desc": "Wir beantworten Ihre Anfragen schnell."
+      },
+      "findSchool": {
+        "title": "Fachbereich & Universität finden",
+        "desc": "Suchen Sie nach Universitäts- oder Studiengangnamen, um Schulinformationen auf einen Blick zu finden."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "Alltags-Vlog",
+        "desc": "Echte Kurse und geschäftige Tage, die vergehen, sind wertvoller als alles andere."
+      },
+      "budgetTips": {
+        "title": "Budget-Spartipps",
+        "desc": "Erfahren Sie, wie Sie bei den Lebenshaltungskosten während des Auslandsstudiums sparen können."
+      },
+      "travelExperience": {
+        "title": "Beste Reiseziele",
+        "desc": "Absolventen teilen US-Kulturerfahrungen - wunderschöne Landschaften bieten etwas Besonderes."
+      }
+    },
+    "tags": {
+      "studentVlog": "Studentenleben-Vlog",
+      "budgetTips": "Budget-Spartipps",
+      "campusLife": "Campusleben",
+      "cityGuide": "Stadtführer"
+    },
+    "quickLinks": {
+      "findSchool": "Universitäts- und Fachbereichsinformationen finden",
+      "scholarships": "Verfügbare Stipendien finden",
+      "onlineApplication": "Einfach online bewerben",
+      "guidebook": "Wichtigen Leitfaden herunterladen"
+    },
+    "cta": {
+      "title": "Bereit, das Leben in den USA zu erleben?",
+      "description": "Starten Sie Ihre Reise mit vollständiger Unterstützung und Anleitung",
+      "planStudies": "Planen Sie Ihr Studium",
+      "askQuestions": "Fragen stellen"
+    }
   }
 }

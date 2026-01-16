@@ -524,5 +524,94 @@
       "getStarted": "시작하기",
       "askQuestions": "질문하기"
     }
+  },
+  "lifeInUSA": {
+    "hero": {
+      "badge": "안전한 환경",
+      "title": "미국에서의 생활",
+      "subtitle": "미국은 범죄율이 낮은 국가로 유학생들이 안전하게 생활할 수 있는 좋은 환경을 가지고 있습니다.",
+      "description": "국제 학생으로서 미국에서 생활하는 데 필요한 모든 정보를 확인하세요."
+    },
+    "sections": {
+      "lifeInUSA": "미국에서의 생활",
+      "subtitle": "성공적인 유학 생활을 위한 필수 정보",
+      "additionalInfo": "더 알아보는 유학 정보",
+      "stories": "스토리",
+      "storiesSubtitle": "재학생들의 실제 경험담",
+      "tags": "인기 주제",
+      "quickMore": "바로가기"
+    },
+    "categories": {
+      "immigration": {
+        "title": "미국 입국 수속",
+        "desc": "출발 전부터 공항에 도착하기까지, 유학 정보 가이드도 Study in USA에서 필요한 체크리스트를 확인하세요."
+      },
+      "housing": {
+        "title": "생활 및 주거 정보",
+        "desc": "슬기로운 미국 유학 생활, 생활에 필요한 정보를 확인하고 계획을 세워보세요."
+      },
+      "regions": {
+        "title": "미국의 지역소개",
+        "desc": "미국에서 공부하기 좋은 도시, 특색 있는 지역사회 문화를 체험하실 수 있습니다."
+      },
+      "livingCosts": {
+        "title": "생활비 및 경비",
+        "desc": "다양한 경험을 통해 성장하는 유학 생활, 비용을 절감하면서도 의미 있는 시간을 보내는 것이 중요합니다."
+      },
+      "stayDuration": {
+        "title": "거주 자격 및 체류 기간",
+        "desc": "외국인 등록부터 체류 기간 변경까지 출입국 관련 정보를 여기서 확인하세요."
+      },
+      "legalInfo": {
+        "title": "생활법령 정보",
+        "desc": "유학생들이 알아야 할 미국 생활의 법률 정보와 지원받을 수 있는 제도를 확인하세요."
+      }
+    },
+    "additional": {
+      "scholarships": {
+        "title": "다양한 장학금 지원",
+        "desc": "미국 정부에서 진행하는 유학생들을 위한 장학금제도와 기업 및 각 학교별 장학금을 확인하세요."
+      },
+      "consultation": {
+        "title": "AI 온라인 상담",
+        "desc": "궁금한 사항을 문의하시면 빠르게 답변드리고 있습니다."
+      },
+      "findSchool": {
+        "title": "원하는 학과, 대학 찾기",
+        "desc": "대학 또는 전공 이름으로 검색하시면 관심있는 학교 정보를 한눈에 찾아 보실 수 있습니다."
+      }
+    },
+    "stories": {
+      "dailyLife": {
+        "title": "일상 생활 Vlog",
+        "desc": "현실적 실습과 재미있는 수업을 듣고 바쁘게 지나가는 날들이 무엇보다 가치가 있습니다."
+      },
+      "budgetTips": {
+        "title": "생활비 절약 팁",
+        "desc": "유학 중 생활비를 아끼는 방법을 배워보세요."
+      },
+      "travelExperience": {
+        "title": "가장 좋았던 여행지",
+        "desc": "선배들이 들려주는 미국 문화체험, 미국의 아름다운 경치는 특별함을 선사해 줍니다."
+      }
+    },
+    "tags": {
+      "studentVlog": "유학 생활 Vlog",
+      "budgetTips": "생활비 절약 팁",
+      "campusLife": "캠퍼스 생활",
+      "cityGuide": "도시 가이드"
+    },
+    "quickLinks": {
+      "findSchool": "궁금한 대학 & 학과 정보를 찾아보세요",
+      "scholarships": "지원받을 수 있는 장학금을 찾아보세요",
+      "onlineApplication": "온라인 원서 접수 간단하게 신청하세요",
+      "guidebook": "유학 필수 정보, 가이드북 다운로드 받으세요"
+    },
+    "cta": {
+      "title": "미국 생활을 경험할 준비가 되셨나요?",
+      "description": "완벽한 지원과 가이드로 여정을 시작하세요",
+      "planStudies": "유학 계획하기",
+      "askQuestions": "질문하기"
+    }
   }
 }
